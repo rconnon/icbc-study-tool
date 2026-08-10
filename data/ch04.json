@@ -1,0 +1,196 @@
+{
+  "chapter": 4,
+  "title": "fuel-efficient driving",
+  "cards": [
+    {
+      "front": "By how much can fuel-efficient driving techniques improve fuel economy?",
+      "back": "By up to 30 per cent. Fuel-efficient driving is also safe driving — looking ahead, keeping good space margins and anticipating hazards helps you avoid sudden stops and changes in speed.",
+      "topic": "smart driving"
+    },
+    {
+      "front": "What makes a route fuel efficient?",
+      "back": "The most fuel-efficient route is often one that avoids heavy commuter traffic, busy city driving and hills. Flat routes are more fuel efficient than mountainous routes, and highway driving is more fuel efficient than congested city streets.",
+      "topic": "route planning"
+    },
+    {
+      "front": "How long should you let a heavy-duty diesel engine warm up after starting?",
+      "back": "Three to five minutes only, or seven to 10 minutes if the temperature is below 0 C. Use zero throttle and don't pump the throttle — idling longer wastes fuel and can cause engine damage.",
+      "topic": "starting"
+    },
+    {
+      "front": "What is progressive gear shifting and why use it?",
+      "back": "Shifting before you reach the maximum governed rpm. It reduces engine wear, decreases noise and saves fuel. Run the engine in the highest gear range to keep it in a low rpm range — shifting properly can improve operating costs by 30 per cent.",
+      "topic": "gears"
+    },
+    {
+      "front": "How does driving 105 km/h instead of 90 km/h affect fuel use?",
+      "back": "You travel 15 per cent faster but consume about 20 per cent more fuel. Reducing your average speed saves fuel.",
+      "topic": "speed"
+    },
+    {
+      "front": "How does see-think-do save fuel?",
+      "back": "See — scan for and anticipate hazards. Think — decide which hazards are most dangerous and choose the safest action. Do — carry out the manoeuvres. Anticipating hazards lets you maintain a constant speed and momentum: power not used is fuel not burned.",
+      "topic": "see-think-do"
+    },
+    {
+      "front": "Why should you turn off the engine when stopped for any length of time?",
+      "back": "Idling can burn up to four litres of fuel per hour. Turning the engine off saves fuel, reduces maintenance, prolongs engine life and prevents unnecessary emissions. At $1.50/litre, cutting one hour of idling per day saves over 1,000 litres and $1,500 per year.",
+      "topic": "idling"
+    },
+    {
+      "front": "How does tire underinflation affect fuel use?",
+      "back": "For every 10 p.s.i. (69 kPa) a tire is underinflated, one per cent of fuel is wasted. Inflate tires to the manufacturer's recommendations.",
+      "topic": "maintenance"
+    },
+    {
+      "front": "How much of the fuel consumed at highway speed goes to overcoming air resistance?",
+      "back": "At between 90 and 100 km/h, about 50 per cent of the fuel consumed is used to overcome air resistance. Aerodynamic features such as roof fairings, trailer gap reducers, side skirts and rear air dams can improve fuel economy by 15 to 20 per cent.",
+      "topic": "aerodynamics"
+    },
+    {
+      "front": "Which tire choices improve fuel efficiency?",
+      "back": "Tires with a rib tread design are more fuel efficient than lug tread tires on drive and steering axles. Super-single tires (instead of duals on drive axles) provide low rolling resistance, are lighter and lower vehicle height.",
+      "topic": "tires"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Fuel-efficient driving techniques can improve fuel economy by up to how much?",
+      "choices": ["10 per cent", "20 per cent", "30 per cent", "40 per cent"],
+      "answerIndex": 2,
+      "explanation": "Fuel-efficient driving techniques can improve fuel economy by up to 30 per cent, and smart driving habits also save on maintenance costs.",
+      "topic": "smart driving",
+      "page": 69
+    },
+    {
+      "q": "Approximately what share of all greenhouse gas emissions in Canada is produced by vehicles?",
+      "choices": ["Nearly 30 per cent", "Nearly 10 per cent", "Nearly 20 per cent", "Nearly 50 per cent"],
+      "answerIndex": 0,
+      "explanation": "Nearly 30 per cent of all greenhouse gas emissions in Canada are produced by vehicles, which is one reason fuel efficiency is a growing priority.",
+      "topic": "fuel efficiency",
+      "page": 69
+    },
+    {
+      "q": "In temperatures above freezing, how long should you let a heavy-duty diesel engine warm up after starting?",
+      "choices": ["One to two minutes", "Three to five minutes", "Seven to 10 minutes", "15 to 20 minutes"],
+      "answerIndex": 1,
+      "explanation": "Let the engine warm up for three to five minutes only — any longer wastes fuel and can cause engine damage.",
+      "topic": "starting",
+      "page": 70
+    },
+    {
+      "q": "How long should you let a diesel engine warm up when the temperature is below 0 C?",
+      "choices": ["Three to five minutes", "Five to seven minutes", "Seven to 10 minutes", "10 to 15 minutes"],
+      "answerIndex": 2,
+      "explanation": "Below 0 C, warm the engine for seven to 10 minutes with zero throttle; idling longer wastes fuel and can cause engine damage.",
+      "topic": "starting",
+      "page": 70
+    },
+    {
+      "q": "Driving on snow-covered roads can increase fuel consumption by how much?",
+      "choices": ["5 to 10 per cent", "15 to 20 per cent", "25 to 35 per cent", "40 to 50 per cent"],
+      "answerIndex": 1,
+      "explanation": "Snow-covered roads can increase fuel consumption by 15 to 20 per cent, so plan routes and trip times to avoid bad weather where possible.",
+      "topic": "route planning",
+      "page": 70
+    },
+    {
+      "q": "Using summer fuel can improve fuel economy by as much as how much?",
+      "choices": ["Three per cent", "Five per cent", "10 per cent", "15 per cent"],
+      "answerIndex": 0,
+      "explanation": "Summer fuel can improve fuel economy by as much as three per cent, but it can cause engine problems in cold weather — use the correct fuel for the season.",
+      "topic": "preparation",
+      "page": 70
+    },
+    {
+      "q": "What is progressive gear shifting?",
+      "choices": [
+        "Shifting only when the engine reaches maximum governed rpm",
+        "Skipping gears whenever possible to save time",
+        "Shifting without using the clutch",
+        "Shifting before you reach the maximum governed rpm"
+      ],
+      "answerIndex": 3,
+      "explanation": "Progressive shifting means shifting before you reach the maximum governed rpm, which reduces engine wear, decreases noise and saves fuel.",
+      "topic": "gears",
+      "page": 71
+    },
+    {
+      "q": "If you drive at 105 km/h instead of 90 km/h, about how much more fuel will you consume?",
+      "choices": ["5 per cent", "10 per cent", "15 per cent", "20 per cent"],
+      "answerIndex": 3,
+      "explanation": "At 105 km/h you travel 15 per cent faster than at 90 km/h but consume about 20 per cent more fuel.",
+      "topic": "speed",
+      "page": 71
+    },
+    {
+      "q": "What should you do with the throttle when going over the top of a hill?",
+      "choices": [
+        "Back off the throttle and select a lower gear to go down the hill",
+        "Accelerate to build momentum for the next hill",
+        "Hold the throttle steady and stay in the highest gear",
+        "Apply the brakes firmly before the crest"
+      ],
+      "answerIndex": 0,
+      "explanation": "Back off the throttle when going over the top of a hill and select a lower gear to go down — let the terrain work for you.",
+      "topic": "throttle",
+      "page": 71
+    },
+    {
+      "q": "At highway speeds, drivers of buses, trucks and other large heavy vehicles should never follow the vehicle ahead closer than how many seconds?",
+      "choices": ["Two seconds", "Three seconds", "Four seconds", "Five seconds"],
+      "answerIndex": 3,
+      "explanation": "Large heavy vehicles should never be less than five seconds behind the vehicle ahead at highway speeds, allowing gradual slowing and avoiding sudden speed changes.",
+      "topic": "following distance",
+      "page": 72
+    },
+    {
+      "q": "Idling can burn up to how much fuel per hour?",
+      "choices": ["One litre", "Two litres", "Four litres", "Eight litres"],
+      "answerIndex": 2,
+      "explanation": "Idling can burn up to four litres of fuel per hour — turning the engine off when stopped is more economical than leaving it running.",
+      "topic": "idling",
+      "page": 72
+    },
+    {
+      "q": "For every 10 p.s.i. (69 kPa) that a tire is underinflated, how much fuel is wasted?",
+      "choices": ["0.5 per cent", "One per cent", "Five per cent", "10 per cent"],
+      "answerIndex": 1,
+      "explanation": "For every 10 p.s.i. (69 kPa) of underinflation, one per cent of fuel is wasted — inflate tires to the manufacturer's recommendations.",
+      "topic": "maintenance",
+      "page": 73
+    },
+    {
+      "q": "During a trip, you should conduct enroute inspections, including tires and cargo, at least how often?",
+      "choices": ["Every hour", "Every three hours", "Every five hours", "Every eight hours"],
+      "answerIndex": 1,
+      "explanation": "Conduct enroute inspections, including tires and cargo, at least every three hours, and check your instrument panel gauges frequently.",
+      "topic": "maintenance",
+      "page": 73
+    },
+    {
+      "q": "Low-viscosity lubricants such as synthetic motor oil can improve fuel economy by up to how much?",
+      "choices": ["Two per cent", "Four per cent", "Eight per cent", "10 per cent"],
+      "answerIndex": 1,
+      "explanation": "Low-viscosity lubricants such as synthetic motor oil can improve fuel economy by up to four per cent.",
+      "topic": "maintenance",
+      "page": 73
+    },
+    {
+      "q": "At between 90 and 100 km/h, about how much of the fuel consumed is used to overcome air resistance?",
+      "choices": ["20 per cent", "30 per cent", "40 per cent", "50 per cent"],
+      "answerIndex": 3,
+      "explanation": "At between 90 and 100 km/h, about 50 per cent of the fuel consumed is used to overcome air resistance, which is why aerodynamic features matter most at highway speeds.",
+      "topic": "aerodynamics",
+      "page": 74
+    },
+    {
+      "q": "Which tire tread design is more fuel efficient on drive and steering axles?",
+      "choices": ["Rib tread", "Lug tread", "Knobby off-road tread", "Studded tread"],
+      "answerIndex": 0,
+      "explanation": "Tires with a rib tread design are more fuel efficient than tires with a lug tread design on drive and steering axles.",
+      "topic": "tires",
+      "page": 75
+    }
+  ]
+}

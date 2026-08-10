@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>BC Commercial Licence Study — Classes 1–4</title>
+<style>
+:root{
+  --ground:#f2f4f7; --surface:#ffffff; --surface2:#f7f9fb;
+  --ink:#1a2330; --ink2:#4d5a6b; --muted:#8493a5;
+  --line:#dde3ea; --line-soft:#e9edf2;
+  --accent:#1e5fa8; --accent-ink:#ffffff; --accent-wash:rgba(30,95,168,.09);
+  --good:#1a7f4e; --good-wash:rgba(26,127,78,.10);
+  --warn:#9a6b00; --warn-wash:rgba(154,107,0,.10);
+  --bad:#b3372f; --bad-wash:rgba(179,55,47,.09);
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.14);
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ground:#11161d; --surface:#1a212b; --surface2:#151c25;
+    --ink:#e7ecf2; --ink2:#a8b4c2; --muted:#6e7c8c;
+    --line:#2a3441; --line-soft:#232c37;
+    --accent:#6da8e8; --accent-ink:#0d1725; --accent-wash:rgba(109,168,232,.13);
+    --good:#4fbc85; --good-wash:rgba(79,188,133,.12);
+    --warn:#d9a53f; --warn-wash:rgba(217,165,63,.12);
+    --bad:#e07b74; --bad-wash:rgba(224,123,116,.12);
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.55);
+  }
+}
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;min-height:100%;background:var(--ground);color:var(--ink);
+  font:16px/1.5 var(--ui);-webkit-font-smoothing:antialiased;
+  padding-bottom:env(safe-area-inset-bottom)}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0;
+  -webkit-tap-highlight-color:transparent}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+
+.wrap{max-width:720px;margin:0 auto;padding:0 16px 64px}
+header.top{position:sticky;top:0;z-index:10;background:var(--ground);
+  padding:10px 0 8px;display:flex;align-items:center;gap:10px;min-height:52px}
+header.top .back{font-size:15px;color:var(--accent);font-weight:600;padding:6px 10px 6px 0;
+  white-space:nowrap}
+header.top h1{font-size:17px;margin:0;font-weight:700;letter-spacing:-.01em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+header.top .spacer{flex:1}
+
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);margin:18px 0 6px}
+h2.big{font-size:26px;line-height:1.2;margin:0 0 6px;letter-spacing:-.02em}
+p.lede{color:var(--ink2);margin:0 0 18px;font-size:15px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  box-shadow:var(--shadow);padding:16px}
+.card+.card{margin-top:12px}
+button.rowcard{display:block;width:100%;text-align:left;background:var(--surface);
+  border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);
+  padding:15px 16px;margin-top:12px}
+button.rowcard:active{transform:scale(.99)}
+.rowcard .rc-top{display:flex;align-items:baseline;gap:10px}
+.rowcard .rc-title{font-size:17px;font-weight:700}
+.rowcard .rc-badge{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted);
+  white-space:nowrap}
+.rowcard .rc-sub{color:var(--ink2);font-size:13.5px;margin-top:3px}
+
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:99px;
+  padding:6px 13px;font-size:13.5px;color:var(--ink2)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);
+  color:var(--accent-ink);font-weight:600}
+
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:700;
+  border-radius:10px;padding:12px 18px;font-size:15.5px;text-align:center}
+.btn.block{display:block;width:100%}
+.btn.ghost{background:var(--surface);color:var(--accent);border:1px solid var(--line)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn+.btn{margin-top:10px}
+
+/* flash cards */
+.flash{perspective:1200px;margin-top:14px}
+.flash .inner{position:relative;width:100%;min-height:300px;border-radius:16px;
+  transition:transform .45s;transform-style:preserve-3d;cursor:pointer}
+.flash.flipped .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);
+  padding:22px;display:flex;flex-direction:column;overflow-y:auto}
+.face.back{transform:rotateY(180deg);background:var(--surface2)}
+.face .tag{font-family:var(--mono);font-size:11px;color:var(--muted);margin-bottom:10px;
+  text-transform:uppercase;letter-spacing:.07em}
+.face .txt{font-size:18.5px;line-height:1.45;margin:auto 0;white-space:pre-line}
+.face.back .txt{font-size:16.5px}
+.face .hint{color:var(--muted);font-size:12.5px;margin-top:14px;text-align:center}
+.flashbtns{display:flex;gap:10px;margin-top:12px}
+.flashbtns .btn{flex:1;margin:0}
+.btn.again{background:var(--warn-wash);color:var(--warn);border:1px solid var(--line)}
+.btn.got{background:var(--good-wash);color:var(--good);border:1px solid var(--line)}
+.flashnav{display:flex;align-items:center;justify-content:space-between;margin-top:10px;
+  color:var(--muted);font-family:var(--mono);font-size:12px}
+.flashnav button{color:var(--accent);font-weight:600;font-size:14px;padding:8px 10px}
+
+/* quiz */
+.progress{height:6px;border-radius:3px;background:var(--line-soft);overflow:hidden;margin:8px 0 16px}
+.progress i{display:block;height:100%;background:var(--accent);border-radius:3px;
+  transition:width .3s}
+.qtext{font-size:18px;font-weight:650;line-height:1.4;margin:4px 0 14px}
+.qmeta{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+button.opt{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;
+  background:var(--surface);border:1.5px solid var(--line);border-radius:12px;
+  padding:12px 14px;margin-top:9px;font-size:15.5px;line-height:1.4}
+button.opt .k{font-family:var(--mono);font-size:12.5px;color:var(--muted);
+  border:1px solid var(--line);border-radius:6px;padding:1px 7px;margin-top:1px;flex:none}
+button.opt[data-state="picked"]{border-color:var(--accent);background:var(--accent-wash)}
+button.opt[data-state="correct"]{border-color:var(--good);background:var(--good-wash)}
+button.opt[data-state="correct"] .k{border-color:var(--good);color:var(--good);font-weight:700}
+button.opt[data-state="wrong"]{border-color:var(--bad);background:var(--bad-wash)}
+button.opt[data-state="wrong"] .k{border-color:var(--bad);color:var(--bad);font-weight:700}
+button.opt:disabled{cursor:default}
+.explain{margin-top:14px;border-left:3px solid var(--accent);background:var(--surface2);
+  border-radius:0 10px 10px 0;padding:12px 14px;font-size:14.5px;color:var(--ink2)}
+.explain b{color:var(--ink)}
+.explain .src{display:block;margin-top:6px;font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+
+/* results + readiness */
+.scorehero{text-align:center;padding:26px 16px 20px}
+.scorehero .n{font-size:52px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.scorehero .d{color:var(--ink2);font-size:14.5px;margin-top:2px}
+.verdict{display:flex;align-items:center;gap:10px;border-radius:12px;padding:12px 14px;
+  font-weight:700;font-size:15.5px;margin-top:14px}
+.verdict.pass{background:var(--good-wash);color:var(--good)}
+.verdict.fail{background:var(--bad-wash);color:var(--bad)}
+.verdict.mid{background:var(--warn-wash);color:var(--warn)}
+.verdict .ic{font-size:18px}
+.verdict .sub{font-weight:400;font-size:13px;color:var(--ink2)}
+
+.meter-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;
+  align-items:center;padding:9px 0;border-bottom:1px solid var(--line-soft)}
+.meter-row:last-child{border-bottom:none}
+.meter-row .lbl{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meter-row .val{font-family:var(--mono);font-size:12px;color:var(--ink2);
+  font-variant-numeric:tabular-nums;text-align:right}
+.meter-row .bar{grid-column:1/-1;height:5px;border-radius:3px;background:var(--line-soft)}
+.meter-row .bar i{display:block;height:100%;border-radius:3px;background:var(--accent)}
+.meter-row.low .bar i{background:var(--bad)}
+.meter-row.mid .bar i{background:var(--warn)}
+.meter-row.na .val{color:var(--muted)}
+
+.checklist{margin:8px 0 0;padding:0;list-style:none}
+.checklist li{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line-soft);
+  font-size:14.5px;align-items:flex-start}
+.checklist li:last-child{border-bottom:none}
+.checklist .ic{flex:none;font-weight:800;font-family:var(--mono)}
+.checklist li.ok .ic{color:var(--good)}
+.checklist li.no .ic{color:var(--warn)}
+.checklist .why{color:var(--ink2);font-size:13px;display:block}
+
+details.tips{margin-top:12px;background:var(--surface);border:1px solid var(--line);
+  border-radius:14px;box-shadow:var(--shadow);padding:0 16px}
+details.tips summary{padding:14px 0;font-weight:700;cursor:pointer;font-size:15.5px}
+details.tips ul{margin:0 0 14px;padding-left:20px;color:var(--ink2);font-size:14.5px}
+details.tips li{margin:6px 0}
+
+.review-item{border-top:1px solid var(--line-soft);padding:14px 0}
+.review-item .rq{font-weight:650;font-size:15px}
+.review-item .ra{font-size:14px;margin-top:6px}
+.review-item .ra .no{color:var(--bad)}
+.review-item .ra .yes{color:var(--good)}
+.footer-note{color:var(--muted);font-size:12.5px;margin-top:26px;text-align:center;line-height:1.6}
+.footer-note a{color:var(--accent)}
+.pill{display:inline-block;font-family:var(--mono);font-size:11px;border:1px solid var(--line);
+  border-radius:99px;padding:2px 9px;color:var(--ink2);margin-left:6px;vertical-align:middle}
+.examtimer{font-family:var(--mono);font-size:13px;color:var(--ink2);font-variant-numeric:tabular-nums}
+.qgrid{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.qgrid button{width:38px;height:34px;border:1px solid var(--line);border-radius:8px;
+  font-family:var(--mono);font-size:12.5px;color:var(--ink2);background:var(--surface)}
+.qgrid button.answered{background:var(--accent-wash);border-color:var(--accent);color:var(--ink)}
+.qgrid button.current{outline:2px solid var(--accent)}
+</style>
+</head>
+<body>
+<script type="application/json" id="study-data">__STUDY_DATA__</script>
+<div class="wrap" id="app"></div>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("study-data").textContent);
+
+/* ---------- static config ---------- */
+const CLASSES = {
+  c1:{n:"Class 1", vehicles:"Semi-trailer trucks — and every other motor vehicle except motorcycles",
+      chapters:[1,2,3,4,5,6,7,8,9,10,11]},
+  c2:{n:"Class 2", vehicles:"Buses (incl. school and special activity buses); anything in Class 4",
+      chapters:[1,2,3,4,"dg",6,7,8,9,10,11]},
+  c3:{n:"Class 3", vehicles:"Trucks with more than two axles (dump trucks, big tow trucks); anything in Class 5",
+      chapters:[1,2,3,4,5,7,8,9,10,11]},
+  c4:{n:"Class 4", vehicles:"Taxis, limos, ride-hailing, ambulances, small buses (restricted or unrestricted)",
+      chapters:[1,2,3,4,"dg",6,7,8,9,10,11]},
+};
+const EXAM = {size:35, passPct:80, minutes:45};
+const QUIZ_SIZES=[10,15,20];
+const chTitle = k => k==="dg" ? "Transporting dangerous goods" :
+  (DATA.chapters[k] ? DATA.chapters[k].title : "Chapter "+k);
+const chShort = k => k==="dg" ? "Dangerous goods" : chTitle(k);
+
+/* pool builders — for a class, "dg" means only the dangerous-goods slice of ch5;
+   full ch5 (classes 1 & 3) already includes those items */
+function chapterItems(kind, key){
+  if(key==="dg") return DATA.chapters[5][kind].filter(x=>x.section==="dg");
+  return DATA.chapters[key][kind];
+}
+function classPool(cls, kind){
+  const out=[];
+  for(const k of CLASSES[cls].chapters)
+    for(const it of chapterItems(kind,k)) out.push(it);
+  return out;
+}
+/* stable ids were stamped at build time as it.id = "<chapter>-<index>" */
+
+/* ---------- persistence ---------- */
+const STORE_KEY="icbc-study-v1";
+let store;
+try{ store = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }catch(e){ store = {}; }
+store.perClass = store.perClass || {};
+function st(cls){
+  if(!store.perClass[cls]) store.perClass[cls]={cardKnown:{}, q:{}, exams:[]};
+  const s=store.perClass[cls];
+  s.cardKnown=s.cardKnown||{}; s.q=s.q||{}; s.exams=s.exams||[];
+  return s;
+}
+function save(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(store)); }catch(e){} }
+function recordAnswer(cls,qid,ok){
+  const s=st(cls); const r=s.q[qid]||(s.q[qid]={seen:0,correct:0});
+  r.seen++; if(ok)r.correct++; save();
+}
+
+/* ---------- tiny helpers ---------- */
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
+function sample(arr,n){ return shuffle(arr.slice()).slice(0,n); }
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const pct=(a,b)=>b?Math.round(a/b*100):0;
+const app=document.getElementById("app");
+
+/* build an exam paper: proportional to chapter pool sizes, ≥1 per chapter */
+function examPaper(cls){
+  const chs=CLASSES[cls].chapters;
+  const pools=chs.map(k=>chapterItems("questions",k));
+  const total=pools.reduce((a,p)=>a+p.length,0);
+  const take=pools.map(p=>Math.max(1,Math.round(p.length/total*EXAM.size)));
+  let sum=take.reduce((a,b)=>a+b,0);
+  // trim/grow to exactly EXAM.size, adjusting the biggest pools first
+  const order=chs.map((_,i)=>i).sort((a,b)=>pools[b].length-pools[a].length);
+  let g=0;
+  while(sum!==EXAM.size){
+    const i=order[g%order.length];
+    if(sum>EXAM.size && take[i]>1){take[i]--;sum--;}
+    else if(sum<EXAM.size && take[i]<pools[i].length){take[i]++;sum++;}
+    g++;
+  }
+  const paper=[];
+  chs.forEach((k,i)=>paper.push(...sample(pools[i],take[i])));
+  return shuffle(paper);
+}
+
+/* ---------- views ---------- */
+let view={name:"home"};
+function go(v){ view=v; render(); window.scrollTo(0,0); }
+
+function header(title, backTo){
+  return `<header class="top">
+    ${backTo?`<button class="back" data-nav='${esc(JSON.stringify(backTo))}'>&larr; Back</button>`:""}
+    <h1>${esc(title)}</h1><span class="spacer"></span>
+    <span id="hdr-extra"></span></header>`;
+}
+
+function homeView(){
+  app.innerHTML = header("BC Commercial Licence Study") + `
+    <div class="eyebrow">ICBC · Driving Commercial Vehicles (2024 guide)</div>
+    <h2 class="big">Which licence are you studying for?</h2>
+    <p class="lede">Content is drawn from ICBC's official guide. Each class studies the
+    chapters ICBC's licence study chart assigns to it.</p>
+    ${Object.entries(CLASSES).map(([k,c])=>{
+      const nq=classPool(k,"questions").length, nc=classPool(k,"cards").length;
+      return `<button class="rowcard" data-nav='${esc(JSON.stringify({name:"class",cls:k}))}'>
+        <div class="rc-top"><span class="rc-title">${c.n}</span>
+        <span class="rc-badge">${nc} cards · ${nq} questions</span></div>
+        <div class="rc-sub">${esc(c.vehicles)}</div></button>`;
+    }).join("")}
+    <p class="footer-note">Unofficial study aid built from ICBC's
+    <a href="https://www.icbc.com/assets/en/3ZRN0guL3MkbgvZvTCBfbu/drive_commercial_veh_full.pdf">Driving Commercial Vehicles</a> guide (Aug 2024 edition).
+    Always confirm details against the guide — page references are included throughout.</p>`;
+}
+
+function classView(cls){
+  const c=CLASSES[cls], s=st(cls);
+  const pool=classPool(cls,"questions");
+  const answered=pool.filter(q=>s.q[q.id]&&s.q[q.id].seen>0);
+  const lastExam=s.exams[s.exams.length-1];
+  app.innerHTML = header(c.n+" — study hub", {name:"home"}) + `
+    <p class="lede" style="margin-top:8px">${esc(c.vehicles)}</p>
+    <button class="rowcard" data-nav='${esc(JSON.stringify({name:"cardsSetup",cls}))}'>
+      <div class="rc-top"><span class="rc-title">🃏 Cue cards</span>
+      <span class="rc-badge">${classPool(cls,"cards").length} cards</span></div>
+      <div class="rc-sub">Flip through key concepts chapter by chapter. Mark each one
+      “got it” or “again”.</div></button>
+    <button class="rowcard" data-nav='${esc(JSON.stringify({name:"quizSetup",cls}))}'>
+      <div class="rc-top"><span class="rc-title">📝 Practice quiz</span>
+      <span class="rc-badge">${pool.length} question bank</span></div>
+      <div class="rc-sub">A fresh random set every run, with instant feedback and
+      guide page references.</div></button>
+    <button class="rowcard" data-nav='${esc(JSON.stringify({name:"ready",cls}))}'>
+      <div class="rc-top"><span class="rc-title">🎯 Readiness check</span>
+      <span class="rc-badge">${lastExam?("last "+lastExam.pct+"%"):"no exams yet"}</span></div>
+      <div class="rc-sub">Timed ${EXAM.size}-question practice exam plus a mastery
+      dashboard that tells you when you're ready.</div></button>
+    <div class="eyebrow">Chapters this class studies</div>
+    <div class="card">
+      ${c.chapters.map(k=>{
+        const qs=chapterItems("questions",k);
+        const seen=qs.filter(q=>s.q[q.id]&&s.q[q.id].seen>0).length;
+        return `<div class="meter-row ${seen?"":"na"}">
+          <span class="lbl">${k==="dg"?"Ch 5 (pp. 110–111)":"Ch "+k} · ${esc(chShort(k))}</span>
+          <span class="val">${seen}/${qs.length} tried</span>
+          <span class="bar"><i style="width:${pct(seen,qs.length)}%"></i></span></div>`;
+      }).join("")}
+    </div>
+    <p class="footer-note">${answered.length} of ${pool.length} questions attempted so far.</p>`;
+}
+
+/* ----- cue cards ----- */
+let cardState=null;
+function cardsSetupView(cls){
+  const c=CLASSES[cls];
+  const sel = view.sel || new Set(c.chapters);
+  view.sel = sel;
+  app.innerHTML = header("Cue cards — "+c.n, {name:"class",cls}) + `
+    <div class="eyebrow">Pick chapters</div>
+    <div class="chips">
+      <button class="chip" id="chip-all" aria-pressed="${sel.size===c.chapters.length}">All</button>
+      ${c.chapters.map(k=>`<button class="chip" data-ch="${k}"
+        aria-pressed="${sel.has(k)}">${k==="dg"?"DG pp.110–11":"Ch "+k}</button>`).join("")}
+    </div>
+    <label style="display:flex;gap:9px;align-items:center;font-size:14.5px;color:var(--ink2);margin-bottom:14px">
+      <input type="checkbox" id="only-again"> Only cards I marked “again”</label>
+    <button class="btn block" id="start-cards">Start</button>`;
+  document.getElementById("chip-all").onclick=()=>{
+    if(sel.size===c.chapters.length) sel.clear(); else c.chapters.forEach(k=>sel.add(k));
+    cardsSetupView(cls);
+  };
+  app.querySelectorAll(".chip[data-ch]").forEach(b=>b.onclick=()=>{
+    const k=b.dataset.ch==="dg"?"dg":+b.dataset.ch;
+    sel.has(k)?sel.delete(k):sel.add(k); cardsSetupView(cls);
+  });
+  document.getElementById("start-cards").onclick=()=>{
+    const s=st(cls); const onlyAgain=document.getElementById("only-again").checked;
+    let deck=[];
+    for(const k of c.chapters) if(sel.has(k)) deck.push(...chapterItems("cards",k));
+    if(onlyAgain) deck=deck.filter(cd=>s.cardKnown[cd.id]===false);
+    if(!deck.length){ alert(onlyAgain?"No “again” cards in that selection yet.":"Pick at least one chapter."); return; }
+    cardState={deck:shuffle(deck.slice()), i:0, flipped:false, got:0, again:0};
+    go({name:"cards",cls});
+  };
+}
+function cardsView(cls){
+  const cs=cardState, cd=cs.deck[cs.i], s=st(cls);
+  app.innerHTML = header("Cue cards — "+CLASSES[cls].n, {name:"cardsSetup",cls}) + `
+    <div class="flash ${cs.flipped?"flipped":""}" id="flash">
+      <div class="inner">
+        <div class="face front"><div class="tag">${esc(cd.topic||"")}${cd.page?` <span class="pill">Guide p. ${cd.page}</span>`:""}</div>
+          <div class="txt">${esc(cd.front)}</div>
+          <div class="hint">tap card to flip</div></div>
+        <div class="face back"><div class="tag">Answer</div>
+          <div class="txt">${esc(cd.back)}</div>
+          <div class="hint">tap to flip back</div></div>
+      </div>
+    </div>
+    <div class="flashbtns">
+      <button class="btn again" id="b-again">↻ Again</button>
+      <button class="btn got" id="b-got">✓ Got it</button>
+    </div>
+    <div class="flashnav">
+      <button id="b-prev" ${cs.i===0?"disabled":""}>&larr; Prev</button>
+      <span>${cs.i+1} / ${cs.deck.length} · ✓ ${cs.got} · ↻ ${cs.again}</span>
+      <button id="b-next">${cs.i===cs.deck.length-1?"Finish":"Next →"}</button>
+    </div>`;
+  const advance=()=>{ if(cs.i>=cs.deck.length-1){ go({name:"class",cls}); }
+    else { cs.i++; cs.flipped=false; cardsView(cls); } };
+  document.getElementById("flash").onclick=()=>{ cs.flipped=!cs.flipped;
+    document.getElementById("flash").classList.toggle("flipped",cs.flipped); };
+  document.getElementById("b-again").onclick=e=>{ e.stopPropagation();
+    s.cardKnown[cd.id]=false; save(); cs.again++; advance(); };
+  document.getElementById("b-got").onclick=e=>{ e.stopPropagation();
+    s.cardKnown[cd.id]=true; save(); cs.got++; advance(); };
+  document.getElementById("b-next").onclick=advance;
+  document.getElementById("b-prev").onclick=()=>{ if(cs.i>0){cs.i--;cs.flipped=false;cardsView(cls);} };
+}
+
+/* ----- quiz ----- */
+let quiz=null;
+function quizSetupView(cls){
+  const c=CLASSES[cls];
+  const sel = view.sel || new Set(c.chapters);
+  view.sel = sel;
+  const size = view.size || 15;
+  app.innerHTML = header("Practice quiz — "+c.n, {name:"class",cls}) + `
+    <div class="eyebrow">Chapters</div>
+    <div class="chips">
+      <button class="chip" id="chip-all" aria-pressed="${sel.size===c.chapters.length}">All</button>
+      ${c.chapters.map(k=>`<button class="chip" data-ch="${k}"
+        aria-pressed="${sel.has(k)}">${k==="dg"?"DG pp.110–11":"Ch "+k}</button>`).join("")}
+    </div>
+    <div class="eyebrow">Length</div>
+    <div class="chips">
+      ${QUIZ_SIZES.map(n=>`<button class="chip" data-n="${n}" aria-pressed="${size===n}">${n} questions</button>`).join("")}
+    </div>
+    <button class="btn block" id="start-quiz">Start quiz</button>
+    <p class="footer-note">Questions are drawn at random from the bank each time —
+    retake for a different set.</p>`;
+  document.getElementById("chip-all").onclick=()=>{
+    if(sel.size===c.chapters.length) sel.clear(); else c.chapters.forEach(k=>sel.add(k));
+    quizSetupView(cls);
+  };
+  app.querySelectorAll(".chip[data-ch]").forEach(b=>b.onclick=()=>{
+    const k=b.dataset.ch==="dg"?"dg":+b.dataset.ch;
+    sel.has(k)?sel.delete(k):sel.add(k); quizSetupView(cls);
+  });
+  app.querySelectorAll(".chip[data-n]").forEach(b=>b.onclick=()=>{ view.size=+b.dataset.n; quizSetupView(cls); });
+  document.getElementById("start-quiz").onclick=()=>{
+    let pool=[];
+    for(const k of c.chapters) if(sel.has(k)) pool.push(...chapterItems("questions",k));
+    if(!pool.length){ alert("Pick at least one chapter."); return; }
+    quiz={qs:sample(pool,Math.min(size,pool.length)), i:0, answers:[], picked:null};
+    go({name:"quiz",cls});
+  };
+}
+function quizView(cls){
+  const q=quiz.qs[quiz.i], done=quiz.picked!==null;
+  app.innerHTML = header(`Question ${quiz.i+1} of ${quiz.qs.length}`, {name:"quizSetup",cls}) + `
+    <div class="progress"><i style="width:${pct(quiz.i+(done?1:0),quiz.qs.length)}%"></i></div>
+    <div class="qmeta">${esc(q.topic||chShort(q.chapter))} · Guide p. ${q.page||"—"}</div>
+    <div class="qtext">${esc(q.q)}</div>
+    ${q.choices.map((ch,ci)=>{
+      let state="";
+      if(done){ if(ci===q.answerIndex) state="correct";
+        else if(ci===quiz.picked) state="wrong"; }
+      return `<button class="opt" data-ci="${ci}" data-state="${state}" ${done?"disabled":""}>
+        <span class="k">${"ABCD"[ci]}</span><span>${esc(ch)}</span></button>`;
+    }).join("")}
+    ${done?`<div class="explain">${quiz.picked===q.answerIndex?"<b>Correct.</b> ":"<b>Not quite.</b> "}
+      ${esc(q.explanation||"")}
+      <span class="src">Driving Commercial Vehicles, p. ${q.page||"—"}</span></div>
+      <div style="margin-top:14px"><button class="btn block" id="q-next">
+      ${quiz.i===quiz.qs.length-1?"See results":"Next question"}</button></div>`:""}`;
+  if(!done) app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    quiz.picked=+b.dataset.ci;
+    const ok=quiz.picked===q.answerIndex;
+    quiz.answers.push({q,picked:quiz.picked,ok});
+    recordAnswer(cls,q.id,ok);
+    quizView(cls);
+  });
+  else document.getElementById("q-next").onclick=()=>{
+    if(quiz.i===quiz.qs.length-1) go({name:"quizResults",cls});
+    else { quiz.i++; quiz.picked=null; quizView(cls); }
+  };
+}
+function quizResultsView(cls){
+  const right=quiz.answers.filter(a=>a.ok).length, total=quiz.answers.length;
+  const p=pct(right,total);
+  const byCh={};
+  quiz.answers.forEach(a=>{ const k=a.q.section==="dg"&&CLASSES[cls].chapters.includes("dg")?"dg":a.q.chapter;
+    (byCh[k]=byCh[k]||{r:0,t:0}); byCh[k].t++; if(a.ok)byCh[k].r++; });
+  const wrong=quiz.answers.filter(a=>!a.ok);
+  app.innerHTML = header("Quiz results", {name:"class",cls}) + `
+    <div class="card scorehero"><div class="n">${p}%</div>
+      <div class="d">${right} of ${total} correct</div>
+      <div class="verdict ${p>=EXAM.passPct?"pass":(p>=65?"mid":"fail")}">
+        <span class="ic">${p>=EXAM.passPct?"✓":(p>=65?"◐":"✗")}</span>
+        <span>${p>=EXAM.passPct?"At passing standard":(p>=65?"Getting close":"Needs more study")}
+        <span class="sub">— the real knowledge test needs ${EXAM.passPct}%</span></span></div></div>
+    <div class="eyebrow">By chapter</div>
+    <div class="card">
+      ${Object.entries(byCh).map(([k,v])=>{
+        const cp=pct(v.r,v.t);
+        return `<div class="meter-row ${cp<65?"low":cp<EXAM.passPct?"mid":""}">
+          <span class="lbl">${k==="dg"?"DG pp.110–11":"Ch "+k} · ${esc(chShort(k==="dg"?"dg":+k))}</span>
+          <span class="val">${v.r}/${v.t}</span>
+          <span class="bar"><i style="width:${cp}%"></i></span></div>`; }).join("")}
+    </div>
+    ${wrong.length?`<div class="eyebrow">Review your misses</div><div class="card">
+      ${wrong.map(a=>`<div class="review-item"><div class="rq">${esc(a.q.q)}</div>
+        <div class="ra"><span class="no">✗ You: ${esc(a.q.choices[a.picked])}</span><br>
+        <span class="yes">✓ ${esc(a.q.choices[a.q.answerIndex])}</span><br>
+        <span style="color:var(--ink2)">${esc(a.q.explanation||"")} (p. ${a.q.page||"—"})</span></div></div>`).join("")}
+    </div>`:""}
+    <div style="margin-top:16px">
+      <button class="btn block" data-nav='${esc(JSON.stringify({name:"quizSetup",cls}))}'>New quiz (fresh questions)</button>
+      <button class="btn block ghost" data-nav='${esc(JSON.stringify({name:"class",cls}))}'>Back to study hub</button>
+    </div>`;
+}
+
+/* ----- readiness ----- */
+function masteryByChapter(cls){
+  const s=st(cls);
+  return CLASSES[cls].chapters.map(k=>{
+    const qs=chapterItems("questions",k);
+    let seen=0,correct=0,tried=0;
+    qs.forEach(q=>{ const r=s.q[q.id]; if(r&&r.seen){tried++; seen+=r.seen; correct+=r.correct;} });
+    return {k, total:qs.length, tried, acc: seen?Math.round(correct/seen*100):null};
+  });
+}
+function readyView(cls){
+  const c=CLASSES[cls], s=st(cls);
+  const mastery=masteryByChapter(cls);
+  const pool=classPool(cls,"questions");
+  const coverage=pct(mastery.reduce((a,m)=>a+m.tried,0), pool.length);
+  const exams=s.exams.slice(-5);
+  const last=exams[exams.length-1];
+  const examOk=!!last&&last.pct>=EXAM.passPct&&exams.length>=2&&exams[exams.length-2].pct>=EXAM.passPct;
+  const chaptersWeak=mastery.filter(m=>m.acc!==null&&m.acc<75);
+  const chaptersUntried=mastery.filter(m=>m.acc===null);
+  const chOk=chaptersWeak.length===0&&chaptersUntried.length===0;
+  const covOk=coverage>=70;
+  const ready=examOk&&chOk&&covOk;
+  const verdict = ready?["pass","✓","Test-ready","You're consistently at the passing standard across the board."] :
+    (examOk||covOk)?["mid","◐","Nearly there","A focused push on the gaps below should do it."] :
+    ["fail","✗","Keep studying","Work through the cue cards and quizzes chapter by chapter first."];
+  app.innerHTML = header("Readiness — "+c.n, {name:"class",cls}) + `
+    <div class="card">
+      <div class="verdict ${verdict[0]}" style="margin-top:0">
+        <span class="ic">${verdict[1]}</span><span>${verdict[2]}
+        <span class="sub">— ${verdict[3]}</span></span></div>
+      <ul class="checklist">
+        <li class="${examOk?"ok":"no"}"><span class="ic">${examOk?"✓":"○"}</span>
+          <span>Pass two practice exams in a row at ≥${EXAM.passPct}%
+          <span class="why">${exams.length?exams.map(e=>e.pct+"%").join(" · "):"none taken yet"}</span></span></li>
+        <li class="${chOk?"ok":"no"}"><span class="ic">${chOk?"✓":"○"}</span>
+          <span>Every chapter at ≥75% accuracy
+          <span class="why">${chOk?"all chapters on standard":
+            (chaptersUntried.length?chaptersUntried.length+" chapter(s) untouched":"")+
+            (chaptersUntried.length&&chaptersWeak.length?", ":"")+
+            (chaptersWeak.length?chaptersWeak.map(m=>(m.k==="dg"?"DG":"Ch "+m.k)+" "+m.acc+"%").join(", "):"")}</span></span></li>
+        <li class="${covOk?"ok":"no"}"><span class="ic">${covOk?"✓":"○"}</span>
+          <span>Try ≥70% of the question bank
+          <span class="why">${coverage}% attempted so far</span></span></li>
+      </ul>
+    </div>
+    <button class="btn block" style="margin-top:14px" id="start-exam">Start practice exam
+      (${EXAM.size} questions · ${EXAM.minutes} min guide)</button>
+    <div class="eyebrow">Chapter mastery</div>
+    <div class="card">
+      ${mastery.map(m=>{
+        const cls2=m.acc===null?"na":m.acc<65?"low":m.acc<EXAM.passPct?"mid":"";
+        return `<div class="meter-row ${cls2}">
+          <span class="lbl">${m.k==="dg"?"DG pp.110–11":"Ch "+m.k} · ${esc(chShort(m.k))}</span>
+          <span class="val">${m.acc===null?"not tried":m.acc+"% · "+m.tried+"/"+m.total+" tried"}</span>
+          <span class="bar"><i style="width:${m.acc||0}%"></i></span></div>`;
+      }).join("")}
+    </div>
+    ${exams.length?`<div class="eyebrow">Recent practice exams</div><div class="card">
+      ${exams.slice().reverse().map(e=>`<div class="meter-row ${e.pct<65?"low":e.pct<EXAM.passPct?"mid":""}">
+        <span class="lbl">${new Date(e.ts).toLocaleDateString()} ${new Date(e.ts).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</span>
+        <span class="val">${e.right}/${e.total} · ${e.pct}%</span>
+        <span class="bar"><i style="width:${e.pct}%"></i></span></div>`).join("")}
+    </div>`:""}
+    <details class="tips"><summary>Examiner's tips for the road test</summary>
+      <ul>${DATA.extras.examinersTips.general.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></details>
+    <details class="tips"><summary>About the real knowledge test</summary>
+      <ul>${DATA.extras.knowledgeTestFacts.map(t=>`<li>${esc(t)}</li>`).join("")}
+      <li><i>Format note: ICBC's commercial knowledge tests are reported as 35 questions
+      with 28 correct (80%) needed to pass — this app's practice exam mirrors that.</i></li></ul></details>`;
+  document.getElementById("start-exam").onclick=()=>{
+    quiz={qs:examPaper(cls), i:0, answers:new Array(0), picks:{}, started:Date.now()};
+    go({name:"exam",cls});
+  };
+}
+function examView(cls){
+  const qs=quiz.qs, i=quiz.i, q=qs[i];
+  const answered=Object.keys(quiz.picks).length;
+  app.innerHTML = header(`Exam — ${i+1}/${qs.length}`, null) + `
+    <div class="progress"><i style="width:${pct(answered,qs.length)}%"></i></div>
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <span class="qmeta">${esc(q.topic||chShort(q.chapter))}</span>
+      <span class="examtimer" id="timer"></span></div>
+    <div class="qtext">${esc(q.q)}</div>
+    ${q.choices.map((ch,ci)=>`<button class="opt" data-ci="${ci}"
+      data-state="${quiz.picks[i]===ci?"picked":""}">
+      <span class="k">${"ABCD"[ci]}</span><span>${esc(ch)}</span></button>`).join("")}
+    <div class="qgrid">${qs.map((_,n)=>`<button data-n="${n}"
+      class="${quiz.picks[n]!==undefined?"answered":""} ${n===i?"current":""}">${n+1}</button>`).join("")}</div>
+    <div style="display:flex;gap:10px">
+      <button class="btn ghost" style="flex:1" id="e-prev" ${i===0?"disabled":""}>&larr; Prev</button>
+      <button class="btn ghost" style="flex:1" id="e-next" ${i===qs.length-1?"disabled":""}>Next &rarr;</button>
+    </div>
+    <button class="btn block" id="e-submit" ${answered<qs.length?"disabled":""}>
+      Submit exam${answered<qs.length?` (${qs.length-answered} unanswered)`:""}</button>
+    <p class="footer-note">No feedback until you submit — just like the real thing.
+    <button style="color:var(--bad);font-size:12.5px" id="e-quit">Abandon exam</button></p>`;
+  const tick=()=>{ const el=document.getElementById("timer"); if(!el)return;
+    const secs=Math.floor((Date.now()-quiz.started)/1000);
+    el.textContent=String(Math.floor(secs/60)).padStart(2,"0")+":"+String(secs%60).padStart(2,"0")
+      +" / "+EXAM.minutes+":00"; };
+  tick(); clearInterval(window.__examTimer); window.__examTimer=setInterval(tick,1000);
+  app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    quiz.picks[i]=+b.dataset.ci; examView(cls); });
+  app.querySelectorAll(".qgrid button").forEach(b=>b.onclick=()=>{ quiz.i=+b.dataset.n; examView(cls); });
+  document.getElementById("e-prev").onclick=()=>{ quiz.i--; examView(cls); };
+  document.getElementById("e-next").onclick=()=>{ quiz.i++; examView(cls); };
+  document.getElementById("e-quit").onclick=()=>{ clearInterval(window.__examTimer);
+    if(confirm("Abandon this practice exam? Nothing will be recorded.")) go({name:"ready",cls});
+    };
+  document.getElementById("e-submit").onclick=()=>{
+    clearInterval(window.__examTimer);
+    const answers=qs.map((qq,n)=>({q:qq,picked:quiz.picks[n],ok:quiz.picks[n]===qq.answerIndex}));
+    answers.forEach(a=>recordAnswer(cls,a.q.id,a.ok));
+    const right=answers.filter(a=>a.ok).length;
+    const rec={ts:Date.now(), right, total:qs.length, pct:pct(right,qs.length),
+      mins:Math.round((Date.now()-quiz.started)/60000)};
+    st(cls).exams.push(rec); save();
+    quiz.answers=answers; go({name:"examResults",cls});
+  };
+}
+function examResultsView(cls){
+  const answers=quiz.answers, right=answers.filter(a=>a.ok).length, total=answers.length;
+  const p=pct(right,total), passed=p>=EXAM.passPct;
+  const wrong=answers.filter(a=>!a.ok);
+  app.innerHTML = header("Exam results", {name:"ready",cls}) + `
+    <div class="card scorehero"><div class="n">${p}%</div>
+      <div class="d">${right} of ${total} · ${Math.round((Date.now()-quiz.started)/60000)} min</div>
+      <div class="verdict ${passed?"pass":"fail"}"><span class="ic">${passed?"✓":"✗"}</span>
+        <span>${passed?"Pass":"Below the line"}
+        <span class="sub">— real test standard is ${EXAM.passPct}% (${Math.ceil(EXAM.size*EXAM.passPct/100)}/${EXAM.size})</span></span></div></div>
+    ${wrong.length?`<div class="eyebrow">What you missed (${wrong.length})</div><div class="card">
+      ${wrong.map(a=>`<div class="review-item"><div class="rq">${esc(a.q.q)}</div>
+        <div class="ra"><span class="no">✗ You: ${a.picked===undefined?"no answer":esc(a.q.choices[a.picked])}</span><br>
+        <span class="yes">✓ ${esc(a.q.choices[a.q.answerIndex])}</span><br>
+        <span style="color:var(--ink2)">${esc(a.q.explanation||"")} (p. ${a.q.page||"—"})</span></div></div>`).join("")}
+    </div>`:`<div class="card" style="text-align:center;color:var(--good);font-weight:700">Perfect paper. 🎉</div>`}
+    <div style="margin-top:16px">
+      <button class="btn block" data-nav='${esc(JSON.stringify({name:"ready",cls}))}'>Back to readiness</button>
+    </div>`;
+}
+
+/* ---------- router ---------- */
+function render(){
+  clearInterval(window.__examTimer);
+  switch(view.name){
+    case "home": homeView(); break;
+    case "class": classView(view.cls); break;
+    case "cardsSetup": cardsSetupView(view.cls); break;
+    case "cards": cardsView(view.cls); break;
+    case "quizSetup": quizSetupView(view.cls); break;
+    case "quiz": quizView(view.cls); break;
+    case "quizResults": quizResultsView(view.cls); break;
+    case "ready": readyView(view.cls); break;
+    case "exam": examView(view.cls); break;
+    case "examResults": examResultsView(view.cls); break;
+    default: homeView();
+  }
+}
+app.addEventListener("click",e=>{
+  const t=e.target.closest("[data-nav]");
+  if(t){ go(JSON.parse(t.dataset.nav)); }
+});
+render();
+</script>
+</body>
+</html>

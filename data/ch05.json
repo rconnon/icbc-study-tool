@@ -1,0 +1,643 @@
+{
+  "chapter": 5,
+  "title": "skills for driving trucks and trailers",
+  "cards": [
+    {
+      "front": "When you start backing up a tractor with a semi-trailer, which way do you turn the steering wheel?",
+      "back": "Turn the steering wheel in the direction OPPOSITE to where you want the trailer to go. As soon as the trailer begins to turn, turn the wheel the other way — in the same direction the trailer is travelling — so the tractor follows a path that matches the trailer's path.",
+      "topic": "Backing up"
+    },
+    {
+      "front": "When towing two trailers, which trailer should be coupled to the tractor?",
+      "back": "Couple the more heavily loaded trailer to the tractor, with the lighter trailer behind. Different trailer weights affect the handling of the combination. Note the last trailer in a combination is the most likely to roll over.",
+      "topic": "Towing doubles"
+    },
+    {
+      "front": "List causes of trailer whipping and swerving.",
+      "back": "Driving too fast for the conditions, sudden steering changes, improper trailer connections, shifting loads, dragging brakes, or a flat tire.",
+      "topic": "Swerving and whipping"
+    },
+    {
+      "front": "What should you do if your trailer whips or swerves?",
+      "back": "Slow down and stop as soon as it's safe, then check your vehicle and load. Even if the swerving stops when you slow down, stopping to check is still important — the whipping may have shifted your cargo or loosened a trailer connection.",
+      "topic": "Swerving and whipping"
+    },
+    {
+      "front": "Why must you block the wheels of a parked trailer that has no spring brakes?",
+      "back": "The air in the trailer air tank bleeds down over time. Without spring brakes, the trailer brakes will release as air pressure drops, so the trailer could roll if the wheels aren't blocked.",
+      "topic": "Parking trailers"
+    },
+    {
+      "front": "How do you check that the fifth wheel has properly connected to the trailer kingpin?",
+      "back": "Check that the fifth wheel jaws have engaged the kingpin, there's no space or daylight between the fifth wheel and the trailer apron, and the release handle is in the locked position. Go under the trailer with a flashlight to check the locking jaws are securely closed around the kingpin (remove the ignition keys first).",
+      "topic": "Fifth wheel coupling"
+    },
+    {
+      "front": "When uncoupling, how do you ease the pressure on the fifth wheel locking jaws?",
+      "back": "Set the trailer brakes, release the tractor brakes, back up gently, and apply the tractor parking brakes while the tractor is pushing against the trailer. The tractor may only move a few centimetres, but this eases pressure on the locking jaws.",
+      "topic": "Uncoupling"
+    },
+    {
+      "front": "What extra securing devices are required when you use any coupling device other than a fifth wheel?",
+      "back": "Chains or metal cables connecting the towed and towing vehicles. These auxiliary chains or cables must be equal to the strength of the coupling device.",
+      "topic": "Pintle hitch"
+    },
+    {
+      "front": "What is the maximum length of the drawbar or other connection between a motor vehicle and a trailer?",
+      "back": "No more than five metres long, unless you're towing a pole trailer.",
+      "topic": "Coupling devices"
+    },
+    {
+      "front": "What is a converter dolly?",
+      "back": "A device sometimes used when towing more than one trailer. It has an axle, a fifth wheel and a hitch. When towing with one, make sure the air brake lines from truck to dolly and dolly to trailer are properly connected so the trailer brakes function.",
+      "topic": "Coupling devices"
+    },
+    {
+      "front": "How should cargo weight be distributed on a trailer (tractor-trailer combination)?",
+      "back": "Approximately 45 per cent of the cargo weight on the trailer axle unit, 45 per cent on the drive axle unit and 10 per cent on the steering axle. Place cargo midway between the rear axle unit and the drive axle unit.",
+      "topic": "Loading"
+    },
+    {
+      "front": "What forces must a cargo securement system be able to withstand?",
+      "back": "0.8g deceleration in a forward direction, 0.5g deceleration rearward, 0.5g acceleration in either sideways direction, and a downward force equal to at least 20 per cent of the cargo weight.",
+      "topic": "Securing cargo"
+    },
+    {
+      "front": "What is the rough guide for the number of tiedowns on a load?",
+      "back": "Use two tiedowns for the first 3.04 m of a load and one tiedown for every 3.04 m after that. Consider the length of the cargo first and then its weight. If cargo is prevented from moving forward, the minimum is one tiedown for every 3.04 m of length.",
+      "topic": "Tiedowns"
+    },
+    {
+      "front": "What is the minimum required strength of tiedowns securing cargo?",
+      "back": "The aggregate working load limit of the tiedowns must be at least 50 per cent of the cargo weight. For example, for a 600 kg article the tiedowns' combined working load limit must be no less than 300 kg.",
+      "topic": "Tiedowns"
+    },
+    {
+      "front": "What is dunnage?",
+      "back": "Spacing blocks, boards and mats that separate cargo from itself and its restraints — for example, corner boards used with tiedowns. Timber used as dunnage, chocks or cradles must be strong enough not to be split or crushed by the cargo or tiedowns.",
+      "topic": "Securing cargo"
+    },
+    {
+      "front": "What are the height and strength requirements for a front-end structure?",
+      "back": "It must be no shorter than 122 cm above the deck (or the height at which it prevents cargo moving forward). If less than 1.83 m tall it must withstand a static load of at least 50 per cent of total cargo weight; if 1.83 m or taller, 40 per cent. It must resist penetration at a deceleration of 6.1 m/s².",
+      "topic": "Front-end structures"
+    },
+    {
+      "front": "What are the limits for front and rear load projections?",
+      "back": "Front: no more than one metre beyond the front wheels (or front bumper if equipped). Rear (straight truck): no more than four metres beyond the turn centre. A load projecting more than 1.2 m beyond the rear needs a red flag or cloth in daylight, or a red light at night.",
+      "topic": "Load projections"
+    },
+    {
+      "front": "What are the maximum legal height and width of a commercial vehicle and its load?",
+      "back": "Maximum height 4.15 m and maximum width 2.6 m, unless the driver has an oversize load permit. Vehicles carrying loose hay, straw or fodder may be loaded to a maximum 3.1 m overall width.",
+      "topic": "Dimensions"
+    },
+    {
+      "front": "Why are liquid or dry bulk tank loads and hanging meat especially dangerous?",
+      "back": "They have a high centre of gravity, which increases the danger of rollover. Unbaffled liquid loads surge forward, backward and side to side; suspended meat can sway. Reduce speed on curves, sharp turns, ramps, and be careful on stops and starts.",
+      "topic": "Specific cargo"
+    },
+    {
+      "front": "What precautions apply when transporting livestock?",
+      "back": "Animals may move around, making turns difficult and possibly causing a collision. With less than a full load, use false bulkheads to keep livestock bunched together. Reduce speed on curves — even bunched animals sometimes lean, shifting the centre of gravity and possibly causing a rollover.",
+      "topic": "Specific cargo"
+    },
+    {
+      "front": "How far must a pilot car travel from the oversize vehicle it's escorting?",
+      "back": "Between 100 and 500 m, either behind or in front of the oversize vehicle. A pilot car warns other drivers about the larger-than-normal vehicle, and when required must carry a D (over dimension) sign.",
+      "topic": "Pilot cars"
+    },
+    {
+      "front": "Who must report to a weigh scale in B.C.?",
+      "back": "Drivers of commercial vehicles with a licensed gross vehicle weight of more than 5,500 kg must report to a scale whenever a sign, a police officer or an authorized person directs them to. The vehicle is weighed and inspected. Scales are fixed (permanent, marked by highway signs) or portable (set up by travelling inspectors on any public road).",
+      "topic": "Weigh scales"
+    },
+    {
+      "front": "Where must shipping documents be when you transport dangerous goods?",
+      "back": "All shipping documents must be complete, correct and readily available in the cab, and must accompany the dangerous goods shipment.",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    },
+    {
+      "front": "What must you do if there's an incident involving your dangerous goods cargo (spill, leak, fire, explosion or damaged container)?",
+      "back": "Report it immediately to the nearest police agency or the Provincial Emergency Program (1-800-663-3456 in B.C.). Rapid action may help prevent an incident from becoming serious.",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    },
+    {
+      "front": "Name the nine classes of dangerous goods.",
+      "back": "Explosives; gases; flammable liquids; flammable solids; oxidizing substances and organic peroxides; poisonous (toxic) substances and infectious substances; radioactive materials; corrosive substances; and miscellaneous products or substances.",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    },
+    {
+      "front": "Where do dangerous goods placards appear on transport trucks?",
+      "back": "On the sides and both ends of the truck. Each placard identifies the class of dangerous goods being carried (there's also a placard for a mixed load).",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    },
+    {
+      "front": "What training and certification is required to work with dangerous goods?",
+      "back": "You must be properly trained and appropriately certified. Your current employer must certify that you've had appropriate training, and you must always carry your training certificate with you when transporting dangerous goods.",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    },
+    {
+      "front": "What do dangerous goods route signs indicate?",
+      "back": "One sign designates roads where vehicles transporting dangerous goods may travel; another designates roads where these vehicles can't travel.",
+      "topic": "Dangerous goods",
+      "section": "dg"
+    }
+  ],
+  "questions": [
+    {
+      "q": "When you first start backing up a tractor with a semi-trailer, you should turn the steering wheel:",
+      "choices": [
+        "in the same direction you want the trailer to go",
+        "as little as possible until the trailer straightens",
+        "in the direction opposite to where you want the trailer to go",
+        "fully to the left, regardless of trailer direction"
+      ],
+      "answerIndex": 2,
+      "explanation": "Turn the wheel opposite to the direction you want the trailer to go when you start backing up. Once the trailer begins to turn, turn the wheel the other way to follow the trailer's path.",
+      "topic": "Backing up",
+      "page": 77
+    },
+    {
+      "q": "When backing up, what can cause your tractor-trailer to jackknife?",
+      "choices": [
+        "Backing up with the trailer brakes released",
+        "The tractor failing to follow a path that matches the trailer's path",
+        "Using the lowest reverse gear",
+        "Backing up in a perfectly straight line"
+      ],
+      "answerIndex": 1,
+      "explanation": "As the trailer begins to turn, the tractor must follow a path that matches the trailer's path — if it doesn't, you risk jackknifing.",
+      "topic": "Backing up",
+      "page": 78
+    },
+    {
+      "q": "When towing two trailers of different weights, how should they be arranged?",
+      "choices": [
+        "The lighter trailer coupled to the tractor, heavier behind",
+        "Order doesn't matter if both are within legal weight",
+        "The longer trailer always behind, regardless of weight",
+        "The more heavily loaded trailer coupled to the tractor, lighter behind"
+      ],
+      "answerIndex": 3,
+      "explanation": "Couple the more heavily loaded trailer to the tractor with the lighter trailer behind, since trailer weights affect the handling of the combination.",
+      "topic": "Towing doubles",
+      "page": 79
+    },
+    {
+      "q": "Why should you never unlock the pintle hook while the dolly is still under the rear trailer?",
+      "choices": [
+        "The dolly tow bar may fly up, possibly causing injury, and make re-coupling very difficult",
+        "The trailer air tanks will immediately drain",
+        "The rear trailer's spring brakes will release",
+        "The fifth wheel jaws will be damaged"
+      ],
+      "answerIndex": 0,
+      "explanation": "With the dolly still under the rear trailer, unlocking the pintle hook can let the tow bar fly up, possibly causing injury and making it very difficult to re-couple.",
+      "topic": "Towing doubles",
+      "page": 79
+    },
+    {
+      "q": "Your trailer begins to whip and swerve. What should you do?",
+      "choices": [
+        "Speed up slightly to pull the trailer straight",
+        "Apply the trailer hand valve fully and continue",
+        "Slow down and stop as soon as it's safe, then check your vehicle and load",
+        "Ignore it if it stops when you change lanes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Slow down and stop as soon as it's safe. Even if the swerving stops when you slow down, stop and check — it may have shifted your cargo or loosened a trailer connection.",
+      "topic": "Swerving and whipping",
+      "page": 79
+    },
+    {
+      "q": "During fifth wheel coupling, when should you stop the first time you back up toward the trailer?",
+      "choices": [
+        "When the kingpin locks into the fifth wheel jaws",
+        "When the rear tractor tires touch the landing gear",
+        "About one metre before reaching the trailer",
+        "When the fifth wheel just touches the trailer apron"
+      ],
+      "answerIndex": 3,
+      "explanation": "Back up slowly and stop when the fifth wheel just touches the trailer apron — don't back up too far, and back in a straight line, not at an angle.",
+      "topic": "Fifth wheel coupling",
+      "page": 82
+    },
+    {
+      "q": "How is the tug test performed after coupling with a fifth wheel?",
+      "choices": [
+        "Apply full throttle in a forward gear to try to break away",
+        "Rock the trailer sideways using the steering",
+        "Release the tractor brakes with the trailer brakes still applied, and gently tug against them",
+        "Release all brakes and roll forward 10 metres"
+      ],
+      "answerIndex": 2,
+      "explanation": "With the landing gear slightly off the ground, release the tractor brakes (trailer brakes still applied) and gently tug — the trailer brakes should prevent the trailer from moving.",
+      "topic": "Fifth wheel coupling",
+      "page": 84
+    },
+    {
+      "q": "When uncoupling a tractor from a semi-trailer, when are the air lines disconnected?",
+      "choices": [
+        "After the tractor has completely pulled away",
+        "Before pulling the fifth wheel release handle to unlock the jaws",
+        "While the tractor is moving slowly forward",
+        "Only after the landing gear is fully raised"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the uncoupling sequence, you block the wheels, lower the landing gear, disconnect the air lines and electrical cable and secure them to the tractor, and then pull the fifth wheel release handle.",
+      "topic": "Uncoupling",
+      "page": 85
+    },
+    {
+      "q": "When a coupling device other than a fifth wheel is used, what else is required to connect the vehicles?",
+      "choices": [
+        "Chains or metal cables equal to the strength of the coupling device",
+        "A converter dolly between the two vehicles",
+        "A second pintle hook as backup",
+        "Nothing else, if the pintle hook has a safety latch"
+      ],
+      "answerIndex": 0,
+      "explanation": "With any coupling device other than a fifth wheel, you must also use auxiliary chains or metal cables equal to the strength of the coupling device.",
+      "topic": "Pintle hitch",
+      "page": 87
+    },
+    {
+      "q": "Except for pole trailers, what is the maximum permitted length for the drawbar or connection between a motor vehicle and trailer?",
+      "choices": [
+        "2.25 metres",
+        "3.04 metres",
+        "Five metres",
+        "Ten metres"
+      ],
+      "answerIndex": 2,
+      "explanation": "The drawbar or other connection may not be more than five metres long unless you're towing a pole trailer.",
+      "topic": "Coupling devices",
+      "page": 87
+    },
+    {
+      "q": "Five-ton freight trucks are designed to carry approximately what share of cargo weight on the rear axle(s)?",
+      "choices": [
+        "90 per cent, with 10 per cent on the steering axle",
+        "45 per cent, with 55 per cent on the steering axle",
+        "70 per cent, with 30 per cent on the steering axle",
+        "50 per cent, with 50 per cent on the steering axle"
+      ],
+      "answerIndex": 0,
+      "explanation": "Five-ton freight trucks are designed for about 90 per cent of cargo weight on the rear axle(s) and 10 per cent on the steering axle; cement mixers and dump trucks are designed for about 70/30.",
+      "topic": "Loading",
+      "page": 94
+    },
+    {
+      "q": "When loaded, a tridem drive truck or truck tractor must have a combined steering axle weight of at least:",
+      "choices": [
+        "10 per cent of the tridem axle weight",
+        "50 per cent of the gross vehicle weight",
+        "70 per cent of the tridem axle weight",
+        "25 per cent of the tridem axle weight (40 per cent for twin steering axles)"
+      ],
+      "answerIndex": 3,
+      "explanation": "A tridem drive truck or tractor requires a loaded steering axle weight of at least 25 per cent of the tridem axle weight — 40 per cent in the case of twin steering axles.",
+      "topic": "Loading",
+      "page": 94
+    },
+    {
+      "q": "A cargo securement system must be able to withstand what deceleration in the forward direction?",
+      "choices": [
+        "0.2g",
+        "0.8g",
+        "0.5g",
+        "1.5g"
+      ],
+      "answerIndex": 1,
+      "explanation": "The system must withstand 0.8g deceleration forward, 0.5g rearward, 0.5g sideways in either direction, and a downward force of at least 20 per cent of the cargo weight.",
+      "topic": "Securing cargo",
+      "page": 95
+    },
+    {
+      "q": "An article of cargo is 1.21 m long, weighs 600 kg, and is not prevented from moving forward. What is the minimum number of tiedowns?",
+      "choices": [
+        "Two, equally spaced",
+        "One",
+        "Four",
+        "Three, equally spaced"
+      ],
+      "answerIndex": 0,
+      "explanation": "Articles 1.52 m or shorter but over 500 kg require a minimum of two tiedowns when not prevented from moving forward.",
+      "topic": "Tiedowns",
+      "page": 96
+    },
+    {
+      "q": "A 3.65 m article weighing 600 kg needs three tiedowns. What minimum working load limit must each tiedown have?",
+      "choices": [
+        "600 kg each",
+        "50 kg each",
+        "100 kg each",
+        "300 kg each"
+      ],
+      "answerIndex": 2,
+      "explanation": "The aggregate working load limit must be at least 50 per cent of cargo weight (300 kg for a 600 kg article), so each of the three tiedowns must be rated at not less than 100 kg.",
+      "topic": "Tiedowns",
+      "page": 97
+    },
+    {
+      "q": "A friction mat not marked by the manufacturer with a working load limit is assumed to provide resistance to horizontal movement equal to:",
+      "choices": [
+        "50 per cent of the weight of the cargo resting on the mat",
+        "100 per cent of the cargo weight",
+        "20 per cent of the cargo weight",
+        "Nothing — unmarked mats can't be used"
+      ],
+      "answerIndex": 0,
+      "explanation": "An unmarked friction mat is assumed to provide resistance equal to 50 per cent of the weight of the cargo resting on it.",
+      "topic": "Securing cargo",
+      "page": 98
+    },
+    {
+      "q": "Which of the following may NOT be used as an anchor point for tiedowns?",
+      "choices": [
+        "The vehicle frame",
+        "Rub rails",
+        "The body rail",
+        "Purpose-built anchor points inboard of the rub rail"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rub rails must not be used as anchor points. Tiedowns should be located inboard of rub rails if possible.",
+      "topic": "Securing cargo",
+      "page": 100
+    },
+    {
+      "q": "When must an aggregate load (such as sand, gravel or wood chips) be covered with a tarp?",
+      "choices": [
+        "Only when it weighs more than 2,268 kg",
+        "Only when travelling on a highway at night",
+        "Never — sideboards are always sufficient",
+        "When the load can't be contained with sideboards or tiedowns and is likely to bounce, blow or drop from the moving vehicle"
+      ],
+      "answerIndex": 3,
+      "explanation": "You must use a cover or tarp if the load is made up of aggregate material and is likely to bounce, blow or drop from the moving vehicle.",
+      "topic": "Securing cargo",
+      "page": 101
+    },
+    {
+      "q": "A front-end structure less than 1.83 m in height must be able to withstand a static load of at least:",
+      "choices": [
+        "20 per cent of the total cargo weight",
+        "50 per cent of the total cargo weight, uniformly distributed",
+        "40 per cent of the total cargo weight",
+        "100 per cent of the total cargo weight"
+      ],
+      "answerIndex": 1,
+      "explanation": "Front-end structures under 1.83 m must withstand at least 50 per cent of total cargo weight; structures 1.83 m or taller must withstand 40 per cent.",
+      "topic": "Front-end structures",
+      "page": 102
+    },
+    {
+      "q": "To protect the vehicle operator, a front-end structure must be no shorter than what height above the deck?",
+      "choices": [
+        "183 cm",
+        "100 cm",
+        "152 cm",
+        "122 cm (or the height at which it prevents the cargo from moving forward)"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Standard requires a front-end structure no shorter than 122 cm above the deck, or the height at which it prevents the cargo from moving forward.",
+      "topic": "Front-end structures",
+      "page": 102
+    },
+    {
+      "q": "A load projects more than 1.2 m beyond the rear of your vehicle. What must be attached to the tip of the projection?",
+      "choices": [
+        "An orange triangle at all times",
+        "A red flag or cloth in daylight, or a red light at night",
+        "A white flag in daylight, or an amber light at night",
+        "Nothing, if the projection is under four metres"
+      ],
+      "answerIndex": 1,
+      "explanation": "If a load projects more than 1.2 m beyond the rear, attach a red flag or cloth for daylight driving, or a red light at night. Loads on a straight truck can't extend more than four metres beyond the turn centre.",
+      "topic": "Load projections",
+      "page": 104
+    },
+    {
+      "q": "The Standard's specific requirements for coils of rolled sheet metal apply when the shipment of coils weighs:",
+      "choices": [
+        "500 kg or more",
+        "5,000 kg or more",
+        "2,268 kg or more",
+        "4,500 kg or more"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Standard outlines specific requirements for transporting coils of rolled sheet metal where the shipment weighs 2,268 kg or more (the same threshold applies to paper roll shipments).",
+      "topic": "Specific cargo",
+      "page": 106
+    },
+    {
+      "q": "A heavy vehicle weighing more than 4,500 kg carried as cargo must be restrained by:",
+      "choices": [
+        "A minimum of four tiedowns, each with a working load limit of at least 2,268 kg",
+        "Two tiedowns at the rear only",
+        "One chain at each corner rated at 500 kg",
+        "Synthetic webbing straps at the front and rear"
+      ],
+      "answerIndex": 0,
+      "explanation": "Heavy vehicles over 4,500 kg need at least four tiedowns, each with a working load limit of at least 2,268 kg; vehicles under 4,500 kg GVW need a minimum of two tiedowns securing front and rear.",
+      "topic": "Specific cargo",
+      "page": 108
+    },
+    {
+      "q": "Which two types of loads have a high centre of gravity that increases the chance of rollover if movement or swaying isn't prevented?",
+      "choices": [
+        "Dressed lumber and concrete pipe",
+        "Intermodal containers and boulders",
+        "Crushed vehicles and building products",
+        "Hanging meat and liquid bulk tank loads"
+      ],
+      "answerIndex": 3,
+      "explanation": "Meat suspended in a trailer can sway and liquid bulk loads surge; both have a high centre of gravity, increasing the danger of rollover — reduce speed on curves and ramps.",
+      "topic": "Specific cargo",
+      "page": 109
+    },
+    {
+      "q": "What is the maximum allowable height for a commercial vehicle without an oversize load permit?",
+      "choices": [
+        "3.1 m",
+        "4.15 m",
+        "4.4 m",
+        "5.0 m"
+      ],
+      "answerIndex": 1,
+      "explanation": "The maximum allowable height is 4.15 m unless the driver has an oversize load permit. The maximum legal width of vehicle and load is 2.6 m.",
+      "topic": "Dimensions",
+      "page": 112
+    },
+    {
+      "q": "Oversize permits are not normally given for loads or vehicles wider than:",
+      "choices": [
+        "4.4 m",
+        "2.6 m",
+        "3.1 m",
+        "5.0 m"
+      ],
+      "answerIndex": 0,
+      "explanation": "Permits are not normally given for loads or vehicles wider than 4.4 m. Oversize extremities must be marked with red flags at least 30 cm by 30 cm, with amber lights to the front and red to the rear at night.",
+      "topic": "Oversize permits",
+      "page": 114
+    },
+    {
+      "q": "A pilot car escorting an oversize vehicle must travel:",
+      "choices": [
+        "Directly beside the oversize vehicle",
+        "At least one kilometre ahead",
+        "Within 50 m of the oversize vehicle at all times",
+        "Between 100 and 500 m either behind or in front of the oversize vehicle"
+      ],
+      "answerIndex": 3,
+      "explanation": "A pilot car must travel between 100 and 500 m either behind or in front of the oversize vehicle it's escorting, warning other drivers about the larger-than-normal vehicle.",
+      "topic": "Pilot cars",
+      "page": 115
+    },
+    {
+      "q": "Which drivers must report to a weigh scale when directed by a sign, police officer or authorized person?",
+      "choices": [
+        "Only drivers carrying dangerous goods",
+        "Drivers of commercial vehicles with a licensed GVW of more than 5,500 kg",
+        "All drivers of any vehicle towing a trailer",
+        "Only drivers of vehicles over 4,500 kg net weight"
+      ],
+      "answerIndex": 1,
+      "explanation": "If you drive a commercial vehicle with a licensed gross vehicle weight of more than 5,500 kg, you must report to a scale whenever a sign, police officer or authorized person directs you to.",
+      "topic": "Weigh scales",
+      "page": 115
+    },
+    {
+      "q": "How might you encounter a portable weigh scale in B.C.?",
+      "choices": [
+        "Only at permanent scale yards marked by highway signs",
+        "Only at border crossings",
+        "Set up temporarily at the roadside, or a vehicle with flashing lights may pull you over and the inspector sets up a scale",
+        "Only on designated truck routes within city limits"
+      ],
+      "answerIndex": 2,
+      "explanation": "Portable scales may be temporarily set up on the side of a road where you'll be signalled to stop, or a vehicle with flashing lights may direct you to pull over and the inspector may then set up a scale.",
+      "topic": "Weigh scales",
+      "page": 116
+    },
+    {
+      "q": "How many classes of dangerous goods are there?",
+      "choices": [
+        "Six",
+        "Nine",
+        "Twelve",
+        "Four"
+      ],
+      "answerIndex": 1,
+      "explanation": "There are nine classes: explosives, gases, flammable liquids, flammable solids, oxidizing substances and organic peroxides, poisonous and infectious substances, radioactive materials, corrosive substances, and miscellaneous products or substances.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "When transporting dangerous goods, where must the shipping documents be?",
+      "choices": [
+        "Filed at the carrier's head office",
+        "Mailed ahead to the destination",
+        "Locked in the trailer with the cargo",
+        "Complete, correct and readily available in the cab"
+      ],
+      "answerIndex": 3,
+      "explanation": "You must ensure all shipping documents are complete, correct and readily available in the cab, and they must accompany the dangerous goods shipment.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "You discover a leak in your dangerous goods cargo. What must you do?",
+      "choices": [
+        "Report it immediately to the nearest police agency or the Provincial Emergency Program",
+        "Note it in your log book and report it at the end of the trip",
+        "Continue to the nearest weigh scale for inspection",
+        "Report it only if the leak causes a fire"
+      ],
+      "answerIndex": 0,
+      "explanation": "Report immediately any incident related to dangerous goods cargo — spills, leaks, fires, explosions or damaged containers — to the nearest police agency or the Provincial Emergency Program (1-800-663-3456).",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "Where do dangerous goods placards appear on a transport truck?",
+      "choices": [
+        "Only on the rear doors",
+        "Only in the cab window",
+        "On the sides and both ends of the truck",
+        "On the roof of the trailer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dangerous goods placards may appear on the sides and both ends of transport trucks, identifying the class of dangerous goods carried.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "What must you always carry with you when transporting dangerous goods?",
+      "choices": [
+        "A letter from a professional engineer",
+        "A copy of the Commercial Transport Regulations",
+        "An oversize load permit",
+        "Your dangerous goods training certificate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Your current employer must certify that you've had appropriate training, and you must always carry your training certificate with you when transporting dangerous goods.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "Who must certify that a driver has had appropriate dangerous goods training?",
+      "choices": [
+        "The driver's current employer",
+        "ICBC",
+        "The local police department",
+        "The Provincial Emergency Program"
+      ],
+      "answerIndex": 0,
+      "explanation": "If you're going to work with dangerous goods, your current employer must certify that you've had appropriate training.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "Which of the following is one of the nine classes of dangerous goods?",
+      "choices": [
+        "Perishable foodstuffs",
+        "Aggregate materials",
+        "Corrosive substances",
+        "Livestock"
+      ],
+      "answerIndex": 2,
+      "explanation": "Corrosive substances is one of the nine classes. Perishable foods, aggregates and livestock are not dangerous goods classes.",
+      "topic": "Dangerous goods",
+      "page": 110,
+      "section": "dg"
+    },
+    {
+      "q": "What do the dangerous goods route signs described in the manual indicate?",
+      "choices": [
+        "The speed limit for placarded vehicles",
+        "Roads where vehicles transporting dangerous goods may travel, and roads where they can't",
+        "Locations of emergency response depots",
+        "Mandatory rest stops for dangerous goods drivers"
+      ],
+      "answerIndex": 1,
+      "explanation": "One sign designates roads where vehicles transporting dangerous goods may travel; the other designates roads where these vehicles can't travel.",
+      "topic": "Dangerous goods",
+      "page": 111,
+      "section": "dg"
+    }
+  ]
+}

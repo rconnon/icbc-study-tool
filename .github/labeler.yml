@@ -1,0 +1,15 @@
+frontend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "src/**"
+          - "index.html"
+backend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "build.py"
+          - "data/**"
+test:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "tests/**"
+          - ".github/workflows/**"

@@ -1,0 +1,395 @@
+{
+  "chapter": 9,
+  "title": "air brake adjustment",
+  "cards": [
+    {
+      "front": "Why is brake adjustment so critical on an air-brake-equipped vehicle?",
+      "back": "The foundation brakes are the most important part of any braking system. If they aren't in correct working order and properly adjusted, even the best designed air brake system can't safely stop the vehicle. Brake failures and runaways are almost never caused by air system failure — the common factor is absent maintenance or the driver failing to check the brakes daily.",
+      "topic": "Why adjustment matters"
+    },
+    {
+      "front": "What does the law require regarding slack adjuster checks?",
+      "back": "Federal and provincial laws require you to check manual and automatic slack adjusters daily during the pre-trip inspection. You're also required by law to check your brakes before driving down steep grades that are posted with regulatory signs. You may be fined as much as $2,000 for operating a vehicle with defective brakes, including excessive brake chamber pushrod stroke.",
+      "topic": "The law"
+    },
+    {
+      "front": "Who is ultimately responsible for ensuring the brakes are operating properly before the vehicle is moved?",
+      "back": "The driver. Even if the company has a maintenance crew, one person is ultimately responsible for the brakes before the vehicle moves — the driver.",
+      "topic": "Responsibility"
+    },
+    {
+      "front": "What is the maximum available stroke of a Type 30 air brake chamber? A Type 30LS?",
+      "back": "The Type 30 — the most common chamber on trucks and trailers — has a maximum available stroke of 2½ inches (65 mm). The long-stroke Type 30LS has a maximum available stroke of three inches.",
+      "topic": "Brake chambers"
+    },
+    {
+      "front": "On a correctly adjusted s-cam brake, how far should the chamber stroke when the brakes are applied?",
+      "back": "Less than half of its maximum stroke. When correctly adjusted, running clearance between lining and drum is only a few thousandths of an inch — hardly thicker than three sheets of paper. Each brake on an axle should be adjusted to a similar amount of pushrod travel (left similar to right).",
+      "topic": "S-cam brakes"
+    },
+    {
+      "front": "Why is an incorrectly adjusted brake dangerous even if it seems to work when the drum is cold?",
+      "back": "Cast iron brake drums expand when heated, causing the chamber to stroke further as temperature rises. After a few applications the chamber can bottom out — the linings no longer contact the drum and braking power is greatly reduced. On long downgrades, hot drum expansion can cause total loss of braking and a runaway.",
+      "topic": "Hot brake drums"
+    },
+    {
+      "front": "What must you do before checking or adjusting any brakes?",
+      "back": "Make sure the vehicle is safely parked with the wheels blocked, the air system at full pressure, and the spring parking brakes released. Turn the engine off so you can listen for air leaks.",
+      "topic": "Preparation"
+    },
+    {
+      "front": "Describe the applied stroke method of checking brake adjustment.",
+      "back": "With brakes released, reservoir pressure at least 100 p.s.i. (690 kPa) and engine off, mark the pushrod where it exits the chamber (or measure clevis pin to chamber face). Apply and hold a full application of 90 to 100 p.s.i. (620–690 kPa), then measure again. The difference is the applied stroke: 1 inch to 1½ inches (25–38 mm) is a good range; more than 1¾ inches (45 mm) means the brakes need adjustment. It's the method used by roadside inspectors and normally needs two people.",
+      "topic": "Applied stroke method"
+    },
+    {
+      "front": "Describe the pry method of free stroke measurement.",
+      "back": "With system pressure over 100 p.s.i. (690 kPa) and all parking brakes released, push the pushrod fully into the chamber and mark it where it exits. Pry the pushrod out with a tool like a pry bar and measure between the mark and the chamber face. That distance is the free stroke: ½ to ¾ of an inch (12–20 mm) is a good range; more than ¾ of an inch (20 mm) means the brakes need adjustment.",
+      "topic": "Free stroke / pry method"
+    },
+    {
+      "front": "What does a brake adjustment indicator on a new pushrod tell you?",
+      "back": "New air brake chamber pushrods have a marking (usually red) that shows when pushrod travel becomes excessive. If the red marking at the chamber face is visible, the brake is dangerously out of adjustment and needs immediate attention — but don't wait until the red marking is exposed before adjusting.",
+      "topic": "Adjustment indicators"
+    },
+    {
+      "front": "How do you adjust a manual slack adjuster?",
+      "back": "Depress the spring-loaded locking sleeve and turn the adjusting bolt (usually with a 9/16 inch wrench) while watching the end of the camshaft — the cam should rotate in the same direction as if the brakes were being applied. The pushrod should never move in or out. Turn until solid resistance is met (linings contact the drum), then back off about 1/3 of a turn to establish running clearance. Make sure the locking sleeve re-engages, then re-measure the free stroke.",
+      "topic": "Manual adjustment"
+    },
+    {
+      "front": "What are the key facts about automatic slack adjusters?",
+      "back": "All commercial trucks and trailers with air brakes have been manufactured with automatic slack adjusters since 1996. They adjust themselves during normal day-to-day brake applications and maintain stroke more reliably than manual slack adjusters — but they must still be checked as part of a pre-trip inspection. If one strokes beyond the maximum allowed, it has failed, been incorrectly installed, or there's a foundation brake problem needing a qualified brake service mechanic.",
+      "topic": "Automatic slack adjusters"
+    },
+    {
+      "front": "With a Type 30 chamber and an automatic slack adjuster, at what measurements do the brakes need repair?",
+      "back": "More than ¾ of an inch (20 mm) using the pry method of free stroke measurement, or more than two inches (50 mm) using the applied stroke method. Automatic slack adjuster strokes are usually slightly longer than well-adjusted manual ones. Adjustment of automatic slack adjusters is an emergency procedure only — record it on your daily post-trip inspection report and get a repair as soon as possible.",
+      "topic": "Automatic slack adjusters"
+    },
+    {
+      "front": "Why is manually adjusting an automatic slack adjuster dangerous?",
+      "back": "It gives a false sense of security — a manual adjustment may temporarily shorten the stroke, but the automatic slack adjuster will soon re-set to its designed stroke. Repeated manual adjustment causes undue wear on internal components and can lead to early failure. Automatic slack adjusters should only be adjusted or repaired by a qualified mechanic, following the manufacturer's instructions.",
+      "topic": "Automatic slack adjusters"
+    },
+    {
+      "front": "How do emergency adjustments differ between hexagonal and square adjusting bolts on automatic slack adjusters?",
+      "back": "Hexagonal (six-sided) bolt: turn clockwise until the lining contacts the drum, then back off ½ a turn (backing off may take considerable force with ratcheting — that's normal). Square bolt: first disengage the spring-loaded pawl (pry up the button on the ¾ inch hex cap about 1/32 inch, or remove the hex cap, spring and pawl), set up with a counter-clockwise turn until the lining contacts the drum, then turn ½ a turn clockwise to restore clearance.",
+      "topic": "Emergency adjustment"
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is the most common cause of brake failures and runaways in air-brake-equipped vehicles?",
+      "choices": [
+        "Sudden air system failure",
+        "Lack of routine brake maintenance and drivers failing to check the brakes daily",
+        "Manufacturing defects in the foundation brakes",
+        "Compressor failure at highway speeds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crashes from brake failures and runaways are almost never caused by an air system failure — the absence of routine maintenance or the driver failing to check the brakes daily is a much more common factor.",
+      "topic": "Why adjustment matters",
+      "page": 189
+    },
+    {
+      "q": "What is the maximum fine for operating a commercial vehicle with defective brakes, including excessive brake chamber pushrod stroke?",
+      "choices": [
+        "$500",
+        "$1,000",
+        "$2,000",
+        "$5,000"
+      ],
+      "answerIndex": 2,
+      "explanation": "You may be fined as much as $2,000 if you're operating a vehicle with brakes that are defective, which includes excessive brake chamber pushrod stroke.",
+      "topic": "The law",
+      "page": 189
+    },
+    {
+      "q": "Who is ultimately responsible for ensuring that a vehicle's brakes are operating properly before it is moved?",
+      "choices": [
+        "The driver",
+        "The company maintenance crew",
+        "The carrier's safety officer",
+        "A certified brake mechanic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Even if the company has a maintenance crew, one person is ultimately responsible for the brakes before the vehicle is moved — the driver.",
+      "topic": "Responsibility",
+      "page": 189
+    },
+    {
+      "q": "How often does the law require you to check manual and automatic slack adjusters?",
+      "choices": [
+        "Weekly, during scheduled maintenance",
+        "Every 40,000 km",
+        "Only when the brakes feel weak",
+        "Daily, during the pre-trip inspection"
+      ],
+      "answerIndex": 3,
+      "explanation": "Federal and provincial laws require a daily check of manual and automatic slack adjusters during the pre-trip inspection. You must also check brakes before steep grades posted with regulatory signs.",
+      "topic": "The law",
+      "page": 189
+    },
+    {
+      "q": "What is the maximum available stroke of a Type 30 clamp type air brake chamber?",
+      "choices": [
+        "1¾ inches (45 mm)",
+        "2½ inches (65 mm)",
+        "Two inches (50 mm)",
+        "Three inches (75 mm)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Type 30, the most common chamber on trucks and trailers, has a maximum available stroke of 2½ inches (65 mm). The long-stroke Type 30LS has a maximum of three inches.",
+      "topic": "Brake chambers",
+      "page": 190
+    },
+    {
+      "q": "When an s-cam brake is correctly adjusted and applied, how far should the brake chamber stroke?",
+      "choices": [
+        "Exactly to its maximum stroke",
+        "About three-quarters of its maximum stroke",
+        "Less than half of its maximum stroke",
+        "No more than 1/32 of an inch"
+      ],
+      "answerIndex": 2,
+      "explanation": "A correctly adjusted brake strokes less than half of the chamber's maximum stroke when applied, leaving reserve travel for heat expansion of the drum.",
+      "topic": "S-cam brakes",
+      "page": 190
+    },
+    {
+      "q": "When brakes are correctly adjusted, how large is the running clearance between the brake lining and the drum?",
+      "choices": [
+        "Only a few thousandths of an inch — hardly thicker than three sheets of paper",
+        "About ½ an inch",
+        "About ¼ of an inch",
+        "About 1/8 of an inch"
+      ],
+      "answerIndex": 0,
+      "explanation": "The manual notes that correct running clearance between lining and drum is only a few thousandths of an inch — hardly thicker than three sheets of paper.",
+      "topic": "S-cam brakes",
+      "page": 190
+    },
+    {
+      "q": "What is the danger of operating a vehicle whose pushrod travel is barely within tolerance while the brake drums are cold?",
+      "choices": [
+        "The compressor will cycle too often and overheat",
+        "The spring parking brakes may drag and wear out",
+        "The air reservoirs will drain more quickly than normal",
+        "As the drums heat up they expand, the chambers stroke further and can bottom out, greatly reducing or eliminating braking power"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cast iron drums expand when heated, making the chamber stroke further. A brake that seems fine cold can bottom out when hot — on long downgrades this can cause a total loss of braking and a runaway.",
+      "topic": "Hot brake drums",
+      "page": 191
+    },
+    {
+      "q": "What is the first thing you should do when preparing to check brake adjustment?",
+      "choices": [
+        "Pump the reservoir pressure down to 60 p.s.i.",
+        "Make sure the vehicle is safely parked with the wheels blocked",
+        "Apply the spring parking brakes firmly",
+        "Start the engine and leave it running"
+      ],
+      "answerIndex": 1,
+      "explanation": "Always block the wheels before checking any brakes. The air system should be at full pressure, spring parking brakes released, and the engine off so you can listen for air leaks.",
+      "topic": "Preparation",
+      "page": 191
+    },
+    {
+      "q": "Using the applied stroke method, how much brake application pressure should you apply and hold?",
+      "choices": [
+        "20 to 30 p.s.i. (138 – 207 kPa)",
+        "50 to 60 p.s.i. (345 – 414 kPa)",
+        "90 to 100 p.s.i. (620 – 690 kPa)",
+        "120 to 130 p.s.i. (827 – 896 kPa)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The applied stroke method requires a full brake application of 90 to 100 p.s.i. (620 – 690 kPa), with reservoir pressure at least 100 p.s.i. (690 kPa) to start and the engine off.",
+      "topic": "Applied stroke method",
+      "page": 192
+    },
+    {
+      "q": "With a Type 30 chamber and a manual slack adjuster, the brakes need adjustment if the applied stroke is more than:",
+      "choices": [
+        "1¾ inches (45 mm)",
+        "1 inch (25 mm)",
+        "¾ of an inch (20 mm)",
+        "2½ inches (65 mm)"
+      ],
+      "answerIndex": 0,
+      "explanation": "An applied stroke of 1 inch to 1½ inches (25 – 38 mm) is a good range; more than 1¾ inches (45 mm) means adjustment is needed. Adjust as measurements approach the limit — don't wait.",
+      "topic": "Applied stroke method",
+      "page": 192
+    },
+    {
+      "q": "Using the pry method, the free stroke of a Type 30 chamber pushrod indicates the brakes need adjustment when it is more than:",
+      "choices": [
+        "1½ inches (38 mm)",
+        "¾ of an inch (20 mm)",
+        "Two inches (50 mm)",
+        "¼ of an inch (6 mm)"
+      ],
+      "answerIndex": 1,
+      "explanation": "A free stroke of ½ to ¾ of an inch (12 – 20 mm) is a good range; more than ¾ of an inch (20 mm) means the brakes need adjustment.",
+      "topic": "Free stroke / pry method",
+      "page": 193
+    },
+    {
+      "q": "What does it mean if the red marking on a brake chamber pushrod is visible at the chamber face?",
+      "choices": [
+        "The brake has been recently adjusted",
+        "The pushrod is a long-stroke type",
+        "The chamber diaphragm needs lubrication",
+        "The brake is dangerously out of adjustment and needs immediate attention"
+      ],
+      "answerIndex": 3,
+      "explanation": "New pushrods carry a marking (usually red) that shows when travel becomes excessive. Don't wait until the red marking is exposed before adjusting the brakes.",
+      "topic": "Adjustment indicators",
+      "page": 193
+    },
+    {
+      "q": "What equipment should you carry to check and adjust manual slack adjusters?",
+      "choices": [
+        "Only a tire pressure gauge and gloves",
+        "A torque wrench and feeler gauges",
+        "A flashlight, chalk or marker, a ruler, a pry tool and a wrench (usually 9/16 inch)",
+        "A hydraulic jack and axle stands"
+      ],
+      "answerIndex": 2,
+      "explanation": "You'll need a flashlight to inspect components, chalk or another marker plus a ruler to check free stroke, a tool to pry on the pushrod, and a wrench to adjust manual slack adjusters — plus sturdy clothing, hard hat and eye protection.",
+      "topic": "Preparation",
+      "page": 193
+    },
+    {
+      "q": "While turning the adjusting bolt of a manual slack adjuster, how do you know you're turning in the correct direction?",
+      "choices": [
+        "The pushrod slowly pulls out of the brake chamber",
+        "The camshaft end rotates in the same direction it would if the brakes were being applied",
+        "You hear air escaping from the chamber",
+        "The slack adjuster arm moves outward"
+      ],
+      "answerIndex": 1,
+      "explanation": "Watch the end of the camshaft — it should rotate in the brake-applying direction. The pushrod and slack adjuster arm should never move in or out; if the pushrod is being pulled out of the chamber, you're turning the wrong way.",
+      "topic": "Manual adjustment",
+      "page": 194
+    },
+    {
+      "q": "After turning a manual slack adjuster's bolt until solid resistance is met, what should you do next?",
+      "choices": [
+        "Back the bolt off about 1/3 of a turn and make sure the locking sleeve re-engages",
+        "Back the bolt off two full turns",
+        "Leave it exactly at the point of resistance",
+        "Tighten it a further ½ turn to seat the linings"
+      ],
+      "answerIndex": 0,
+      "explanation": "Solid resistance means the linings have contacted the drum. Backing off about 1/3 of a turn establishes correct running clearance; the locking sleeve must re-engage so the adjustment won't back off. Then re-measure the free stroke.",
+      "topic": "Manual adjustment",
+      "page": 194
+    },
+    {
+      "q": "Since what year have all commercial trucks and trailers with air brakes been manufactured with automatic slack adjusters?",
+      "choices": [
+        "1986",
+        "1990",
+        "2001",
+        "1996"
+      ],
+      "answerIndex": 3,
+      "explanation": "All commercial trucks and trailers with air brakes have been manufactured with automatic slack adjusters since 1996. They still must be checked as part of every pre-trip inspection.",
+      "topic": "Automatic slack adjusters",
+      "page": 195
+    },
+    {
+      "q": "What is an advantage of automatic slack adjusters over manual slack adjusters?",
+      "choices": [
+        "They adjust themselves during normal brake applications and maintain brake stroke more reliably",
+        "They never need to be checked once installed",
+        "They allow a longer maximum pushrod stroke before repair is needed",
+        "They can be adjusted from inside the cab"
+      ],
+      "answerIndex": 0,
+      "explanation": "Automatic slack adjusters adjust themselves during day-to-day driving and maintain stroke more reliably — a Transport Canada study found vehicles with manual slack adjusters were put out of service at a rate 150 per cent higher. But automatics must still be checked in every pre-trip inspection.",
+      "topic": "Automatic slack adjusters",
+      "page": 195
+    },
+    {
+      "q": "With a Type 30 chamber and an automatic slack adjuster, the brakes need repair if the applied stroke is more than:",
+      "choices": [
+        "1½ inches (38 mm)",
+        "1¾ inches (45 mm)",
+        "Two inches (50 mm)",
+        "2½ inches (65 mm)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Automatic slack adjuster strokes are usually slightly longer than well-adjusted manual ones: repair is needed at more than two inches (50 mm) applied stroke, or more than ¾ of an inch (20 mm) free stroke by the pry method.",
+      "topic": "Automatic slack adjusters",
+      "page": 196
+    },
+    {
+      "q": "Why is it dangerous to manually adjust an automatic slack adjuster?",
+      "choices": [
+        "It voids the vehicle's inspection certificate",
+        "It immediately releases the spring parking brakes",
+        "It permanently shortens the pushrod",
+        "It gives a false sense of security — the adjuster soon re-sets to its designed stroke, and repeated adjustment causes wear that can lead to early failure"
+      ],
+      "answerIndex": 3,
+      "explanation": "A manual adjustment only temporarily shortens the stroke; the automatic slack adjuster will re-set itself, and repeated adjustment wears internal components. Excessive stroke usually signals a problem that a qualified brake mechanic must repair.",
+      "topic": "Automatic slack adjusters",
+      "page": 195
+    },
+    {
+      "q": "On an automatic slack adjuster with a square adjusting bolt, what must you do before attempting an emergency adjustment?",
+      "choices": [
+        "Disengage the spring-loaded pawl (pry up and hold the button on the hex cap, or remove the hex cap, spring and pawl)",
+        "Cage the spring brake with the caging bolt",
+        "Drain all air reservoirs to zero",
+        "Remove the clevis pin from the pushrod"
+      ],
+      "answerIndex": 0,
+      "explanation": "Don't try adjusting a square-bolt unit until the spring-loaded pawl that meshes with internal teeth is disengaged. These brakes set up with a counter-clockwise turn, then ½ a turn clockwise restores running clearance.",
+      "topic": "Emergency adjustment",
+      "page": 197
+    },
+    {
+      "q": "Why can't brake adjustment be reliably checked from the cab by watching for an 8 to 12 p.s.i. pressure drop during a full application?",
+      "choices": [
+        "The pressure drop would actually be much larger than 8 to 12 p.s.i.",
+        "Modern trucks have very large reservoirs so the drop never reaches that range, and gauge markings aren't fine enough to read such changes",
+        "The dash gauges only show secondary system pressure",
+        "The governor automatically replaces any air used during an application"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even if all brakes had excess pushrod travel, the pressure drop would not reach the 8 to 12 p.s.i. (55.2 to 82.8 kPa) range on modern trucks, and most reservoir gauges can't be read that precisely. There's no reliable substitute for physically checking brake adjustment.",
+      "topic": "Misconceptions",
+      "page": 197
+    },
+    {
+      "q": "Why is it unsafe to assume the spring brakes are fully released just because the parking brake control valve and trailer supply valve are open?",
+      "choices": [
+        "The valves close automatically whenever the engine is off",
+        "Open valves always mean the service brakes are applied instead",
+        "These valves can remain open with as little as 20 p.s.i. (138 kPa) of system pressure, so the spring brakes may still be partially or fully applied",
+        "The trailer supply valve has no effect on spring brakes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Some control valves stay open at very low pressure while spring brakes remain partly or fully applied. Make sure system pressure is at least 90 to 100 p.s.i. (620 to 690 kPa) and all parking brakes are released before checking adjustment.",
+      "topic": "Misconceptions",
+      "page": 198
+    },
+    {
+      "q": "Under B.C. Commercial Vehicle Safety and Enforcement rules, what is the rule about retrofitting slack adjusters?",
+      "choices": [
+        "Manual slack adjusters may replace automatic ones if adjusted daily",
+        "Automatic slack adjusters must be replaced with manual ones every five years",
+        "Retrofitting is allowed only on trailers, not trucks",
+        "It is illegal to retrofit manual slack adjusters on a vehicle manufactured with automatic slack adjusters"
+      ],
+      "answerIndex": 3,
+      "explanation": "It's illegal in B.C. to retrofit manual slack adjusters onto a vehicle manufactured with automatic slack adjusters. Automatics adjust for brake wear as the brakes are used, while manual units stay out of adjustment until someone adjusts them.",
+      "topic": "The law",
+      "page": 198
+    }
+  ]
+}
