@@ -1,0 +1,348 @@
+{
+  "chapter": 1,
+  "title": "getting your driver's licence",
+  "cards": [
+    {
+      "front": "What vehicles can you drive with a Class 1 licence, and what is the minimum age?",
+      "back": "Semi-trailer trucks and all other motor vehicles or combinations of vehicles except motorcycles. Minimum age is 19.",
+      "topic": "Licence classes"
+    },
+    {
+      "front": "What vehicles can you drive with a Class 2 licence?",
+      "back": "Buses, including school buses, special activity buses and special vehicles. Trailers or towed vehicles may not exceed 4,600 kg — they may exceed 4,600 kg only if the bus and trailers do not have air brakes. Also any motor vehicle or combination in Class 4. Minimum age 19.",
+      "topic": "Licence classes"
+    },
+    {
+      "front": "What vehicles can you drive with a Class 3 licence?",
+      "back": "Trucks with more than two axles (such as dump trucks and large tow trucks), but not a bus being used to transport passengers. Trailers may not exceed 4,600 kg unless the truck and trailers have no air brakes. Also a tow car towing a vehicle of any weight, a mobile truck crane, and any Class 5 vehicle. Minimum age 18.",
+      "topic": "Licence classes"
+    },
+    {
+      "front": "What is the difference between a Class 4 unrestricted and a Class 4 restricted licence?",
+      "back": "Class 4 unrestricted: buses with a maximum seating capacity of 25 persons (including the driver), including school buses, special activity buses and special vehicles for people with disabilities, plus taxis, limousines, ride-hailing vehicles and ambulances. Class 4 restricted: taxis, limousines and ride-hailing vehicles up to 10 persons (including the driver), ambulances, and special vehicles seating not more than 10 persons used to transport people with disabilities.",
+      "topic": "Licence classes"
+    },
+    {
+      "front": "What does a heavy trailer endorsement (code 20) allow you to do?",
+      "back": "On a Class 4 or 5 licence, it allows you to tow trailers of any weight provided that neither the truck nor the trailer has air brakes. Minimum age 18.",
+      "topic": "Heavy trailer endorsement"
+    },
+    {
+      "front": "When do you need an air brake endorsement (code 15)?",
+      "back": "To operate vehicles equipped with air brakes on a highway (other than a vehicle defined as a construction vehicle). It is also required to operate most vehicles equipped with air-over-hydraulic brakes. The code 15 endorsement is shown in the 'restrictions' section of the driver's licence.",
+      "topic": "Air brake endorsement"
+    },
+    {
+      "front": "What five things are checked during the commercial driver vision screening?",
+      "back": "Visual acuity (reading from a distance), peripheral vision (seeing objects on each side), depth perception (telling how close objects are), diplopia (whether you have double vision), and colour perception (distinguishing red, green and amber). Commercial drivers must meet a higher vision standard than Class 5 drivers.",
+      "topic": "Vision"
+    },
+    {
+      "front": "What medical steps happen when you apply for a commercial driver's licence?",
+      "back": "You'll be asked about medical conditions that may affect your fitness, complete a declaration form about medical conditions, be given a Driver's Medical Examination form for your doctor to complete and send to RoadSafetyBC, and complete a vision screening. RoadSafetyBC determines your fitness to drive commercial vehicles.",
+      "topic": "Medical fitness"
+    },
+    {
+      "front": "What prerequisites must you meet before applying for a Class 1, 2, 3 or 4 licence?",
+      "back": "Hold or have held a full-privilege Class 5 or Class 6 licence (or out-of-province equivalent); have an acceptable driving record with fewer than four penalty-point offences in the previous two years and zero motor-vehicle-related Criminal Code convictions in the previous three years; meet the minimum age; have no outstanding fines or debts owed to the Court, Government or ICBC; and meet the required medical standards.",
+      "topic": "Applying for a licence"
+    },
+    {
+      "front": "What is MELT and who must take it?",
+      "back": "Mandatory Entry Level Training — a requirement for all new Class 1 applicants since October 18, 2021. It aligns with the national Class 1 entry-level training standard, includes theory, practical training and on-highway driving, and covers air brakes. It is a one-time requirement offered by ICBC-approved driving schools. You must qualify for your Class 1 learner licence before starting MELT.",
+      "topic": "MELT"
+    },
+    {
+      "front": "Who is exempt from taking B.C.'s MELT when moving to B.C.?",
+      "back": "Holders of a Canadian Class 1 licence with more than 24 consecutive months of Class 1 experience, provided the licence has not been expired for more than three years. With 12 to 24 months of experience (and no accepted MELT course), you get two road test attempts before MELT is required; with less than 12 months you must take B.C.'s MELT. B.C. accepts MELT from Saskatchewan, Manitoba, Ontario and Alberta. All Class 1 drivers with a licence issued outside Canada must take B.C.'s MELT.",
+      "topic": "MELT"
+    },
+    {
+      "front": "What are the key facts about the commercial knowledge tests?",
+      "back": "You take knowledge tests whenever you apply for a new licence. All knowledge tests are conducted only in English, must be completed without assistance, and are all multiple choice. The answers to all knowledge test questions are in the guide. One of the tests is a traffic signs test.",
+      "topic": "Knowledge tests"
+    },
+    {
+      "front": "What does a commercial road test consist of, and how long does it take?",
+      "back": "A pre-trip inspection, an air brake pre-trip inspection (if the vehicle has air brakes), and a road test. You must demonstrate a pre-trip inspection including a written trip inspection report, basic vehicle control skills, and handling the vehicle in traffic. A Class 1 road test takes about two hours; Class 2, 3, 4 and heavy trailer endorsement road tests take less than two hours.",
+      "topic": "Road tests"
+    },
+    {
+      "front": "What are the rules for driving on a commercial learner's licence?",
+      "back": "The learner's licence is valid for one year and allows you to practise with a supervisor. The supervisor must be at least 19 years old, hold the appropriate licence for the vehicle, and sit beside you (or immediately behind and to the right if there's no seat beside the driver). In a bus, taxi, ride-hailing vehicle or ambulance, no passengers are permitted other than your supervisor and other learners training for the same class.",
+      "topic": "Learner's licence"
+    },
+    {
+      "front": "How often must commercial drivers submit a Driver's Medical Examination Report?",
+      "back": "At ages 25, 30, 35, 40 and 45; then 48, 51, 54, 57, 60 and 63; then every year upon reaching age 66. Your licence may be cancelled if you don't submit the form. The doctor's fee is not covered by MSP, ICBC or RoadSafetyBC.",
+      "topic": "Keeping your licence"
+    },
+    {
+      "front": "What are the two types of air brake courses?",
+      "back": "A certified course: 7 hours of classroom theory plus four hours of practical training on air brake pre-trip inspections — if you pass the provider's pre-trip assessment, you may not need to take ICBC's air brake pre-trip inspection test. A non-certified course: 7 hours of classroom theory only, at a licensed driver training school or college.",
+      "topic": "Air brake courses"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which vehicles require the driver to hold an air brake endorsement to operate them on a highway?",
+      "choices": [
+        "Only semi-trailer trucks over 4,600 kg",
+        "Any vehicle with more than two axles",
+        "Vehicles equipped with air brakes (other than construction vehicles), and most vehicles with air-over-hydraulic brakes",
+        "Only buses and school buses"
+      ],
+      "answerIndex": 2,
+      "explanation": "An air brake endorsement (code 15) is required to operate air-brake-equipped vehicles on a highway, except construction vehicles, and is also required for most vehicles with air-over-hydraulic brakes.",
+      "topic": "Air brake endorsement",
+      "page": 5
+    },
+    {
+      "q": "Which licence class allows you to drive a school bus with a maximum seating capacity of 25 persons, including the driver?",
+      "choices": [
+        "Class 4 (unrestricted)",
+        "Class 4 (restricted)",
+        "Class 5",
+        "Class 3"
+      ],
+      "answerIndex": 0,
+      "explanation": "A Class 4 unrestricted licence covers buses with a maximum seating capacity of 25 persons including the driver, including school buses. Class 4 restricted vehicles are limited to 10 persons, and Class 3 does not cover a bus transporting passengers.",
+      "topic": "Licence classes",
+      "page": 4
+    },
+    {
+      "q": "Which licence allows you to tow a trailer equipped with air brakes that weighs over 4,600 kg?",
+      "choices": [
+        "Class 4 or 5 with a heavy trailer endorsement (code 20)",
+        "Class 1",
+        "Class 3",
+        "Class 2"
+      ],
+      "answerIndex": 1,
+      "explanation": "Only Class 1 covers all combinations of vehicles. Class 2 and 3 trailers may exceed 4,600 kg only if the vehicles do not have air brakes, and the heavy trailer endorsement applies only when neither truck nor trailer has air brakes.",
+      "topic": "Licence classes",
+      "page": 3
+    },
+    {
+      "q": "Which tests must you pass to get an air brake endorsement?",
+      "choices": [
+        "A knowledge test and a road test",
+        "A road test only",
+        "A knowledge test, pre-trip inspection test and road test",
+        "The air brake knowledge test and the air brake pre-trip inspection test — a road test is not required"
+      ],
+      "answerIndex": 3,
+      "explanation": "For an air brake endorsement you take the air brake knowledge test and the air brake pre-trip inspection test; the manual states a road test is not required.",
+      "topic": "Air brake endorsement",
+      "page": 6
+    },
+    {
+      "q": "How long are air brake knowledge test results valid?",
+      "choices": [
+        "Six months",
+        "One year",
+        "Two years",
+        "Three years"
+      ],
+      "answerIndex": 1,
+      "explanation": "Air brake knowledge test results are only valid for one year — drivers who haven't had the endorsement placed on their licence within one year of passing must re-take the test.",
+      "topic": "Air brake endorsement",
+      "page": 5
+    },
+    {
+      "q": "What happens if you fail to qualify on the air brake knowledge test after three attempts?",
+      "choices": [
+        "You must complete or repeat an approved 7-hour air brake training course",
+        "You must wait one year before testing again",
+        "You are permanently barred from an air brake endorsement",
+        "You must take a road test instead"
+      ],
+      "answerIndex": 0,
+      "explanation": "An applicant who fails the air brake knowledge test after three attempts must complete or repeat an approved 7-hour air brake training course.",
+      "topic": "Air brake endorsement",
+      "page": 5
+    },
+    {
+      "q": "What is the minimum age to apply for a Class 3 licence?",
+      "choices": [
+        "16",
+        "21",
+        "18",
+        "19"
+      ],
+      "answerIndex": 2,
+      "explanation": "The minimum age for a Class 3 licence is 18. Class 1, 2 and 4 require a minimum age of 19.",
+      "topic": "Licence classes",
+      "page": 3
+    },
+    {
+      "q": "What driving record must you show to qualify for a commercial driver's licence?",
+      "choices": [
+        "No penalty points at all in the previous five years",
+        "Fewer than two offences in the previous year",
+        "Zero Criminal Code convictions of any kind in the previous ten years",
+        "Fewer than four penalty-point offences in the previous two years and zero motor-vehicle-related Criminal Code convictions in the previous three years"
+      ],
+      "answerIndex": 3,
+      "explanation": "An acceptable driving record shows fewer than four offences carrying penalty points in the previous two years and zero motor-vehicle-related Criminal Code convictions in the previous three years.",
+      "topic": "Applying for a licence",
+      "page": 6
+    },
+    {
+      "q": "How long is a commercial learner's licence valid?",
+      "choices": [
+        "One year",
+        "Six months",
+        "Two years",
+        "Ninety days"
+      ],
+      "answerIndex": 0,
+      "explanation": "The learner's licence is valid for one year and allows you to practise driving with a supervisor.",
+      "topic": "Learner's licence",
+      "page": 7
+    },
+    {
+      "q": "Who may supervise you while you practise on a commercial learner's licence?",
+      "choices": [
+        "Anyone at least 25 years old with any full licence",
+        "A person at least 19 years old who holds the appropriate licence for the vehicle you're practising on",
+        "Any licensed driving instructor only",
+        "A person at least 18 years old with a Class 5 licence"
+      ],
+      "answerIndex": 1,
+      "explanation": "The supervisor must be at least 19 years old and hold the appropriate licence for the vehicle — for example, a Class 1 licence if you're practising on a Class 1 tractor-trailer combination.",
+      "topic": "Learner's licence",
+      "page": 7
+    },
+    {
+      "q": "Since when has MELT been required for all new Class 1 applicants in B.C.?",
+      "choices": [
+        "January 1, 2019",
+        "April 1, 2000",
+        "July 1, 2020",
+        "October 18, 2021"
+      ],
+      "answerIndex": 3,
+      "explanation": "B.C.'s MELT program became a requirement for all new Class 1 applicants on October 18, 2021.",
+      "topic": "MELT",
+      "page": 7
+    },
+    {
+      "q": "You move to B.C. holding a Canadian Class 1 licence with more than 24 consecutive months of Class 1 experience, not expired more than three years. What are your MELT requirements?",
+      "choices": [
+        "You must take the full B.C. MELT course",
+        "You must take only the air brake portion of MELT",
+        "You are not required to take MELT",
+        "You must pass two road tests before being exempted"
+      ],
+      "answerIndex": 2,
+      "explanation": "Drivers with more than 24 consecutive months of Canadian Class 1 experience, whose licence has not been expired for more than three years, are not required to take MELT.",
+      "topic": "MELT",
+      "page": 8
+    },
+    {
+      "q": "From which provinces does B.C. currently accept MELT courses?",
+      "choices": [
+        "Saskatchewan, Manitoba, Ontario and Alberta",
+        "All Canadian provinces and territories",
+        "Alberta and Ontario only",
+        "Quebec, Ontario and Alberta"
+      ],
+      "answerIndex": 0,
+      "explanation": "B.C. currently accepts MELT courses from Saskatchewan, Manitoba, Ontario and Alberta.",
+      "topic": "MELT",
+      "page": 8
+    },
+    {
+      "q": "In what language are the commercial licensing knowledge tests conducted?",
+      "choices": [
+        "English or French",
+        "Only in English, and you must complete them without assistance",
+        "Any language with an approved interpreter",
+        "English, French or Punjabi"
+      ],
+      "answerIndex": 1,
+      "explanation": "All knowledge tests referred to in the guide are conducted only in English, and you must be able to complete them without assistance.",
+      "topic": "Knowledge tests",
+      "page": 9
+    },
+    {
+      "q": "Approximately how long does a Class 1 road test take?",
+      "choices": [
+        "Thirty minutes",
+        "Four hours",
+        "One hour",
+        "About two hours"
+      ],
+      "answerIndex": 3,
+      "explanation": "A Class 1 road test takes about two hours. Class 2, 3, 4 and heavy trailer endorsement road tests take less than two hours.",
+      "topic": "Road tests",
+      "page": 10
+    },
+    {
+      "q": "When must you pay a fee for missing a scheduled road test?",
+      "choices": [
+        "Never — road test appointments can be missed without penalty",
+        "Any time you miss an appointment, regardless of notice",
+        "If you don't show up and don't provide either 48 hours notice or a valid reason for not attending",
+        "Only if you miss two appointments in a row"
+      ],
+      "answerIndex": 2,
+      "explanation": "You'll have to pay a fee if you don't show up for your scheduled road test and don't provide either 48 hours notice or a valid reason for not attending.",
+      "topic": "Road tests",
+      "page": 10
+    },
+    {
+      "q": "What happens if you take your Class 1, 2 or 3 road test in a vehicle with an automatic transmission?",
+      "choices": [
+        "Your licence will be restricted to automatic transmissions only",
+        "Nothing — the transmission type doesn't matter",
+        "You must take a second test in a manual vehicle within a year",
+        "You will fail the road test"
+      ],
+      "answerIndex": 0,
+      "explanation": "If you take your Class 1, 2 or 3 road test using an automatic transmission, your licence will be restricted to automatic transmissions only.",
+      "topic": "Road tests",
+      "page": 11
+    },
+    {
+      "q": "What are the minimum requirements for a Class 1 road test vehicle?",
+      "choices": [
+        "Any tractor-trailer combination, loaded or empty",
+        "A loaded tandem or tridem rear axle tractor-trailer combination with air brakes, on-road loaded weight of at least 28,000 kg, with a semi-trailer at least 13 metres long (7.5 metres if a pintle hitch trailer)",
+        "An empty tractor-trailer with air brakes at least 10 metres long",
+        "A loaded truck and trailer without air brakes weighing at least 4,600 kg"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Class 1 road test vehicle must be a loaded tandem or tridem rear axle tractor-trailer combination with air brakes, with an on-road loaded weight of at least 28,000 kg and a semi-trailer at least 13 metres long (7.5 metres if pintle hitch trailer).",
+      "topic": "Road test vehicles",
+      "page": 12
+    },
+    {
+      "q": "For which road tests must you demonstrate coupling and uncoupling a tractor unit from a trailer?",
+      "choices": [
+        "All commercial road tests",
+        "Class 2 and Class 3 road tests",
+        "Class 4 unrestricted road tests",
+        "A Class 1 road test or heavy trailer endorsement (code 20)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Coupling and uncoupling a tractor unit from a trailer must be demonstrated on a Class 1 road test or for a heavy trailer endorsement (code 20).",
+      "topic": "Road tests",
+      "page": 11
+    },
+    {
+      "q": "Once you reach age 66, how often must you submit a routine Driver's Medical Examination Report to keep a commercial licence?",
+      "choices": [
+        "Every year",
+        "Every three years",
+        "Every five years",
+        "Only when RoadSafetyBC suspects a problem"
+      ],
+      "answerIndex": 0,
+      "explanation": "Medical report forms are sent at ages 25, 30, 35, 40, 45, then 48, 51, 54, 57, 60 and 63, and every year upon reaching the age of 66.",
+      "topic": "Keeping your licence",
+      "page": 14
+    }
+  ]
+}

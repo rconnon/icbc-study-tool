@@ -1,0 +1,459 @@
+{
+  "chapter": 2,
+  "title": "heavy vehicle braking",
+  "cards": [
+    {
+      "front": "What is a brake, in terms of energy?",
+      "back": "A heat conversion machine that works exactly opposite to an engine. Brakes convert the energy of motion back into the energy of heat through friction between the brake drums or rotors and the brake linings or pads.",
+      "topic": "Braking principles"
+    },
+    {
+      "front": "What is the final factor in stopping (and moving) a vehicle?",
+      "back": "The contact between the vehicle and the road through the tires. Even though the energy of motion turns the wheels, the vehicle won't go anywhere unless there's traction between the tires and the road surface. Bald or defective tires may degrade braking performance.",
+      "topic": "Braking principles"
+    },
+    {
+      "front": "How is brake heat dissipated?",
+      "back": "The heat is absorbed and dissipated into the atmosphere, primarily through the brake drums/rotors.",
+      "topic": "Braking principles"
+    },
+    {
+      "front": "How much stopping force does a loaded tractor-trailer need for an emergency stop from 100 km/h?",
+      "back": "A combination weighing up to 63,500 kg might take over one kilometre and over one minute to accelerate to 100 km/h, but in an emergency might have to stop in as little as seven seconds — roughly 1/9 of that time. That requires a stopping force of nine times the acceleration force — the equivalent of approximately 4,000 hp.",
+      "topic": "Power to move and stop"
+    },
+    {
+      "front": "What happens if one or two brakes on a combination are out of adjustment?",
+      "back": "The other brakes have to do more than their share of the braking, resulting in a longer stopping distance. They may work harder than they're manufactured to, building up more heat than they can absorb and dissipate — too much heat can result in brake damage and possible failure.",
+      "topic": "Brake adjustment"
+    },
+    {
+      "front": "What makes up total stopping distance (or total stopping time)?",
+      "back": "Driver's perception time + reaction time + brake lag time + braking time. You see a hazard, think (decide to stop), then do (apply the brake).",
+      "topic": "Stopping distance"
+    },
+    {
+      "front": "How long are perception time, reaction time and air brake lag time?",
+      "back": "About 3/4 of a second of perception time (see-think), another 3/4 of a second of reaction time (do), and approximately 4/10 of a second of brake lag between when you apply the brake and when the air brakes begin to function.",
+      "topic": "Stopping distance"
+    },
+    {
+      "front": "What following distance should drivers of buses, trucks and other large heavy vehicles keep?",
+      "back": "Never less than five seconds behind the vehicle ahead at highway speeds. Stay even further back when conditions are less than ideal. (Passenger cars and light trucks use the two-second rule.)",
+      "topic": "Following distance"
+    },
+    {
+      "front": "How does doubling speed or weight affect the stopping power required?",
+      "back": "2 x vehicle speed requires 4 x the stopping power. 2 x vehicle weight requires 2 x the stopping power. 2 x speed and 2 x weight together require 8 x the stopping power.",
+      "topic": "Speed and weight"
+    },
+    {
+      "front": "How does the grade of the road affect stopping distance?",
+      "back": "A vehicle travelling down a hill needs a longer stopping distance than at the same speed on a level surface because of the effect of gravity. A vehicle travelling up a hill will stop in a shorter distance.",
+      "topic": "Speed and weight"
+    },
+    {
+      "front": "What temperatures can brake components handle?",
+      "back": "In normal stopping, brake components heat up to about 120 degrees C (almost 250 degrees F). They can handle up to about 250 degrees C under hard braking. Beyond that, heat can cause brake fade, brake damage and/or brake failure — components or tires may actually catch fire.",
+      "topic": "Brake heat"
+    },
+    {
+      "front": "What is brake fade and what causes it?",
+      "back": "Brake fade occurs when your brakes stop working properly because they're overheated — the vehicle takes longer to stop, or may not stop at all. As brake drums heat up they expand away from the brake linings. It's caused by excessive hard or frequent braking without enough cooling time — in other words, poor speed control.",
+      "topic": "Brake fade"
+    },
+    {
+      "front": "What are retarders and what are the four main types?",
+      "back": "Retarders provide auxiliary slowing of the vehicle, such as controlling speed on long downgrades without using the main braking system, saving the brakes for emergency stopping. The four main types: engine retarders, exhaust retarders, hydraulic driveline retarders and electric driveline retarders. Many can absorb as much or more horsepower than the engine can develop.",
+      "topic": "Retarders"
+    },
+    {
+      "front": "How should you use an engine retarder, and when should you be cautious?",
+      "back": "An engine retarder is more efficient at a higher engine r.p.m. and a lower vehicle speed, so select the right gear before you start down a hill. Be cautious on slippery road surfaces — some retarders can cause the drive wheels to lock up, stalling the engine, causing loss of control or even a tractor/trailer jackknife. Obey municipal signs restricting engine retarder use.",
+      "topic": "Retarders"
+    },
+    {
+      "front": "How do you brake on icy roads (without ABS)?",
+      "back": "Use extremely light pressure on the brake to control speed and help prevent the wheels from locking up. A slowly revolving wheel on an icy surface is more effective than a locked wheel skidding. You need snow tires and/or chains on icy roads; in extremely bad conditions, parking the vehicle may be safer than driving.",
+      "topic": "Icy roads"
+    },
+    {
+      "front": "What is the correct technique for descending a long downgrade?",
+      "back": "Select a safe speed for your vehicle's weight, length, steepness of grade, weather and road conditions. Be in a lower gear than you used to climb the hill, use the vehicle's retarding device, and never shift to a higher gear on a downgrade unless the speed can be controlled by a retarding device or engine compression. If speed still increases: apply the brakes hard enough to reduce speed by 10 to 15 km/h, then downshift to a lower main gear (don't use the splitter valve for shifting on a downhill). Keep the vehicle in gear all the way down.",
+      "topic": "Downgrades"
+    },
+    {
+      "front": "How do you handle water on the roadway?",
+      "back": "Water can reduce braking efficiency. Reduce speed before large pools of water, cover the brake pedal as you approach, and place a slight drag (slight constant pressure) on the brakes while driving through — this reduces the amount of water entering the brake drums and shoes. Afterwards, test the brakes with slight pedal pressure for a short distance to dry them out.",
+      "topic": "Water on roadways"
+    },
+    {
+      "front": "What are runaway lanes for?",
+      "back": "Runaway lanes are located beside the road on some downhill grades to help slow and stop vehicles if their brakes fail going downhill. Use them only to control your speed or stop — don't use them for any other purpose.",
+      "topic": "Runaway lanes"
+    },
+    {
+      "front": "What are the key facts about ABS on heavy vehicles?",
+      "back": "ABS is mandatory in Canada on all trucks and buses over 4,560 kg manufactured since April 1, 2000, and on all commercial trailers equipped with air brakes. It helps prevent wheel lockup or skids from overbraking on slippery surfaces and may help prevent jackknifing — but it doesn't let you drive faster or stop sooner, and on some surfaces such as gravel the braking distance may be longer. In an emergency: apply firm, hard continuous pressure and don't pump the brakes. If tractor and trailers don't all have ABS, brake as if the combination has no ABS.",
+      "topic": "ABS"
+    },
+    {
+      "front": "What is Automatic Traction Control (ATC)?",
+      "back": "An optional addition to an ABS system. Using the same wheel sensors as ABS, ATC senses if a drive wheel has lost traction and is spinning; it applies that wheel's brake, transferring power to the opposite side. In extremely slippery conditions it reduces engine power so the wheels can regain traction. Most ATC-equipped vehicles have a dashboard decal and a dash-mounted lamp that lights if wheel spin occurs.",
+      "topic": "ATC"
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is the final factor that determines whether a vehicle will move?",
+      "choices": [
+        "The horsepower of the engine",
+        "Traction between the tires and the road surface",
+        "The gear ratio of the transmission",
+        "The weight of the load"
+      ],
+      "answerIndex": 1,
+      "explanation": "Even though the energy of motion turns the vehicle's wheels, the vehicle won't go anywhere unless there's traction between the tires and the road surface.",
+      "topic": "Braking principles",
+      "page": 17
+    },
+    {
+      "q": "In terms of energy, what do brakes do?",
+      "choices": [
+        "Convert heat energy into the energy of motion",
+        "Store the energy of motion in the brake drums",
+        "Convert electrical energy into stopping force",
+        "Convert the energy of motion into the energy of heat through friction"
+      ],
+      "answerIndex": 3,
+      "explanation": "A brake is a heat conversion machine that works exactly opposite to an engine — it converts the energy of motion back into heat through friction between the drums/rotors and the linings/pads.",
+      "topic": "Braking principles",
+      "page": 17
+    },
+    {
+      "q": "How is brake heat dissipated?",
+      "choices": [
+        "It is absorbed and dissipated into the atmosphere, primarily through the brake drums/rotors",
+        "It is carried away by the brake fluid",
+        "It is absorbed by the tires",
+        "It is vented through the exhaust system"
+      ],
+      "answerIndex": 0,
+      "explanation": "The heat created by braking is absorbed and dissipated into the atmosphere, primarily through the brake drums/rotors.",
+      "topic": "Braking principles",
+      "page": 17
+    },
+    {
+      "q": "How much can a heavy tractor-trailer combination weigh when loaded?",
+      "choices": [
+        "Up to 28,000 kg",
+        "Up to 40,500 kg",
+        "Up to 63,500 kg",
+        "Up to 25,000 kg"
+      ],
+      "answerIndex": 2,
+      "explanation": "A heavy tractor-trailer combination can weigh up to 63,500 kg when loaded.",
+      "topic": "Power to move and stop",
+      "page": 18
+    },
+    {
+      "q": "Stopping a tractor-trailer combination from 100 km/h in an emergency (about seven seconds) requires a stopping force equivalent to approximately how much horsepower?",
+      "choices": [
+        "400 hp",
+        "4,000 hp",
+        "120 hp",
+        "1,000 hp"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stopping that quickly requires a stopping force of nine times the acceleration force — the equivalent of approximately 4,000 hp.",
+      "topic": "Power to move and stop",
+      "page": 18
+    },
+    {
+      "q": "What happens when one or two brakes on a 16-brake tractor-trailer combination are out of adjustment?",
+      "choices": [
+        "The other brakes must do more than their share, resulting in a longer stopping distance and possible overheating",
+        "Nothing noticeable — 14 brakes are more than enough",
+        "The vehicle stops faster because the remaining brakes grip harder",
+        "Only the trailer's stopping ability is affected"
+      ],
+      "answerIndex": 0,
+      "explanation": "If one or two brakes aren't correctly adjusted, the others have to do more than their share, resulting in a longer stopping distance and possible heat buildup, brake damage and failure.",
+      "topic": "Brake adjustment",
+      "page": 18
+    },
+    {
+      "q": "What is an average driver's reaction time?",
+      "choices": [
+        "About 2 seconds",
+        "About 4/10 of a second",
+        "About 1/4 of a second",
+        "About 3/4 of a second"
+      ],
+      "answerIndex": 3,
+      "explanation": "An average driver's reaction time is about 3/4 of a second — the time between recognizing a hazard ahead and applying the brakes.",
+      "topic": "Stopping distance",
+      "page": 18
+    },
+    {
+      "q": "What makes up total stopping time for a vehicle with air brakes?",
+      "choices": [
+        "Reaction time plus braking time",
+        "Perception time plus braking time",
+        "Perception time + reaction time + brake lag time + braking time",
+        "Brake lag time plus braking time"
+      ],
+      "answerIndex": 2,
+      "explanation": "Total stopping time (or distance) is the driver's perception time plus reaction time plus brake lag time plus braking time.",
+      "topic": "Stopping distance",
+      "page": 19
+    },
+    {
+      "q": "What is brake lag time in an air brake system?",
+      "choices": [
+        "The approximately 4/10 of a second between when you apply the brake and when the brakes begin to function",
+        "The time it takes to recognize a hazard",
+        "The 3/4 of a second it takes to move your foot to the brake pedal",
+        "The time the vehicle travels after the brakes engage until it stops"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unlike a car's brakes, which begin to work almost instantly, air brakes have a brake lag time of approximately 4/10 of a second between application and when the brakes begin to function.",
+      "topic": "Stopping distance",
+      "page": 19
+    },
+    {
+      "q": "At highway speeds, how far behind the vehicle ahead should drivers of buses, trucks and other large heavy vehicles stay?",
+      "choices": [
+        "At least two seconds",
+        "Never less than five seconds",
+        "At least three seconds",
+        "One vehicle length per 10 km/h"
+      ],
+      "answerIndex": 1,
+      "explanation": "Drivers of buses, trucks and other large heavy vehicles should never be less than five seconds behind the vehicle ahead at highway speeds; the two-second rule is for passenger cars and light trucks.",
+      "topic": "Following distance",
+      "page": 19
+    },
+    {
+      "q": "What is the most common air brake system defect found during a commercial vehicle inspection?",
+      "choices": [
+        "Leaking air lines",
+        "Worn brake linings",
+        "Brakes that are out of adjustment",
+        "A faulty compressor"
+      ],
+      "answerIndex": 2,
+      "explanation": "The most common air brake system defect found during a commercial vehicle inspection is brakes that are out of adjustment.",
+      "topic": "Brake adjustment",
+      "page": 19
+    },
+    {
+      "q": "If the speed of a vehicle is doubled, how much stopping power is required?",
+      "choices": [
+        "Two times the stopping power",
+        "Eight times the stopping power",
+        "The same stopping power",
+        "Four times the stopping power"
+      ],
+      "answerIndex": 3,
+      "explanation": "Two times the vehicle speed requires four times the stopping power.",
+      "topic": "Speed and weight",
+      "page": 20
+    },
+    {
+      "q": "If the weight of the vehicle is doubled, how many times must the stopping power be increased?",
+      "choices": [
+        "Two times",
+        "Four times",
+        "Eight times",
+        "It doesn't change"
+      ],
+      "answerIndex": 0,
+      "explanation": "Two times the vehicle weight requires two times the stopping power.",
+      "topic": "Speed and weight",
+      "page": 20
+    },
+    {
+      "q": "If both the speed and the weight of a vehicle are doubled, how much stopping power is required?",
+      "choices": [
+        "Four times the stopping power",
+        "Eight times the stopping power",
+        "Two times the stopping power",
+        "Six times the stopping power"
+      ],
+      "answerIndex": 1,
+      "explanation": "Two times the vehicle speed and two times the vehicle weight together require eight times the stopping power.",
+      "topic": "Speed and weight",
+      "page": 20
+    },
+    {
+      "q": "Compared to stopping on a level surface at the same speed, a vehicle travelling down a hill will need:",
+      "choices": [
+        "A shorter stopping distance",
+        "The same stopping distance",
+        "Less brake pressure",
+        "A longer stopping distance, because of the effect of gravity"
+      ],
+      "answerIndex": 3,
+      "explanation": "A vehicle travelling down a hill needs a longer stopping distance than one travelling the same speed on a level surface because of the effect of gravity; travelling uphill it stops in a shorter distance.",
+      "topic": "Speed and weight",
+      "page": 21
+    },
+    {
+      "q": "What temperature do brake components reach in normal stopping, and what is the most they should handle?",
+      "choices": [
+        "About 250 degrees C in normal stopping, up to 500 degrees C under hard braking",
+        "About 50 degrees C in normal stopping, up to 120 degrees C under hard braking",
+        "About 120 degrees C in normal stopping, up to about 250 degrees C under hard braking",
+        "About 100 degrees C in normal stopping, up to 200 degrees C under hard braking"
+      ],
+      "answerIndex": 2,
+      "explanation": "In normal stopping, brake components heat up to about 120 degrees C (almost 250 degrees F) and can handle up to about 250 degrees C under hard braking.",
+      "topic": "Brake heat",
+      "page": 21
+    },
+    {
+      "q": "What causes brake fade?",
+      "choices": [
+        "Overheated brakes — as brake drums heat up they expand away from the brake linings, so the brakes stop working properly",
+        "Water washing away the brake fluid",
+        "Cold brakes on a winter morning",
+        "Brake linings that are too new"
+      ],
+      "answerIndex": 0,
+      "explanation": "Brake fade occurs when brakes stop working properly because they're overheated; as brake drums heat up, they expand away from the brake linings, so the vehicle takes longer to stop or may not stop at all.",
+      "topic": "Brake fade",
+      "page": 21
+    },
+    {
+      "q": "What are the four main types of retarders?",
+      "choices": [
+        "Air, hydraulic, vacuum and electric retarders",
+        "Drum, disc, wedge and air retarders",
+        "Engine, exhaust, hydraulic driveline and electric driveline retarders",
+        "Compression, friction, magnetic and gravity retarders"
+      ],
+      "answerIndex": 2,
+      "explanation": "The four main types of retarders are engine retarders, exhaust retarders, hydraulic driveline retarders and electric driveline retarders.",
+      "topic": "Retarders",
+      "page": 22
+    },
+    {
+      "q": "When is an engine retarder most efficient?",
+      "choices": [
+        "At a low engine r.p.m. and a high vehicle speed",
+        "At a higher engine r.p.m. and a lower vehicle speed",
+        "Only when the vehicle is in its top gear",
+        "Only when the service brakes are applied at the same time"
+      ],
+      "answerIndex": 1,
+      "explanation": "An engine retarder is more efficient at a higher engine r.p.m. and a lower vehicle speed, so it's important to select the right gear before you start down a hill.",
+      "topic": "Retarders",
+      "page": 22
+    },
+    {
+      "q": "Why should you be cautious using retarders or engine brakes on slippery road surfaces?",
+      "choices": [
+        "They drain the air pressure from the brake system",
+        "They only work above 80 km/h",
+        "They can overheat the engine",
+        "Some can cause the drive wheels to lock up, stalling the engine, which can result in loss of control or a jackknife"
+      ],
+      "answerIndex": 3,
+      "explanation": "On slippery surfaces, some retarders/engine brakes can cause the drive wheels to lock up, stalling the engine, resulting in loss of control or even causing a tractor/trailer to jackknife.",
+      "topic": "Retarders",
+      "page": 22
+    },
+    {
+      "q": "How should you brake on icy roads in a vehicle without ABS?",
+      "choices": [
+        "Use extremely light pressure on the brake — a slowly revolving wheel is more effective than a locked wheel skidding",
+        "Apply firm, hard continuous pressure until the vehicle stops",
+        "Pump the brakes rapidly to break up the ice",
+        "Apply only the trailer brakes"
+      ],
+      "answerIndex": 0,
+      "explanation": "On icy roads, use extremely light pressure on the brake to control speed and prevent wheel lockup; a slowly revolving wheel on ice is more effective than a locked wheel skidding.",
+      "topic": "Icy roads",
+      "page": 23
+    },
+    {
+      "q": "If your speed keeps increasing on a downgrade despite engine compression and your retarding device, what should you do?",
+      "choices": [
+        "Shift to a higher gear to let the engine catch up",
+        "Apply the brakes hard enough to reduce speed by 10 to 15 km/h, then downshift to a lower main gear (don't use the splitter valve on a downhill)",
+        "Ride the brakes lightly all the way down the hill",
+        "Shift into neutral and use the service brakes only"
+      ],
+      "answerIndex": 1,
+      "explanation": "If speed increases above your chosen speed, apply the brakes hard enough to reduce speed by 10 to 15 km/h while the brakes are cold, downshift to a lower main gear without using the splitter valve, and repeat if needed — keeping the vehicle in gear all the way down.",
+      "topic": "Downgrades",
+      "page": 24
+    },
+    {
+      "q": "What should you do with the brakes when you must drive through a large amount of water on the roadway?",
+      "choices": [
+        "Pump the brakes rapidly while in the water",
+        "Avoid touching the brakes until you're through the water",
+        "Place a slight drag (slight constant pressure) on the brakes to reduce the amount of water entering the brake drums and shoes",
+        "Apply the parking brake lightly"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cover the brake pedal as you approach and place a slight drag on the brakes while driving through water — the slight drag reduces the amount of water entering the brake drums and shoes. Afterwards, dry the brakes with slight pedal pressure for a short distance.",
+      "topic": "Water on roadways",
+      "page": 25
+    },
+    {
+      "q": "ABS is mandatory in Canada on which vehicles?",
+      "choices": [
+        "All commercial vehicles regardless of age or weight",
+        "Only tractor units manufactured since 2010",
+        "Trucks and buses over 4,600 kg manufactured since 1995",
+        "All trucks and buses over 4,560 kg manufactured since April 1, 2000, and all commercial trailers equipped with air brakes"
+      ],
+      "answerIndex": 3,
+      "explanation": "ABS is mandatory in Canada on all trucks and buses over 4,560 kg manufactured since April 1, 2000 and on all commercial trailers equipped with air brakes.",
+      "topic": "ABS",
+      "page": 25
+    },
+    {
+      "q": "What is the correct emergency stopping technique with ABS?",
+      "choices": [
+        "Apply firm, hard continuous pressure to the brake pedal until the vehicle stops — don't pump the brakes",
+        "Pump the brakes to keep the system engaged",
+        "Apply light pressure and release when you feel the pedal shudder",
+        "Apply the trailer brakes first, then the tractor brakes"
+      ],
+      "answerIndex": 0,
+      "explanation": "With ABS, apply firm, hard continuous pressure until the vehicle stops; pumping the brakes turns the system on and off, and brake noise, pedal movement or shudder is normal.",
+      "topic": "ABS",
+      "page": 26
+    },
+    {
+      "q": "On slippery roads, what can happen if you apply brake pressure too forcefully or apply only the trailer brakes of a combination vehicle?",
+      "choices": [
+        "The brakes will automatically release to protect the system",
+        "The trailer will slow smoothly while the tractor keeps its speed",
+        "The wheels may lock up, which can result in a skid or jackknife",
+        "Nothing, because all the brakes apply at the same time and pressure"
+      ],
+      "answerIndex": 2,
+      "explanation": "Applying brake pressure too forcefully or only applying the trailer brakes on slippery roads may cause the wheels to lock up, which can result in a skid or jackknife — use extra caution when applying brakes in a curve.",
+      "topic": "Combination unit braking",
+      "page": 25
+    },
+    {
+      "q": "With Automatic Traction Control (ATC), what happens when a drive wheel begins to spin on a slippery surface?",
+      "choices": [
+        "All of the drive wheels are locked until traction returns",
+        "The trailer brakes are applied to straighten the combination",
+        "Engine power is increased to force the wheel to grip",
+        "The system applies that wheel's brake, transferring power to the opposite side — and in extremely slippery conditions it reduces engine power so the wheels can regain traction"
+      ],
+      "answerIndex": 3,
+      "explanation": "ATC uses the ABS wheel sensors to detect a spinning drive wheel; it applies that brake, transferring power to the opposite side, and in extremely slippery conditions reduces engine power to let the wheels regain traction.",
+      "topic": "ATC",
+      "page": 27
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "chapter": 11,
+  "title": "signs, signals and road markings",
+  "cards": [
+    {
+      "front": "What are the three ways to read a road sign?",
+      "back": "By its shape, its colour and the message printed on it. Understanding these three ways of classifying signs helps you figure out the meaning of signs that are new to you.",
+      "topic": "Reading signs"
+    },
+    {
+      "front": "What are regulatory signs, and what happens if you disregard one?",
+      "back": "Regulatory signs tell you about driving laws and regulations. It is an offence under the B.C. Motor Vehicle Act to disregard them, and drivers who don't follow their instructions may receive penalties. Examples include stop, yield, speed limit, do not enter, one way, keep right, no stopping and no-passing signs.",
+      "topic": "Regulatory signs"
+    },
+    {
+      "front": "What do a stop sign and a yield sign require you to do?",
+      "back": "Stop sign (a red octagon): stop completely and continue only when safe. Yield sign (a downward-pointing triangle): give the right-of-way to other vehicles and crossing pedestrians.",
+      "topic": "Regulatory signs"
+    },
+    {
+      "front": "What does a posted speed limit sign mean?",
+      "back": "It shows the maximum legal speed when the road is bare and dry and visibility is good. A separate sign can indicate that a lower speed limit is ahead.",
+      "topic": "Regulatory signs"
+    },
+    {
+      "front": "What colour are school zone signs, and when is a school zone speed tab in effect?",
+      "back": "School zone signs are fluorescent yellow-green. If the tab underneath only indicates the speed limit, that limit is in effect from 8 a.m. to 5 p.m. on school days. The tab may also state its own hours (for example, a 30 km/h limit in effect 8 a.m. to 5 p.m. on school days).",
+      "topic": "School and playground"
+    },
+    {
+      "front": "When is a playground zone speed limit in effect?",
+      "back": "A playground zone's 30 km/h limit is in effect every day from dawn to dusk. A separate 'playground nearby' warning sign means be prepared to slow down.",
+      "topic": "School and playground"
+    },
+    {
+      "front": "Where are lane use signs mounted, and what must you do in a designated lane?",
+      "back": "Lane use signs are mounted above the lane, or at the side of the lane before the intersection. If you're in a designated lane you must follow the direction indicated by the arrows, and you may not move into or out of a designated lane while you are in an intersection.",
+      "topic": "Lane use signs"
+    },
+    {
+      "front": "What is the difference between a lane use sign and a turn control sign?",
+      "back": "Lane use signs are mounted above or beside the lane before the intersection and show which lanes may be used to turn or go straight. Turn control signs are mounted directly above the intersection, and you must follow the direction of the arrow.",
+      "topic": "Turn control signs"
+    },
+    {
+      "front": "How are reserved lanes marked?",
+      "back": "A white diamond painted on the road surface marks reserved lanes, with thick solid or broken lines. Reserved lane signs are also placed over or beside lanes reserved for certain vehicles such as buses or high occupancy vehicles (HOVs); other HOV signs may state how many people must be in the vehicle.",
+      "topic": "Reserved lanes"
+    },
+    {
+      "front": "What shape and colour are most warning signs, and what are object markers?",
+      "back": "Most warning signs are yellow and diamond-shaped — they warn of possible hazards ahead (curves, steep hills, merging traffic, slippery road, etc.). Object markers are mounted on obstructions and tell you to keep right, keep left, or keep right or left.",
+      "topic": "Warning signs"
+    },
+    {
+      "front": "What do the three lane control signals mean?",
+      "back": "Green arrow: drive in this lane. Red X: do not drive in this lane. Yellow X: move out of this lane and into a lane with a green arrow — but if the lane control signals over all of the lanes are flashing yellow, slow down and proceed with caution.",
+      "topic": "Lane control signals"
+    },
+    {
+      "front": "What do flashing red, flashing yellow and flashing green traffic lights mean?",
+      "back": "Flashing red: stop, then continue only when it is safe. Flashing yellow: slow down and proceed with caution. Flashing green: a pedestrian-controlled light — go only if the intersection is clear.",
+      "topic": "Traffic lights"
+    },
+    {
+      "front": "What can you do at a steady red light? At a flashing green arrow with a steady red light?",
+      "back": "Steady red: stop — after coming to a full stop you may turn right, or turn left onto a one-way street, unless a sign forbids it. Flashing green arrow with steady red: a left turn is allowed, but through traffic must stop for the red light.",
+      "topic": "Traffic lights"
+    },
+    {
+      "front": "What do yellow lines and white lines on the road each separate?",
+      "back": "Yellow lines divide traffic moving in opposite directions — if there's a yellow line to your left, oncoming traffic is on the other side of it. White lines separate lanes of traffic moving in the same direction, and also mark crosswalks, stopping positions and the right shoulders of highways.",
+      "topic": "Road markings"
+    },
+    {
+      "front": "What do the different yellow line patterns allow?",
+      "back": "Broken line: passing is allowed when safe. Single yellow line: passing is allowed with extra caution. Broken line beside a solid line: you may pass only when it's safe and the broken line is on your side. Double solid line: no passing allowed. Double broken yellow line: the lane is reversible — a lane control signal shows whether you may use it.",
+      "topic": "Road markings"
+    },
+    {
+      "front": "What is a two-way left-turn lane and a painted island?",
+      "back": "A two-way left-turn lane is shared by drivers travelling in opposite directions for left turns (the markings may be reversed — solid lines inside the broken lines). A painted island must be kept to your right — do not drive on or over it.",
+      "topic": "Road markings"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Disregarding a regulatory sign, such as a stop or speed limit sign, is:",
+      "choices": [
+        "An offence under the B.C. Motor Vehicle Act that may bring penalties",
+        "Only a problem if a crash results",
+        "A matter left to each municipality's discretion",
+        "Legal for commercial vehicles with a permit"
+      ],
+      "answerIndex": 0,
+      "explanation": "Regulatory signs tell you about driving laws and regulations, and it is an offence under the B.C. Motor Vehicle Act to disregard them.",
+      "topic": "Regulatory signs",
+      "page": 238
+    },
+    {
+      "q": "A posted maximum speed limit sign applies when:",
+      "choices": [
+        "Traffic is light, regardless of weather",
+        "The road is bare and dry and visibility is good",
+        "You are driving downhill",
+        "It is raining or snowing"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speed limit sign shows the maximum legal speed when the road is bare and dry and visibility is good — in poorer conditions you should drive slower.",
+      "topic": "Regulatory signs",
+      "page": 238
+    },
+    {
+      "q": "An eight-sided red sign requires you to:",
+      "choices": [
+        "Slow down and yield to traffic on your left",
+        "Sound your horn before proceeding",
+        "Stop completely and continue only when safe",
+        "Stop only if other vehicles are approaching"
+      ],
+      "answerIndex": 2,
+      "explanation": "A stop sign means stop completely — continue only when safe. A yield sign, by contrast, means give the right-of-way to other vehicles and crossing pedestrians.",
+      "topic": "Regulatory signs",
+      "page": 238
+    },
+    {
+      "q": "A rectangular regulatory sign showing a snowflake and tire symbols means:",
+      "choices": [
+        "Slippery road ahead",
+        "Snow plows may be working ahead",
+        "Chains are never required on this route",
+        "Winter tires or chains must be used when the sign is displayed"
+      ],
+      "answerIndex": 3,
+      "explanation": "This regulatory sign means winter tires or chains must be used when the sign is displayed.",
+      "topic": "Regulatory signs",
+      "page": 238
+    },
+    {
+      "q": "School zone signs are what colour?",
+      "choices": [
+        "Fluorescent yellow-green",
+        "Orange",
+        "Blue and white",
+        "Red and white"
+      ],
+      "answerIndex": 0,
+      "explanation": "School zone signs (and the school crosswalk ahead warning sign) are fluorescent yellow-green.",
+      "topic": "School and playground",
+      "page": 237
+    },
+    {
+      "q": "A school zone sign has a tab underneath showing only a speed limit. When is that limit in effect?",
+      "choices": [
+        "24 hours a day, every day",
+        "From 8 a.m. to 5 p.m. on school days",
+        "From dawn to dusk every day",
+        "Only when children are visible"
+      ],
+      "answerIndex": 1,
+      "explanation": "If the tab under a school zone sign only indicates the speed limit, that limit is in effect from 8 a.m. to 5 p.m. on school days.",
+      "topic": "School and playground",
+      "page": 239
+    },
+    {
+      "q": "When is a playground zone's 30 km/h speed limit in effect?",
+      "choices": [
+        "From 8 a.m. to 5 p.m. on school days",
+        "Only on weekends and holidays",
+        "Every day from dawn to dusk",
+        "Only when the playground is occupied"
+      ],
+      "answerIndex": 2,
+      "explanation": "A playground zone's 30 km/h limit is in effect every day from dawn to dusk — unlike a school zone tab, which applies from 8 a.m. to 5 p.m. on school days.",
+      "topic": "School and playground",
+      "page": 239
+    },
+    {
+      "q": "You are driving in a lane marked by a lane use sign. While in the intersection, you may:",
+      "choices": [
+        "Move out of the designated lane if you signal first",
+        "Change lanes if no vehicle is beside you",
+        "Move into a designated lane to turn",
+        "Not move into or out of the designated lane"
+      ],
+      "answerIndex": 3,
+      "explanation": "If you're in a designated lane you must follow the direction indicated by the arrows, and you may not move into or out of a designated lane while you are in an intersection.",
+      "topic": "Lane use signs",
+      "page": 239
+    },
+    {
+      "q": "Where are turn control signs mounted?",
+      "choices": [
+        "Directly above the intersection",
+        "At the side of the road well before the intersection",
+        "On the far curb beyond the intersection",
+        "On the pavement surface"
+      ],
+      "answerIndex": 0,
+      "explanation": "Turn control signs are mounted directly above the intersection and you must follow the direction of the arrow. Lane use signs, by contrast, are mounted above or beside the lane before the intersection.",
+      "topic": "Turn control signs",
+      "page": 240
+    },
+    {
+      "q": "A lane reserved for certain vehicles such as buses or HOVs is marked on the road surface with:",
+      "choices": [
+        "A yellow zigzag line",
+        "A white diamond",
+        "A red square",
+        "Double solid white lines only"
+      ],
+      "answerIndex": 1,
+      "explanation": "A white diamond painted on the road surface marks reserved lanes; HOV lanes are marked with thick solid or broken lines and white diamond symbols, and signs state which vehicles may use the lane.",
+      "topic": "Reserved lanes",
+      "page": 240
+    },
+    {
+      "q": "Most warning signs, which alert you to possible hazards ahead, are:",
+      "choices": [
+        "Green and rectangular",
+        "Red and octagonal",
+        "Yellow and diamond-shaped",
+        "Blue and square"
+      ],
+      "answerIndex": 2,
+      "explanation": "Most warning signs are yellow and diamond-shaped. They warn of possible hazards ahead such as curves, merging traffic, steep hills and slippery roads.",
+      "topic": "Warning signs",
+      "page": 241
+    },
+    {
+      "q": "A yellow diamond-shaped sign showing a truck on a sloped ramp means:",
+      "choices": [
+        "Truck parking area ahead",
+        "Trucks must use the left lane",
+        "Weigh scale ahead",
+        "Steep hill ahead — slow down"
+      ],
+      "answerIndex": 3,
+      "explanation": "This warning sign means a steep hill is ahead and you should slow down — especially important for heavy commercial vehicles.",
+      "topic": "Warning signs",
+      "page": 241
+    },
+    {
+      "q": "Object markers with striped panels are mounted on:",
+      "choices": [
+        "Obstructions, showing you to keep right or left",
+        "School buses",
+        "Slow-moving vehicles",
+        "Railway crossing gates only"
+      ],
+      "answerIndex": 0,
+      "explanation": "Object markers are mounted on obstructions — pay special attention to them. Depending on the marker, keep right, keep left, or keep right or left.",
+      "topic": "Object markers",
+      "page": 242
+    },
+    {
+      "q": "In a construction zone you must:",
+      "choices": [
+        "Pass equipment closely so traffic keeps moving",
+        "Obey traffic-control persons, travel within the posted speed, stay well back from equipment and pass only when safe",
+        "Follow normal highway speed limits at all times",
+        "Ignore the signs when no workers are visible"
+      ],
+      "answerIndex": 1,
+      "explanation": "Construction signs warn of construction and maintenance work. You must obey traffic-control persons, travel within the posted speed, stay well back from all equipment and pass only when it is safe.",
+      "topic": "Construction signs",
+      "page": 243
+    },
+    {
+      "q": "At a railway crossing with a lowered gate, you must stay stopped until:",
+      "choices": [
+        "The train has passed the crossing",
+        "The lights stop flashing, even if the gate is still moving",
+        "The gate is fully raised",
+        "Ten seconds have passed"
+      ],
+      "answerIndex": 2,
+      "explanation": "At a railway crossing you must stay stopped until the gate is fully raised. Remember, you must always yield to trains.",
+      "topic": "Railway signs",
+      "page": 244
+    },
+    {
+      "q": "A yellow X lane control signal is displayed over your lane, and the signals over all lanes are flashing yellow. You should:",
+      "choices": [
+        "Stop immediately in your lane",
+        "Speed up to clear the lane",
+        "Treat it the same as a red X",
+        "Slow down and proceed with caution"
+      ],
+      "answerIndex": 3,
+      "explanation": "A yellow X means move into a lane with a green arrow — but when the lane control signals over all of the lanes are flashing yellow, slow down and proceed with caution. A red X means do not drive in that lane.",
+      "topic": "Lane control signals",
+      "page": 244
+    },
+    {
+      "q": "After coming to a full stop at a steady red light, you may:",
+      "choices": [
+        "Turn right, or turn left onto a one-way street, unless a sign forbids it",
+        "Proceed straight through if the intersection is clear",
+        "Turn left onto a two-way street",
+        "Not turn in any direction until the light turns green"
+      ],
+      "answerIndex": 0,
+      "explanation": "At a steady red light you must stop; after a full stop you may turn right or turn left onto a one-way street unless a sign forbids it.",
+      "topic": "Traffic lights",
+      "page": 245
+    },
+    {
+      "q": "What does a flashing green light at an intersection mean?",
+      "choices": [
+        "An advance left turn is coming",
+        "It is a pedestrian-controlled light — go only if the intersection is clear",
+        "The light is about to turn yellow",
+        "Buses only may proceed"
+      ],
+      "answerIndex": 1,
+      "explanation": "A flashing green light is a pedestrian-controlled light — go only if the intersection is clear. A flashing red means stop and continue only when safe; a flashing yellow means slow down and proceed with caution.",
+      "topic": "Traffic lights",
+      "page": 245
+    },
+    {
+      "q": "You face a flashing green arrow together with a steady red light. What is permitted?",
+      "choices": [
+        "All traffic may proceed with caution",
+        "Nothing — all traffic must remain stopped",
+        "A left turn is allowed; through traffic must stop for the red light",
+        "Right turns only"
+      ],
+      "answerIndex": 2,
+      "explanation": "A flashing green arrow with a steady red light allows the left turn shown by the arrow, while through traffic must stop for the red light.",
+      "topic": "Traffic lights",
+      "page": 245
+    },
+    {
+      "q": "A steady white rectangular light at an intersection signal means:",
+      "choices": [
+        "All vehicles may proceed straight through",
+        "The signal is out of order — treat as a four-way stop",
+        "Pedestrians only may cross",
+        "It is a transit priority signal — only buses may go on this signal"
+      ],
+      "answerIndex": 3,
+      "explanation": "The steady white rectangular light is a transit priority signal — only buses may go on this signal.",
+      "topic": "Traffic lights",
+      "page": 245
+    },
+    {
+      "q": "What colour are the lines that divide traffic moving in opposite directions?",
+      "choices": [
+        "Yellow",
+        "White",
+        "Orange",
+        "Red"
+      ],
+      "answerIndex": 0,
+      "explanation": "Yellow lines divide traffic moving in opposite directions — if there's a yellow line to your left, oncoming traffic is on the other side of it. White lines separate lanes moving in the same direction.",
+      "topic": "Road markings",
+      "page": 246
+    },
+    {
+      "q": "The centre of the road is marked with a broken yellow line beside a solid yellow line. You may pass:",
+      "choices": [
+        "Never, in either direction",
+        "Only when it is safe and the broken line is on your side",
+        "Whenever the solid line is on your side",
+        "Only between dawn and dusk"
+      ],
+      "answerIndex": 1,
+      "explanation": "With a broken line and a solid line, you may pass only when it is safe and the broken line is on your side. A double solid yellow line means no passing is allowed.",
+      "topic": "Road markings",
+      "page": 246
+    },
+    {
+      "q": "A lane marked on both sides by double broken yellow lines is:",
+      "choices": [
+        "A bus-only lane",
+        "A painted island — do not drive on it",
+        "A reversible lane — a lane control signal shows whether you may use it",
+        "A two-way left-turn lane"
+      ],
+      "answerIndex": 2,
+      "explanation": "A double broken yellow line marks a reversible lane; the lane control signal will show whether you may use the lane. A two-way left-turn lane is shared by opposite directions for left turns.",
+      "topic": "Road markings",
+      "page": 246
+    },
+    {
+      "q": "A solid white line between lanes of traffic travelling in the same direction means:",
+      "choices": [
+        "Lane changing is encouraged",
+        "The lane is reserved for HOVs",
+        "The lane ends ahead",
+        "Do not change lanes"
+      ],
+      "answerIndex": 3,
+      "explanation": "A solid white line means do not change lanes; a broken white line means lane changing is allowed when safe.",
+      "topic": "Road markings",
+      "page": 247
+    },
+    {
+      "q": "In a bicycle lane, marked with an outline of a bicycle, cyclists must:",
+      "choices": [
+        "Travel in the same direction as the traffic beside them",
+        "Ride facing oncoming traffic",
+        "Yield to vehicles entering the lane",
+        "Dismount at every intersection"
+      ],
+      "answerIndex": 0,
+      "explanation": "A bicycle lane is for cyclists only, and cyclists must travel in the same direction as the traffic beside them. The lane is marked with an outline of a bicycle and sometimes with a diamond.",
+      "topic": "Reserved lanes",
+      "page": 248
+    },
+    {
+      "q": "When you approach a painted island on the roadway, you must:",
+      "choices": [
+        "Drive over it only when turning left",
+        "Keep to the right and not drive on or over it",
+        "Stop before it and yield",
+        "Use it as a passing lane when clear"
+      ],
+      "answerIndex": 1,
+      "explanation": "Keep to the right of a painted island and do not drive on or over it. Also note it is illegal to drive over freshly painted, wet pavement markings.",
+      "topic": "Road markings",
+      "page": 248
+    }
+  ]
+}

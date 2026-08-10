@@ -1,0 +1,332 @@
+{
+  "chapter": 7,
+  "title": "hours of service requirements",
+  "cards": [
+    {
+      "front": "What is the National Safety Code (NSC)?",
+      "back": "The NSC sets out minimum safety standards for commercial vehicles, drivers and carriers operating in Canada. Carriers are responsible for ensuring their drivers and vehicles meet these standards. It applies if you drive a motor vehicle used to transport people or freight for any business purpose.",
+      "topic": "National Safety Code"
+    },
+    {
+      "front": "Which vehicles are included in the National Safety Code program?",
+      "back": "Commercial vehicles licensed with a GVW more than 5,000 kg; vehicles operating under the Passenger Transportation Act (taxis, buses, limousines); and commercial vehicles with a seating capacity of 10 or more passengers plus the driver.",
+      "topic": "National Safety Code"
+    },
+    {
+      "front": "Give examples of on-duty time other than driving.",
+      "back": "Inspecting, servicing, repairing or starting a commercial vehicle; loading/unloading; inspecting the load; waiting at a customs office, weigh scale or for a peace officer; waiting because of a crash; travelling as a co-driver not in the sleeper berth; and any other work for a carrier.",
+      "topic": "on-duty time"
+    },
+    {
+      "front": "What are the daily off-duty requirements?",
+      "back": "All drivers must take a minimum of 10 hours off duty every day. Off-duty time other than the mandatory eight consecutive hours may be spread through the day in blocks of 30 minutes or more, and must include at least two hours that are not part of the eight consecutive hours.",
+      "topic": "off-duty time"
+    },
+    {
+      "front": "What are the three daily limits (the three-point check)?",
+      "back": "Off duty at least 10 hours in a day; driving no more than 13 hours in a day; no driving after 14 hours on duty in a day.",
+      "topic": "daily limits"
+    },
+    {
+      "front": "What is a work shift, and what is the 16-hour rule?",
+      "back": "A work shift is the elapsed time between two off-duty periods of at least eight consecutive hours. You may not drive after 16 hours of elapsed time until you take at least eight consecutive hours off duty. Every off-duty period of eight consecutive hours or more resets the work shift.",
+      "topic": "work shift"
+    },
+    {
+      "front": "What are the two cycles for tracking on-duty hours?",
+      "back": "Cycle 1 — no driving after completing 70 on-duty hours in seven days. Cycle 2 — no driving after completing 120 hours in 14 days, and you must take at least 24 consecutive hours off duty prior to accumulating 70 hours of on-duty time.",
+      "topic": "cycles"
+    },
+    {
+      "front": "How do you reset a cycle?",
+      "back": "You can reset a cycle at any time by taking 36 consecutive hours off duty to reset Cycle 1, or 72 consecutive hours off duty to reset Cycle 2.",
+      "topic": "reset provision"
+    },
+    {
+      "front": "How can you defer off-duty time?",
+      "back": "You may reduce the 10-hour off-duty requirement by up to two hours, provided the two hours are not part of your eight consecutive off-duty hours, they are added to the eight consecutive off-duty hours taken the next day, and you clearly indicate deferral 'Day 1' and 'Day 2' on your RODS.",
+      "topic": "deferral"
+    },
+    {
+      "front": "How can drivers split off-duty time using a sleeper berth?",
+      "back": "Single drivers: two periods, neither less than two hours, totalling at least 10 hours. Team drivers: two periods, neither less than four hours, the two periods totalling at least eight hours, and total off-duty time at least 10 hours. A sleeper berth does not include a bus back seat or a reclining seat.",
+      "topic": "sleeper berth"
+    },
+    {
+      "front": "When is driving a commercial vehicle for personal use not on-duty time?",
+      "back": "When the vehicle is not used in the carrier's business, is unloaded, is not towing a trailer, is driven a maximum of 75 km a day for personal use, the odometer readings are recorded in your RODS, and you are not subject to an out-of-service declaration.",
+      "topic": "personal use"
+    },
+    {
+      "front": "When did Electronic Logging Devices (ELDs) become required, and how must they be installed?",
+      "back": "ELDs are required as of August 1st, 2023. The ELD must meet the Technical Standard, be mounted in a fixed position during operation and be visible to the driver in the normal driving position. A driver must not use more than one ELD at the same time for the same period.",
+      "topic": "ELDs"
+    },
+    {
+      "front": "What RODS must you keep in your possession, and when must you submit them?",
+      "back": "Keep RODS updated to your last change in duty status, copies for the present day and the previous 14 days (or previous 24 days under oilwell service vehicle hours), plus supporting records issued during the trip. Submit RODS and all supporting records to your carrier within 20 days.",
+      "topic": "RODS"
+    },
+    {
+      "front": "When are you exempt from keeping RODS and using an ELD (local driving)?",
+      "back": "If you operate within a 160 km radius of the home terminal (not using logging truck or oil well service vehicle hours), take 10 hours off-duty in a day, return to the home terminal daily to begin at least 10 consecutive hours off duty, and do not defer off-duty time. The carrier must keep daily time records for at least 6 months.",
+      "topic": "160 km exemption"
+    },
+    {
+      "front": "What are the hours-of-service limits north of the 60th parallel (Yukon, NWT, Nunavut)?",
+      "back": "You may drive a maximum of 15 hours and may not drive after 18 hours of on-duty time; then you must take at least eight consecutive hours off duty. Cycle 1 is 80 on-duty hours in seven days; Cycle 2 is 120 hours in 14 days with 24 consecutive hours off before accumulating 80 on-duty hours.",
+      "topic": "north of 60"
+    },
+    {
+      "front": "What are the main U.S. hours-of-service rules for Canadian drivers?",
+      "back": "You may drive 11 hours after 10 hours of off-duty time; no driving beyond the 14th hour after coming on duty following 10 hours off; maximum 60 on-duty hours in seven days or 70 in eight days; the cycle may restart after at least 34 consecutive hours off duty. You must also join your employer's drug and alcohol testing program.",
+      "topic": "driving into the U.S."
+    }
+  ],
+  "questions": [
+    {
+      "q": "The National Safety Code program includes commercial vehicles licensed with a GVW of more than how much?",
+      "choices": ["4,500 kg", "5,000 kg", "8,200 kg", "11,794 kg"],
+      "answerIndex": 1,
+      "explanation": "The NSC program includes commercial vehicles licensed with a GVW more than 5,000 kg, vehicles under the Passenger Transportation Act, and vehicles seating 10 or more passengers plus the driver.",
+      "topic": "National Safety Code",
+      "page": 133
+    },
+    {
+      "q": "Which of the following is considered on-duty time?",
+      "choices": [
+        "Time spent resting in a sleeper berth",
+        "Time spent on a ferry when you are not working",
+        "An off-duty meal break",
+        "Waiting for your vehicle or load to be checked at a weigh scale"
+      ],
+      "answerIndex": 3,
+      "explanation": "Waiting for the vehicle or load to be checked at a customs office, weigh scale or by a peace officer is on-duty time; sleeper berth time is off-duty, and ferry time is not on-duty unless you are working.",
+      "topic": "on-duty time",
+      "page": 134
+    },
+    {
+      "q": "What is the maximum number of hours you are allowed to drive in a day?",
+      "choices": ["12 hours", "13 hours", "14 hours", "16 hours"],
+      "answerIndex": 1,
+      "explanation": "You are allowed to drive a maximum of 13 hours in a day.",
+      "topic": "daily limits",
+      "page": 134
+    },
+    {
+      "q": "In a day, you are not allowed to drive after how many hours on duty?",
+      "choices": ["12 hours", "13 hours", "14 hours", "15 hours"],
+      "answerIndex": 2,
+      "explanation": "You are not allowed to drive after 14 hours on duty in a day — and you can put in 14 hours of on-duty time without doing any driving at all.",
+      "topic": "daily limits",
+      "page": 134
+    },
+    {
+      "q": "What is the minimum amount of off-duty time all drivers must take every day?",
+      "choices": ["Six hours", "Eight hours", "Nine hours", "10 hours"],
+      "answerIndex": 3,
+      "explanation": "All drivers must take a minimum of 10 hours off duty every day.",
+      "topic": "off-duty time",
+      "page": 134
+    },
+    {
+      "q": "In a work shift, you are not permitted to drive after how many hours of elapsed time?",
+      "choices": ["13 hours", "14 hours", "15 hours", "16 hours"],
+      "answerIndex": 3,
+      "explanation": "You may not drive after 16 hours of elapsed time until you take at least eight consecutive hours of off-duty time, which resets the work shift.",
+      "topic": "work shift",
+      "page": 135
+    },
+    {
+      "q": "A work shift is the elapsed time between two off-duty periods of at least how many consecutive hours?",
+      "choices": ["Eight consecutive hours", "Six consecutive hours", "10 consecutive hours", "12 consecutive hours"],
+      "answerIndex": 0,
+      "explanation": "A work shift is the elapsed time between two off-duty periods of at least eight consecutive hours; every off-duty period of eight consecutive hours or more resets the work shift.",
+      "topic": "work shift",
+      "page": 135
+    },
+    {
+      "q": "Under Cycle 1, drivers must not drive after completing how many on-duty hours?",
+      "choices": ["60 hours in seven days", "70 hours in seven days", "80 hours in seven days", "120 hours in seven days"],
+      "answerIndex": 1,
+      "explanation": "Drivers on Cycle 1 must not drive after completing 70 on-duty hours in seven days.",
+      "topic": "cycles",
+      "page": 135
+    },
+    {
+      "q": "Under Cycle 2, drivers must not drive after completing how many hours?",
+      "choices": ["70 hours in 14 days", "100 hours in 14 days", "120 hours in 14 days", "140 hours in 14 days"],
+      "answerIndex": 2,
+      "explanation": "Drivers on Cycle 2 must not drive after completing 120 hours in 14 days.",
+      "topic": "cycles",
+      "page": 136
+    },
+    {
+      "q": "When operating in Cycle 2, when must you take 24 consecutive hours of off-duty time?",
+      "choices": [
+        "Prior to accumulating 70 hours of on-duty time",
+        "Prior to accumulating 80 hours of on-duty time",
+        "Prior to accumulating 100 hours of on-duty time",
+        "Prior to accumulating 120 hours of on-duty time"
+      ],
+      "answerIndex": 0,
+      "explanation": "On Cycle 2 you must take at least 24 consecutive hours off duty prior to accumulating 70 hours of on-duty time.",
+      "topic": "cycles",
+      "page": 136
+    },
+    {
+      "q": "How many consecutive hours off duty are required to reset Cycle 1?",
+      "choices": ["24 hours", "36 hours", "48 hours", "72 hours"],
+      "answerIndex": 1,
+      "explanation": "You can reset Cycle 1 at any time by taking 36 consecutive hours off duty.",
+      "topic": "reset provision",
+      "page": 136
+    },
+    {
+      "q": "How many consecutive hours off duty are required to reset Cycle 2?",
+      "choices": ["36 hours", "48 hours", "72 hours", "96 hours"],
+      "answerIndex": 2,
+      "explanation": "You can reset Cycle 2 at any time by taking 72 consecutive hours off duty.",
+      "topic": "reset provision",
+      "page": 136
+    },
+    {
+      "q": "By how much may you reduce your 10-hour daily off-duty requirement by deferring off-duty time?",
+      "choices": ["Up to two hours", "Up to three hours", "Up to four hours", "Up to one hour"],
+      "answerIndex": 0,
+      "explanation": "You may reduce the 10-hour off-duty requirement by up to two hours, provided the hours are added to the next day's eight consecutive off-duty hours and Day 1/Day 2 are indicated on your RODS.",
+      "topic": "deferral",
+      "page": 136
+    },
+    {
+      "q": "Regardless of cycle, how often must a driver take 24 consecutive hours of off-duty time?",
+      "choices": ["Every 7 days", "Every 10 days", "Every 21 days", "Every 14 days"],
+      "answerIndex": 3,
+      "explanation": "All drivers must take 24 consecutive hours off duty every 14 days.",
+      "topic": "off-duty time",
+      "page": 134
+    },
+    {
+      "q": "Can you record pulling off the road and napping in a reclining seat as sleeper berth time?",
+      "choices": [
+        "Yes, if the nap lasts at least two hours",
+        "Yes, but only for team drivers",
+        "No — a sleeper berth does not include a reclining seat or the back seat of a bus",
+        "Yes, if the engine is turned off"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sleeper berth does not include the back seat of a bus or a reclining seat, so time spent there cannot be recorded as sleeper berth time.",
+      "topic": "sleeper berth",
+      "page": 136
+    },
+    {
+      "q": "A single driver using a sleeper berth may split the required off-duty time into two periods if neither period is less than how long, and the total is at least 10 hours?",
+      "choices": ["30 minutes", "One hour", "90 minutes", "Two hours"],
+      "answerIndex": 3,
+      "explanation": "Single drivers may split off-duty time into two periods if neither period is less than two hours and the total off-duty time is at least 10 hours.",
+      "topic": "sleeper berth",
+      "page": 137
+    },
+    {
+      "q": "For team drivers splitting off-duty time using a sleeper berth, neither period may be less than how long?",
+      "choices": ["Four hours", "Two hours", "Six hours", "Eight hours"],
+      "answerIndex": 0,
+      "explanation": "Team drivers may split their off-duty time into two periods if neither is less than four hours, the two periods total at least eight hours, and total off-duty time is at least 10 hours.",
+      "topic": "sleeper berth",
+      "page": 137
+    },
+    {
+      "q": "Under the personal use exemption, a commercial vehicle may be driven a maximum of how far per day for personal use?",
+      "choices": ["50 km", "75 km", "100 km", "160 km"],
+      "answerIndex": 1,
+      "explanation": "Personal use is not on-duty time if, among other conditions, the vehicle is driven a maximum of 75 km a day, is unloaded, is not towing a trailer, and odometer readings are recorded in your RODS.",
+      "topic": "personal use",
+      "page": 138
+    },
+    {
+      "q": "As of what date are Electronic Logging Devices (ELDs) required?",
+      "choices": ["January 1, 2020", "April 11, 2019", "August 1, 2023", "January 1, 2024"],
+      "answerIndex": 2,
+      "explanation": "ELDs are required as of August 1st, 2023. (April 11, 2019 is the date of the Technical Standard an ELD must comply with to be certified.)",
+      "topic": "ELDs",
+      "page": 138
+    },
+    {
+      "q": "If an ELD malfunctions, the carrier must normally repair or replace it within how many days of being informed?",
+      "choices": ["Seven days", "14 days", "20 days", "30 days"],
+      "answerIndex": 1,
+      "explanation": "The carrier must repair or replace a malfunctioning ELD within 14 days of being informed, or at the end of the driver's planned trip if it takes longer; the driver may use an alternate form of RODS meanwhile.",
+      "topic": "ELDs",
+      "page": 139
+    },
+    {
+      "q": "You must submit your RODS and all supporting records to your carrier within how many days?",
+      "choices": ["10 days", "14 days", "20 days", "30 days"],
+      "answerIndex": 2,
+      "explanation": "You must submit your RODS and all supporting records to your carrier within 20 days.",
+      "topic": "RODS",
+      "page": 140
+    },
+    {
+      "q": "In addition to the present day, you must keep copies of your RODS in your possession for how many previous days (under normal hours)?",
+      "choices": ["14 days", "20 days", "24 days", "30 days"],
+      "answerIndex": 0,
+      "explanation": "You must keep copies of your RODS for the present day and the previous 14 days — or the previous 24 days when operating under oilwell service vehicle hours.",
+      "topic": "RODS",
+      "page": 140
+    },
+    {
+      "q": "What can happen if a peace officer stops you after you have driven beyond the maximum on-duty hours for your cycle?",
+      "choices": [
+        "Your vehicle is impounded immediately",
+        "Your licence is automatically cancelled",
+        "Nothing, as long as you finish the trip",
+        "You can be ordered out of service — only you, not the vehicle"
+      ],
+      "answerIndex": 3,
+      "explanation": "A peace officer can order you out of service if you drive after reaching the maximum on-duty hours permitted for your cycle. Only the driver is out of service, not the vehicle.",
+      "topic": "enforcement",
+      "page": 140
+    },
+    {
+      "q": "You may be exempt from keeping RODS and using an ELD if you operate within what radius of your home terminal (and meet the other conditions)?",
+      "choices": ["160 km", "100 km", "75 km", "200 km"],
+      "answerIndex": 0,
+      "explanation": "Drivers operating within a 160 km radius of the home terminal are exempt if they take 10 hours off duty in a day, return to the home terminal daily for at least 10 consecutive hours off, and do not defer off-duty time.",
+      "topic": "160 km exemption",
+      "page": 142
+    },
+    {
+      "q": "Under the 160 km local-driving exemption, the carrier must keep the daily time records and supporting records for a minimum of how long?",
+      "choices": ["6 months", "3 months", "12 months", "24 months"],
+      "answerIndex": 0,
+      "explanation": "The carrier's local time records — report time, release time, total on-duty hours and the cycle followed — must be kept along with supporting records for a minimum of 6 months.",
+      "topic": "160 km exemption",
+      "page": 142
+    },
+    {
+      "q": "When operating north of the 60th parallel (Yukon, NWT or Nunavut), what is the maximum you may drive?",
+      "choices": ["13 hours", "14 hours", "15 hours", "18 hours"],
+      "answerIndex": 2,
+      "explanation": "North of the 60th parallel you may drive a maximum of 15 hours and may not drive after 18 hours of on-duty time; then at least eight consecutive hours off duty are required.",
+      "topic": "north of 60",
+      "page": 142
+    },
+    {
+      "q": "When driving in the U.S., how many hours may you drive after 10 hours of off-duty time?",
+      "choices": ["10 hours", "11 hours", "13 hours", "14 hours"],
+      "answerIndex": 1,
+      "explanation": "In the U.S. you may drive for 11 hours after 10 hours of off-duty time, and you may not drive beyond the 14th hour after coming on duty.",
+      "topic": "driving into the U.S.",
+      "page": 143
+    },
+    {
+      "q": "In the U.S., the on-duty cycle may be restarted after taking at least how many consecutive hours off duty?",
+      "choices": ["24 hours", "30 hours", "34 hours", "36 hours"],
+      "answerIndex": 2,
+      "explanation": "In the U.S., the on-duty cycle (60 hours in seven days or 70 hours in eight days) may be restarted after at least 34 consecutive hours off duty.",
+      "topic": "driving into the U.S.",
+      "page": 143
+    }
+  ]
+}

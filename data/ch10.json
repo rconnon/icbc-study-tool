@@ -1,0 +1,674 @@
+{
+  "chapter": 10,
+  "title": "vehicle and air brake pre-trip inspections",
+  "cards": [
+    {
+      "front": "Who is responsible for ensuring a commercial vehicle is safe before it's driven each day?",
+      "back": "You, the driver, are responsible for ensuring your vehicle is safe every time you drive it. Either you or another person specified by the carrier must do the daily inspections, but both the driver and the carrier share the responsibility to ensure the inspections are done properly.",
+      "topic": "Driver responsibility"
+    },
+    {
+      "front": "Under the National Safety Code (NSC), when must commercial vehicles be inspected?",
+      "back": "All commercial vehicles that fall under the NSC must be inspected before they're used each day (pre-trip inspection) and at the end of the final trip of each day (post-trip inspection). These inspections are required under the Motor Vehicle Act Regulations.",
+      "topic": "NSC inspection requirements"
+    },
+    {
+      "front": "Which vehicles require daily written trip inspection reports?",
+      "back": "1) A bus, school bus, special activity bus, special vehicle or limousine with a seating capacity of more than 10 including the driver; 2) a two-axle truck or truck-tractor with a licensed GVW greater than 14,600 kg; 3) a truck or truck-tractor towing a trailer that has a licensed GVW greater than 8,200 kg.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "How often must you re-inspect the cargo securement system during a trip?",
+      "back": "Within 80 km from the point where the cargo was loaded, and then on a regular basis at the earliest of: a change in your duty status, three hours of driving, or 240 km of driving since the last inspection. Record cargo securement inspections on your daily log. You don't need to inspect cargo that is sealed and you've been ordered not to inspect, or cargo that is inaccessible.",
+      "topic": "Cargo securement"
+    },
+    {
+      "front": "What must every written trip inspection report include?",
+      "back": "The licence plate or unit numbers of the vehicle and/or trailers; all defects that may affect safe operation (or a statement that no defect was discovered); the date; and the signature of the person making the report. It must be completed prior to the first trip of the day.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "On a trip lasting more than one day, when must new trip inspection reports be completed?",
+      "back": "No later than the first rest stop of every subsequent day of the trip.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "What must you do if you couple to another trailer during the day?",
+      "back": "You must obtain and carry the trip inspection report completed for that trailer that day. If a trip inspection report for that trailer hasn't been done, you must complete one.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "When more than one driver shares a vehicle, who signs the trip inspection report?",
+      "back": "Only one driver is required to sign, provided there's no disagreement — all drivers must agree about which defects are reported and how. If there's a disagreement over the defects to be reported, all drivers must sign and indicate the nature of the disagreement.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "How soon must trip inspection reports be given to the carrier?",
+      "back": "All trip inspection reports must be given to the carrier within 20 days.",
+      "topic": "Written report requirements"
+    },
+    {
+      "front": "What tools should you use to conduct a pre-trip inspection?",
+      "back": "A flashlight to inspect components; a tire pressure gauge; chalk or other marker and a ruler or measuring device to check pushrod free stroke; a tool to pry on the air brake chamber pushrod; a wrench to adjust air brakes; and a watch or timing device to check air brake leakage and buildup time. Wear sturdy clothing, a hard hat and eye protection.",
+      "topic": "Pre-trip preparation"
+    },
+    {
+      "front": "What is a good order to follow for a full pre-trip inspection?",
+      "back": "1) Under hood; 2) in cab; 3) air brake system test; 4) circle check for lights; 5) mechanical circle check; 6) brake response, tug and steering wheel slack tests (pull ahead slowly to check brake and steering response). You may inspect in any order, but use the same order every time to avoid missing items.",
+      "topic": "Inspection structure"
+    },
+    {
+      "front": "Before beginning a pre-trip inspection, what should you do, and which direction should you walk during the circle check?",
+      "back": "Park in a safe location away from traffic, on level ground if possible; set the parking brakes; shut off the engine; and on a large commercial vehicle block the wheels (a block in front of and behind a tire on the same axle). Walk counter-clockwise during the circle check so you're facing oncoming traffic.",
+      "topic": "Pre-trip preparation"
+    },
+    {
+      "front": "At what pressure should the compressor stop pumping (governor cut-out)?",
+      "back": "Between 105 and 135 p.s.i. (724 and 931 kPa).",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "How do you confirm governor cut-in pressure, and what is the minimum allowed?",
+      "back": "Pump the brake pedal down to approximately 80 per cent of maximum pressure (for example, if maximum is 125 p.s.i., pump down to 100 p.s.i.) and check that air pressure begins to build. In all cases, the governor must cause the compressor to cut in before pressure falls below 80 p.s.i. (552 kPa).",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "At what pressure must the low-air warning device(s) activate?",
+      "back": "At or above 60 p.s.i. (414 kPa).",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "At what pressure should the trailer air supply valve close?",
+      "back": "When the highest reservoir pressure gauge reads between 20 to 45 p.s.i. (138 to 310 kPa). The parking brake control valve may — or may not — also close. Then check that the trailer brakes have applied.",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "How quickly must air reservoir pressure build during the buildup test?",
+      "back": "Air pressure must build from 50 to 90 p.s.i. (345 to 620 kPa) within three minutes at a fast idle (1,000 to 1,200 r.p.m.), regardless of the type of system.",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "What are the maximum allowed air-loss rates during a full brake application (90 to 100 p.s.i., held one minute)?",
+      "back": "After the initial pressure drop: not more than 3 p.s.i. (20.7 kPa) per minute for a single-unit truck; not more than 4 p.s.i. (27.6 kPa) per minute for a tractor-trailer; not more than 6 p.s.i. (41.4 kPa) per minute with two trailers. There should also be no audible air leaks. Check that air pressure is at least 100 p.s.i. (690 kPa) before the test.",
+      "topic": "Air brake system test"
+    },
+    {
+      "front": "At what brake lining thickness may a peace officer place your vehicle out of service?",
+      "back": "If drum brake linings are less than 1/4 inch (6.4 mm) thick or air disc brake pads are less than 1/8 inch (3.2 mm) thick.",
+      "topic": "Foundation brakes"
+    },
+    {
+      "front": "How long should each class of pre-trip inspection take?",
+      "back": "Class 1 tractor-trailer: less than 45 minutes. Class 3 single-unit truck: less than 30 minutes. Class 2 bus: less than 30 minutes. Class 4 unrestricted bus: less than 20 minutes. Class 4 restricted passenger vehicle (taxi): less than 15 minutes.",
+      "topic": "Inspection classes"
+    },
+    {
+      "front": "What does the Class 4 (restricted) passenger-vehicle pre-trip inspection cover?",
+      "back": "1) Under hood (leaks, fluids including brake fluid, belts, hoses, battery, engine compartment); 2) in passenger compartment (seats/seatbelts, mirrors, windows, documentation, instrument panel, wipers/washers, heater/defroster, interior lights, four-way flashers, horn, engine noises); 3) circle check for lights, doors, exhaust, fuel cap, body, tires/wheels, licence plate and trunk (spare tire, jack, propane tank if present); 4) brake response tests including a gentle tug against the parking brake. There is no air brake system test.",
+      "topic": "Class 4 restricted inspection"
+    },
+    {
+      "front": "What must you check at a pre-hill brake check (air brake vehicle)?",
+      "back": "That the compressor maintains full reservoir pressure; there are no audible air leaks; glad hands and air lines are secure; brake drums and hubs are not overheated; and pushrod travel is within limits. You must check pushrod travel even if the vehicle has automatic slack adjusters. Also check load security. You may be fined for failing to stop for a pre-hill brake inspection.",
+      "topic": "Pre-hill inspections"
+    },
+    {
+      "front": "How do you stay aware of the braking system's condition while in service (driving)?",
+      "back": "1) Check the air pressure gauges frequently; 2) check the dashboard to see if the low-air warning indicator is on; 3) feel the braking response when you make a brake application.",
+      "topic": "In-service brake checks"
+    },
+    {
+      "front": "What are the post-trip inspection and lights/reflectors requirements?",
+      "back": "At the end of the final trip of the day you must inspect the vehicle and complete a trip inspection report noting any defects; it may be added to the pre-trip report completed for the same vehicle that day. Examine lights and reflectors every time you inspect your vehicle — check proper colour, operation, mounting and visibility. Commercial trailers 2.05 m or more in overall width must have reflective markings to the rear and sides.",
+      "topic": "Post-trip and lights"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Under the National Safety Code, when must a commercial vehicle be inspected?",
+      "choices": [
+        "Before it's used each day and at the end of the final trip of each day",
+        "Once a week and after any repair",
+        "Only before trips longer than 160 km",
+        "Every 5,000 km or once a month, whichever comes first"
+      ],
+      "answerIndex": 0,
+      "explanation": "All commercial vehicles under the NSC must have a pre-trip inspection before use each day and a post-trip inspection at the end of the final trip of the day, as required under the Motor Vehicle Act Regulations.",
+      "topic": "NSC inspection requirements",
+      "page": 200
+    },
+    {
+      "q": "Who may perform the required daily trip inspections, and who is responsible for ensuring they're done properly?",
+      "choices": [
+        "Only a licensed mechanic; the carrier alone is responsible",
+        "Either the driver or another person specified by the carrier; the driver and carrier share responsibility",
+        "Only the driver; the driver alone is responsible",
+        "Only a government inspector at a weigh scale"
+      ],
+      "answerIndex": 1,
+      "explanation": "Either you or another person specified by the carrier must do the inspections, and both the driver and the carrier share the responsibility to ensure they're done properly.",
+      "topic": "Driver responsibility",
+      "page": 200
+    },
+    {
+      "q": "A two-axle truck requires a daily written inspection report when its licensed GVW is greater than:",
+      "choices": [
+        "5,500 kg",
+        "8,200 kg",
+        "11,000 kg",
+        "14,600 kg"
+      ],
+      "answerIndex": 3,
+      "explanation": "Daily written inspection reports are required for a two-axle truck or truck-tractor with a licensed GVW greater than 14,600 kg.",
+      "topic": "Written report requirements",
+      "page": 200
+    },
+    {
+      "q": "A truck towing a trailer requires a daily written inspection report when the trailer's licensed GVW is greater than:",
+      "choices": [
+        "4,600 kg",
+        "8,200 kg",
+        "10,000 kg",
+        "14,600 kg"
+      ],
+      "answerIndex": 1,
+      "explanation": "A truck or truck-tractor towing a trailer with a licensed GVW greater than 8,200 kg requires daily written inspection reports.",
+      "topic": "Written report requirements",
+      "page": 200
+    },
+    {
+      "q": "A bus or limousine requires daily written inspection reports when its seating capacity is:",
+      "choices": [
+        "More than 10 including the driver",
+        "More than 15 excluding the driver",
+        "More than 24 including the driver",
+        "Any seating capacity — all buses require them"
+      ],
+      "answerIndex": 0,
+      "explanation": "A bus, school bus, special activity bus, special vehicle or limousine with a seating capacity of more than 10 including the driver requires daily written inspection reports.",
+      "topic": "Written report requirements",
+      "page": 200
+    },
+    {
+      "q": "Under the NSC, you must re-inspect the cargo securement system within what distance from the point where the cargo was loaded?",
+      "choices": [
+        "40 km",
+        "160 km",
+        "80 km",
+        "240 km"
+      ],
+      "answerIndex": 2,
+      "explanation": "The NSC requires you to re-inspect the cargo securement system within 80 km from the point where the cargo was loaded.",
+      "topic": "Cargo securement",
+      "page": 200
+    },
+    {
+      "q": "After the first cargo securement re-inspection, how often must you re-inspect cargo during the trip?",
+      "choices": [
+        "Only at the end of the day's trip",
+        "At the earliest of a change in duty status, three hours of driving, or 240 km of driving",
+        "At the latest of five hours of driving or 400 km",
+        "Every hour or 80 km, whichever comes first"
+      ],
+      "answerIndex": 1,
+      "explanation": "You must re-inspect cargo securement on a regular basis at the earliest of: a change in your duty status, three hours of driving, or 240 km of driving since the last inspection, and record it on your daily log.",
+      "topic": "Cargo securement",
+      "page": 200
+    },
+    {
+      "q": "When are you NOT required to inspect the cargo during a trip?",
+      "choices": [
+        "When the trip is shorter than 100 km",
+        "When another driver loaded the cargo",
+        "When the cargo weighs less than 500 kg",
+        "When the cargo is sealed and you've been ordered not to inspect it, or it's inaccessible"
+      ],
+      "answerIndex": 3,
+      "explanation": "You don't need to inspect cargo if it's sealed and you've been ordered not to inspect it, or if the cargo is inaccessible.",
+      "topic": "Cargo securement",
+      "page": 200
+    },
+    {
+      "q": "When must the daily written trip inspection report be completed?",
+      "choices": [
+        "Within one hour of starting to drive",
+        "By the end of the first trip of the day",
+        "Prior to the first trip of the day",
+        "At the first weigh scale of the day"
+      ],
+      "answerIndex": 2,
+      "explanation": "Every written trip inspection report must be completed prior to the first trip of the day, and must include plate or unit numbers, defects (or that none were found), the date and a signature.",
+      "topic": "Written report requirements",
+      "page": 201
+    },
+    {
+      "q": "If a trip lasts more than one day, when must new inspection reports be completed?",
+      "choices": [
+        "No later than the first rest stop of every subsequent day of the trip",
+        "Only when the vehicle crosses a provincial border",
+        "Every 24 hours from the time of the original report",
+        "Only if a defect develops"
+      ],
+      "answerIndex": 0,
+      "explanation": "On trips lasting more than one day, new inspection reports must be completed no later than the first rest stop of every subsequent day of the trip.",
+      "topic": "Written report requirements",
+      "page": 201
+    },
+    {
+      "q": "Two drivers sharing a vehicle disagree about which defects should be reported. What must happen on the trip inspection report?",
+      "choices": [
+        "The senior driver's opinion prevails and only they sign",
+        "The carrier decides and signs on behalf of both drivers",
+        "Neither driver signs until a mechanic resolves the disagreement",
+        "All drivers must sign and indicate the nature of the disagreement"
+      ],
+      "answerIndex": 3,
+      "explanation": "Normally only one driver needs to sign if all agree, but if there's a disagreement over the defects to be reported, all drivers must sign and indicate the nature of the disagreement.",
+      "topic": "Written report requirements",
+      "page": 201
+    },
+    {
+      "q": "Within how many days must trip inspection reports be given to the carrier?",
+      "choices": [
+        "7 days",
+        "20 days",
+        "30 days",
+        "90 days"
+      ],
+      "answerIndex": 1,
+      "explanation": "All trip inspection reports must be given to the carrier within 20 days.",
+      "topic": "Written report requirements",
+      "page": 201
+    },
+    {
+      "q": "You couple to another trailer during the day and no trip inspection report has been done for it that day. What must you do?",
+      "choices": [
+        "Note the missing report on your own vehicle's report and proceed",
+        "Proceed, as trailers only need weekly inspections",
+        "Complete a trip inspection report for that trailer",
+        "Refuse to tow the trailer until the carrier inspects it"
+      ],
+      "answerIndex": 2,
+      "explanation": "You must obtain and carry the trip inspection report completed for that trailer that day; if one hasn't been done, you must complete one.",
+      "topic": "Written report requirements",
+      "page": 201
+    },
+    {
+      "q": "On your road-test trip inspection report, how must you record a defect that was repaired during the pre-trip inspection?",
+      "choices": [
+        "Note the defect and include a signature certifying the defect was corrected",
+        "Leave it off the report since it's been fixed",
+        "Note it only in the remarks section without a signature",
+        "Report it verbally to the driver examiner instead"
+      ],
+      "answerIndex": 0,
+      "explanation": "If a defect was identified and repaired during your pre-trip inspection, your report must note the defect and show a signature certifying the defect was corrected. Defects that don't affect safe operation must still be recorded, noting that immediate repair isn't required.",
+      "topic": "Road test report",
+      "page": 202
+    },
+    {
+      "q": "In which direction should you walk when doing a circle check, and why?",
+      "choices": [
+        "Clockwise, so you finish at the driver's door",
+        "Counter-clockwise, so you're facing oncoming traffic",
+        "Either direction, as long as you alternate each day",
+        "Clockwise, so you check the curb side first"
+      ],
+      "answerIndex": 1,
+      "explanation": "Walk counter-clockwise when you do the circle check so you're facing oncoming traffic, and be particularly cautious when your back is to traffic.",
+      "topic": "Circle check",
+      "page": 203
+    },
+    {
+      "q": "Before beginning a pre-trip inspection on a large commercial vehicle, you should:",
+      "choices": [
+        "Leave the engine idling so air pressure stays up",
+        "Park on a slope so leaks are easier to spot",
+        "Set the parking brakes, shut off the engine and block the wheels",
+        "Release all brakes so you can check slack adjusters"
+      ],
+      "answerIndex": 2,
+      "explanation": "Park in a safe location away from traffic (level ground if possible), set the parking brakes, shut off the engine, and block the wheels securely with a block in front of and behind a tire on the same axle.",
+      "topic": "Pre-trip preparation",
+      "page": 203
+    },
+    {
+      "q": "In what time should you be able to complete a Class 1 tractor-trailer pre-trip inspection?",
+      "choices": [
+        "Less than 20 minutes",
+        "Less than 30 minutes",
+        "Less than 60 minutes",
+        "Less than 45 minutes"
+      ],
+      "answerIndex": 3,
+      "explanation": "You should be able to complete the Class 1 tractor-trailer combination pre-trip inspection in less than 45 minutes. The Class 3 and Class 2 inspections should take less than 30 minutes.",
+      "topic": "Inspection classes",
+      "page": 204
+    },
+    {
+      "q": "During your road test, which air reservoir are you required to drain?",
+      "choices": [
+        "The primary reservoir",
+        "The supply reservoir",
+        "The secondary reservoir",
+        "All reservoirs must be drained during the test"
+      ],
+      "answerIndex": 1,
+      "explanation": "For your road test you're only required to drain the supply reservoir, although all reservoirs should be drained daily.",
+      "topic": "Under hood",
+      "page": 205
+    },
+    {
+      "q": "After draining only the supply reservoir, other reservoirs have also lost pressure. What may this indicate?",
+      "choices": [
+        "A one-way check valve is not functioning",
+        "The governor cut-out pressure is set too high",
+        "Normal operation — reservoirs share air equally",
+        "The low-air warning device is defective"
+      ],
+      "answerIndex": 0,
+      "explanation": "Check the gauges to confirm that only the supply reservoir air was drained; if other reservoirs have lost pressure, this may indicate that a one-way check valve is not functioning.",
+      "topic": "Air brake system test",
+      "page": 207
+    },
+    {
+      "q": "The compressor should stop pumping (governor cut-out) when air pressure is between:",
+      "choices": [
+        "85 and 95 p.s.i.",
+        "90 and 100 p.s.i.",
+        "105 and 135 p.s.i.",
+        "125 and 150 p.s.i."
+      ],
+      "answerIndex": 2,
+      "explanation": "Check that the compressor stops pumping between 105 and 135 p.s.i. (724 and 931 kPa).",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "In all cases, the governor must cause the compressor to cut in before air pressure falls below:",
+      "choices": [
+        "60 p.s.i. (414 kPa)",
+        "100 p.s.i. (690 kPa)",
+        "50 p.s.i. (345 kPa)",
+        "80 p.s.i. (552 kPa)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Pump down to about 80 per cent of maximum pressure and check that pressure begins to build; the governor must cause the compressor to cut in before pressure falls below 80 p.s.i. (552 kPa).",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "The low-air warning device(s) must activate at or above:",
+      "choices": [
+        "60 p.s.i. (414 kPa)",
+        "45 p.s.i. (310 kPa)",
+        "80 p.s.i. (552 kPa)",
+        "20 p.s.i. (138 kPa)"
+      ],
+      "answerIndex": 0,
+      "explanation": "As you pump the pressure down, the low-air warning device(s) must activate at or above 60 p.s.i. (414 kPa).",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "During the air brake system test, the trailer air supply valve should close when the highest reservoir pressure gauge reads between:",
+      "choices": [
+        "50 to 60 p.s.i.",
+        "20 to 45 p.s.i. (138 to 310 kPa)",
+        "60 to 80 p.s.i.",
+        "5 to 15 p.s.i."
+      ],
+      "answerIndex": 1,
+      "explanation": "The trailer air supply valve should close between 20 to 45 p.s.i. (138 to 310 kPa); the parking brake control valve may or may not also close. Then check that the trailer brakes have applied.",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "During the buildup test, air reservoir pressure must build from 50 to 90 p.s.i. within:",
+      "choices": [
+        "One minute at idle",
+        "Five minutes at highway r.p.m.",
+        "Three minutes at a fast idle (1,000 to 1,200 r.p.m.)",
+        "Ten minutes at a fast idle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Regardless of the type of system, air pressure must build from 50 to 90 p.s.i. (345 to 620 kPa) within three minutes at a fast idle (1,000 to 1,200 r.p.m.).",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "After disconnecting the supply and control line glad hands during the Class 1 air brake test, what should you check?",
+      "choices": [
+        "That the trailer brakes release automatically",
+        "That air escapes steadily from the tractor side only",
+        "That the tractor protection valve opens fully",
+        "That no air escapes from either the tractor or the trailer through the glad hands, including during a foot brake application"
+      ],
+      "answerIndex": 3,
+      "explanation": "With the glad hands disconnected, check that no air escapes from either the tractor or the trailer, then make a foot brake application and listen to ensure no air escapes through the supply or control line.",
+      "topic": "Air brake system test",
+      "page": 208
+    },
+    {
+      "q": "For a tractor-trailer with one trailer, after a full brake application (90 to 100 p.s.i.) held for one minute, air loss must not be more than:",
+      "choices": [
+        "4 p.s.i. (27.6 kPa) per minute",
+        "3 p.s.i. (20.7 kPa) per minute",
+        "6 p.s.i. (41.4 kPa) per minute",
+        "10 p.s.i. per minute"
+      ],
+      "answerIndex": 0,
+      "explanation": "After the initial pressure drop, air loss must not be more than 4 p.s.i. (27.6 kPa) per minute for a tractor-trailer, and there should be no audible air leaks.",
+      "topic": "Air loss rates",
+      "page": 213
+    },
+    {
+      "q": "For a combination with two trailers, the maximum allowed air loss during a full brake application is:",
+      "choices": [
+        "3 p.s.i. per minute",
+        "6 p.s.i. (41.4 kPa) per minute",
+        "4 p.s.i. per minute",
+        "8 p.s.i. per minute"
+      ],
+      "answerIndex": 1,
+      "explanation": "With two trailers, air loss after the initial pressure drop must not be more than 6 p.s.i. (41.4 kPa) per minute.",
+      "topic": "Air loss rates",
+      "page": 213
+    },
+    {
+      "q": "For a Class 3 single-unit truck, the maximum allowed air loss during a full brake application held for one minute is:",
+      "choices": [
+        "6 p.s.i. per minute",
+        "4 p.s.i. per minute",
+        "3 p.s.i. (20.7 kPa) per minute",
+        "1 p.s.i. per minute"
+      ],
+      "answerIndex": 2,
+      "explanation": "For a single-unit truck, after the initial pressure drop, air loss must not be more than 3 p.s.i. (20.7 kPa) per minute, with no audible air leaks.",
+      "topic": "Air loss rates",
+      "page": 221
+    },
+    {
+      "q": "Before making the full brake application for the air-loss test, you should check that air pressure is at least:",
+      "choices": [
+        "60 p.s.i. (414 kPa)",
+        "80 p.s.i. (552 kPa)",
+        "90 p.s.i. (620 kPa)",
+        "100 p.s.i. (690 kPa)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Return to the cab and check that air pressure is at least 100 p.s.i. (690 kPa) and the parking brakes are released, then make a full brake application (90 to 100 p.s.i.) and hold it for one minute.",
+      "topic": "Air brake system test",
+      "page": 213
+    },
+    {
+      "q": "A peace officer may place your vehicle out of service if drum brake linings are less than:",
+      "choices": [
+        "1/4 inch (6.4 mm) thick",
+        "1/8 inch (3.2 mm) thick",
+        "1/2 inch (12.7 mm) thick",
+        "1/16 inch (1.6 mm) thick"
+      ],
+      "answerIndex": 0,
+      "explanation": "A vehicle may be placed out of service if drum brake linings are less than 1/4 inch (6.4 mm) thick or air disc brake pads are less than 1/8 inch (3.2 mm) thick.",
+      "topic": "Foundation brakes",
+      "page": 206
+    },
+    {
+      "q": "What is the purpose of the tug test during a pre-trip inspection?",
+      "choices": [
+        "To measure pushrod travel under load",
+        "To check that the parking brakes will prevent the vehicle from moving when you gently tug against them in low gear",
+        "To verify the fifth wheel slider can move freely",
+        "To warm the brake linings before driving"
+      ],
+      "answerIndex": 1,
+      "explanation": "In low gear, you gently tug against the trailer parking brakes and then the tractor parking brakes; in each case the brakes should prevent the combination from moving.",
+      "topic": "Tug test",
+      "page": 213
+    },
+    {
+      "q": "In what time should you be able to complete a Class 4 restricted (taxi) pre-trip inspection?",
+      "choices": [
+        "Less than 30 minutes",
+        "Less than 45 minutes",
+        "Less than 20 minutes",
+        "Less than 15 minutes"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Class 4 restricted passenger-vehicle pre-trip inspection should take less than 15 minutes; a Class 4 unrestricted bus inspection should take less than 20 minutes.",
+      "topic": "Class 4 restricted inspection",
+      "page": 229
+    },
+    {
+      "q": "Which of these is part of the Class 4 restricted passenger-vehicle pre-trip inspection?",
+      "choices": [
+        "An air brake system test",
+        "Draining the supply reservoir",
+        "Checking the trunk for the spare tire and jack, and that any propane tank is secure and not leaking",
+        "A tug test against the trailer parking brakes"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Class 4 restricted inspection covers under hood, the passenger compartment, a circle check (including the trunk — spare tire, jack, and any propane tank secure and not leaking) and brake response tests; it has no air brake system test.",
+      "topic": "Class 4 restricted inspection",
+      "page": 232
+    },
+    {
+      "q": "During the bus (Class 2/4 unrestricted) passenger compartment check, what should you do at the emergency exits?",
+      "choices": [
+        "Ensure they're secure, and open them where feasible to check that the emergency alarm sounds",
+        "Seal them shut so passengers can't open them",
+        "Only check them from outside the bus",
+        "Remove the alarm fuse to prevent false alarms"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ensure emergency exits are secure and open them (where feasible) to ensure the emergency alarm sounds; also check that the rear emergency exit door opens and closes from the outside.",
+      "topic": "Bus inspection",
+      "page": 228
+    },
+    {
+      "q": "A sign ahead of a steep downgrade directs commercial vehicles into a brake-check pullout. What must you do?",
+      "choices": [
+        "Slow down and continue if your brakes feel normal",
+        "Stop only if your vehicle is loaded",
+        "Stop only if you haven't checked your brakes in the last three hours",
+        "Stop in the pullout area and inspect the braking system (and load security) before proceeding"
+      ],
+      "answerIndex": 3,
+      "explanation": "You must stop the vehicle in the pullout area and inspect the braking system before proceeding, checking load security at the same time. You may be fined for failing to stop for a pre-hill brake inspection.",
+      "topic": "Pre-hill inspections",
+      "page": 232
+    },
+    {
+      "q": "At a pre-hill inspection, must you check pushrod travel if your vehicle has automatic slack adjusters?",
+      "choices": [
+        "No — automatic slack adjusters keep travel within limits",
+        "Yes — you must check pushrod travel even with automatic slack adjusters",
+        "Only if the low-air warning has activated",
+        "Only on vehicles with more than three axles"
+      ],
+      "answerIndex": 1,
+      "explanation": "At a pre-hill inspection check that the compressor maintains full reservoir pressure, no audible air leaks, glad hands and air lines are secure, drums and hubs aren't overheated, and pushrod travel is within limits — even if the vehicle is equipped with automatic slack adjusters.",
+      "topic": "Pre-hill inspections",
+      "page": 233
+    },
+    {
+      "q": "If your vehicle has hydraulic brakes, what should you check before starting down a hill?",
+      "choices": [
+        "Governor cut-in and cut-out pressures",
+        "That the spring brakes have popped out",
+        "Adequate pedal reserve, brake drums not overheated, and no hydraulic fluid leaks",
+        "That the trailer air supply valve is closed"
+      ],
+      "answerIndex": 2,
+      "explanation": "With hydraulic brakes, check before descending that there's adequate pedal reserve, brake drums aren't overheated, and there are no hydraulic fluid leaks.",
+      "topic": "Pre-hill inspections",
+      "page": 233
+    },
+    {
+      "q": "How can you monitor the condition of your braking system while driving (in-service)?",
+      "choices": [
+        "Check air pressure gauges frequently, watch for the low-air warning indicator, and feel the braking response on brake applications",
+        "Pump the brakes hard every 15 minutes",
+        "Listen for the governor cutting in at highway speed",
+        "Pull the trailer supply valve briefly at each stop"
+      ],
+      "answerIndex": 0,
+      "explanation": "Stay aware of the braking system at all times by checking the air pressure gauges frequently, checking the dashboard low-air warning indicator, and feeling the braking response when you apply the brakes.",
+      "topic": "In-service brake checks",
+      "page": 233
+    },
+    {
+      "q": "During an en route inspection stop, you notice smoke coming from an oil-filled hub. What should you do?",
+      "choices": [
+        "Continue at reduced speed to the next repair facility",
+        "Pour water on the hub to cool it and continue",
+        "Continue only if the hub is cool enough to touch by the time you leave",
+        "Don't continue driving the vehicle"
+      ],
+      "answerIndex": 3,
+      "explanation": "Don't continue driving a vehicle if there's smoke coming from an oil-filled hub, or where the hub is too hot to touch.",
+      "topic": "En route inspections",
+      "page": 234
+    },
+    {
+      "q": "What is required at the end of the final trip of the day?",
+      "choices": [
+        "Refuelling the vehicle and draining all reservoirs only",
+        "A post-trip inspection and a trip inspection report noting any defects found",
+        "A full Class 1 pre-trip inspection including the air brake system test",
+        "Nothing, if the morning's pre-trip found no defects"
+      ],
+      "answerIndex": 1,
+      "explanation": "At the end of the final trip of the day you must inspect the vehicle and complete a trip inspection report noting any defects; it may be added to the pre-trip inspection report completed for the same vehicle earlier that day.",
+      "topic": "Post-trip inspections",
+      "page": 234
+    },
+    {
+      "q": "What should you check about lights and reflectors every time you inspect your vehicle?",
+      "choices": [
+        "Only that the headlights and brake lights work",
+        "Only that the lenses are the correct colour",
+        "Proper colour, operation, mounting and visibility",
+        "Only lights required for night driving"
+      ],
+      "answerIndex": 2,
+      "explanation": "Examine lights and reflectors at every inspection to ensure they're in good condition — check for proper colour, operation, mounting and visibility, per the Motor Vehicle Act Regulations.",
+      "topic": "Lights and reflectors",
+      "page": 234
+    },
+    {
+      "q": "Commercial trailers must have reflective markings to the rear and sides when their overall width is:",
+      "choices": [
+        "2.05 m or more",
+        "1.8 m or more",
+        "2.6 m or more",
+        "3.0 m or more"
+      ],
+      "answerIndex": 0,
+      "explanation": "Commercial trailers with an overall width of 2.05 m or more are required to have reflective markings to the rear and sides, which help improve the visibility of large commercial vehicles.",
+      "topic": "Lights and reflectors",
+      "page": 235
+    }
+  ]
+}
