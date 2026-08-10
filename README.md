@@ -5,7 +5,8 @@ Class 1, 2, 3 and 4 driver's licences. All content is derived from ICBC's offici
 [Driving Commercial Vehicles](https://www.icbc.com/assets/en/3ZRN0guL3MkbgvZvTCBfbu/drive_commercial_veh_full.pdf)
 guide (August 2024 edition), with guide page references on every card and question.
 
-**Live app:** deployed to GitHub Pages from the `gh-pages` branch.
+**Live app:** https://rconnon.github.io/icbc-study-tool/ (GitHub Pages, deployed
+from the `gh-pages` branch).
 
 ## Features
 
