@@ -1,0 +1,178 @@
+{
+  "chapter": 2,
+  "title": "heavy vehicle braking",
+  "objectives": [
+    "Explain why heavy vehicles take longer to stop than smaller passenger vehicles",
+    "Describe the basic scientific principles of braking, including how friction converts motion into heat",
+    "Identify the elements that make up total stopping distance",
+    "State the effects of doubling weight and speed on the stopping power required",
+    "Explain how to brake safely on ice, downgrades, water and with ABS-equipped combination vehicles"
+  ],
+  "sections": [
+    {
+      "title": "Power to move, power to stop and stopping distance",
+      "points": [
+        "An engine converts heat energy into motion; brakes do the opposite, converting motion back into heat through friction.",
+        "Brake linings rub against drums, or pads against rotors; the heat is absorbed and dissipated mostly through the drums/rotors.",
+        "A loaded tractor-trailer may take over one kilometre and one minute to reach 100 km/h, but must stop far faster.",
+        "An emergency stop in about seven seconds needs roughly nine times the acceleration force — about 4,000 hp of stopping force.",
+        "With 16 brakes sharing the work, a few out-of-adjustment brakes overload the rest and lengthen stopping distance.",
+        "Total stopping distance is see-think-do: perception, reaction, brake lag and braking time combined.",
+        "Heavy vehicle drivers should never follow closer than five seconds at highway speeds."
+      ],
+      "mustKnow": [
+        "An average driver's reaction time is about 3/4 of a second (plus about 3/4 of a second perception time)",
+        "Air brake lag time is approximately 4/10 of a second between applying and the brakes beginning to function",
+        "Total stopping time = perception time + reaction time + brake lag time + braking time",
+        "Heavy vehicles: never less than five seconds behind the vehicle ahead at highway speeds",
+        "Stopping a tractor-trailer in seven seconds takes about nine times the acceleration force — approximately 4,000 hp"
+      ],
+      "check": [
+        {
+          "q": "What is the approximate brake lag time of an air brake system?",
+          "choices": ["3/4 of a second", "2 seconds", "4/10 of a second", "1/9 of a second"],
+          "answerIndex": 2,
+          "explanation": "Air brakes have a lag of about 4/10 of a second between application and the brakes functioning."
+        },
+        {
+          "q": "At highway speeds, how far behind the vehicle ahead should a heavy vehicle driver stay?",
+          "choices": ["At least two seconds", "At least five seconds", "At least ten seconds", "At least one second"],
+          "answerIndex": 1,
+          "explanation": "Drivers of buses, trucks and other large heavy vehicles should never be less than five seconds behind."
+        }
+      ]
+    },
+    {
+      "title": "Speed, weight and brake heat",
+      "points": [
+        "More speed or more weight means more stopping power is needed and a longer stopping distance.",
+        "Doubling speed quadruples the stopping power needed; doubling weight doubles it; doubling both needs eight times.",
+        "Trucks and buses have bigger brakes and more linings than cars, yet still take longer to stop.",
+        "Going downhill lengthens stopping distance because of gravity; going uphill shortens it.",
+        "Excessive hard braking builds heat faster than brakes can dissipate it; hot drums expand away from the linings.",
+        "Too much heat causes brake fade, brake damage or failure — components or tires can even catch fire."
+      ],
+      "mustKnow": [
+        "2 x vehicle speed requires 4 x the stopping power",
+        "2 x vehicle weight requires 2 x the stopping power",
+        "2 x speed and 2 x weight together require 8 x the stopping power",
+        "Brakes heat to about 120 degrees C in normal stopping and should not exceed about 250 degrees C under hard braking",
+        "Heavy tractor-trailer combinations can weigh up to 63,500 kg when loaded"
+      ],
+      "check": [
+        {
+          "q": "If you double your vehicle's speed, how much more stopping power do you need?",
+          "choices": ["Two times", "Three times", "Eight times", "Four times"],
+          "answerIndex": 3,
+          "explanation": "Doubling speed requires four times the stopping power; doubling weight only doubles it."
+        },
+        {
+          "q": "What temperature should brake components not exceed under hard braking?",
+          "choices": ["About 250 degrees C", "About 120 degrees C", "About 500 degrees C", "About 100 degrees C"],
+          "answerIndex": 0,
+          "explanation": "Brakes operate best around 120 degrees C and should not exceed about 250 degrees C."
+        }
+      ]
+    },
+    {
+      "title": "Retarders",
+      "points": [
+        "Retarders provide auxiliary slowing, such as controlling speed on long downgrades, saving the main brakes for emergencies.",
+        "The four main types are engine, exhaust, hydraulic driveline and electric driveline retarders.",
+        "Many retarders can absorb as much or more horsepower than the engine develops.",
+        "Engine retarders work best at higher engine r.p.m. and lower vehicle speed, so select your gear before the hill.",
+        "On slippery roads, retarders can lock the drive wheels, stall the engine, or even jackknife a tractor-trailer.",
+        "Obey municipal signs restricting engine retarder/engine brake use."
+      ],
+      "mustKnow": [
+        "Four main types of retarders: engine, exhaust, hydraulic driveline, electric driveline",
+        "Engine retarders are most effective at higher r.p.m. with the transmission in a low gear",
+        "Select your gear before you start down a hill — you're more likely to miss a shift on the downgrade"
+      ],
+      "check": [
+        {
+          "q": "When is an engine retarder most efficient?",
+          "choices": ["At low r.p.m. and high speed", "At higher r.p.m. and lower vehicle speed", "Only when the brakes are hot", "In the highest gear available"],
+          "answerIndex": 1,
+          "explanation": "Engine retarders are more efficient at a higher engine r.p.m. and a lower vehicle speed."
+        },
+        {
+          "q": "Which of these is NOT one of the four main types of retarders?",
+          "choices": ["Exhaust retarder", "Hydraulic driveline retarder", "Engine retarder", "Air driveline retarder"],
+          "answerIndex": 3,
+          "explanation": "The four main types are engine, exhaust, hydraulic driveline and electric driveline retarders."
+        }
+      ]
+    },
+    {
+      "title": "Braking technique: ice, downgrades, water and runaway lanes",
+      "points": [
+        "On ice, use extremely light brake pressure — a slowly revolving wheel grips better than a locked, skidding wheel.",
+        "Use snow tires and/or properly sized, tightly mounted chains; mount them in chain-up areas, not on the hill.",
+        "Descend in a lower gear than you climbed with; never shift to a higher gear on a downgrade unless speed is controlled.",
+        "Pick a safe speed, a low gear and the retarder so you can descend without using the service brakes.",
+        "If speed still climbs, brake hard enough to drop 10 to 15 km/h, then downshift, and repeat as needed.",
+        "Through water, keep a slight drag on the brakes, then apply light pressure afterward to dry them out.",
+        "Runaway lanes beside downhill grades are only for slowing or stopping when brakes fail — never for anything else."
+      ],
+      "mustKnow": [
+        "Fines up to $2,000 for operating a vehicle with brakes not adjusted correctly or not performing adequately",
+        "On a downgrade, apply brakes hard enough to reduce speed by 10 to 15 km/h, then downshift to a lower main gear",
+        "Almost all brake failures and downhill runaway crashes are caused by poor speed control (overdriving the brakes)",
+        "Keep your vehicle in gear all the way down the hill"
+      ],
+      "check": [
+        {
+          "q": "If speed keeps rising on a downgrade, how much should each brake application reduce your speed?",
+          "choices": ["5 km/h", "20 to 25 km/h", "10 to 15 km/h", "30 km/h"],
+          "answerIndex": 2,
+          "explanation": "Apply the brakes hard enough to reduce speed by 10 to 15 km/h, then downshift to a lower main gear."
+        },
+        {
+          "q": "What should you do with the brakes while driving through water on the roadway?",
+          "choices": ["Place a slight constant drag on them", "Pump them rapidly", "Avoid touching them entirely", "Apply them fully and release"],
+          "answerIndex": 0,
+          "explanation": "A slight drag on the brakes reduces the amount of water entering the brake drums and shoes."
+        }
+      ]
+    },
+    {
+      "title": "Combination braking, ABS and traction control",
+      "points": [
+        "In an air brake vehicle, all brakes apply at the same time and the same pressure when you press the pedal.",
+        "Braking too hard, or using only trailer brakes on slippery roads, can lock wheels and cause a skid or jackknife.",
+        "Brakes, tires and suspension work best when the vehicle is legally loaded and weight is properly distributed among axles.",
+        "ABS prevents wheel lockup from overbraking on slippery surfaces, but doesn't let you drive faster or stop sooner.",
+        "With ABS, apply firm, continuous pedal pressure — never pump — and expect normal noise, movement and shudder.",
+        "If tractor and trailers don't all have ABS, brake as if the combination has no ABS.",
+        "ATC uses the ABS wheel sensors to brake a spinning drive wheel and can reduce engine power in slippery conditions."
+      ],
+      "mustKnow": [
+        "ABS is mandatory in Canada on all trucks and buses over 4,560 kg manufactured since April 1, 2000, and on all commercial trailers with air brakes",
+        "A full jackknife occurs when tractor and trailer form an angle of 90 degrees or less — possible even at very low speeds",
+        "On some surfaces such as gravel, braking distance with ABS may be longer"
+      ],
+      "check": [
+        {
+          "q": "What is the correct way to make an emergency stop with ABS?",
+          "choices": ["Pump the brakes on and off", "Apply firm, hard continuous pressure until the vehicle stops", "Apply only the trailer brakes", "Brake lightly and steer hard"],
+          "answerIndex": 1,
+          "explanation": "Pumping turns ABS on and off; apply firm, continuous pressure to the brake pedal until stopped."
+        },
+        {
+          "q": "ABS is mandatory on trucks and buses over what weight manufactured since April 1, 2000?",
+          "choices": ["28,000 kg", "63,500 kg", "10,000 kg", "4,560 kg"],
+          "answerIndex": 3,
+          "explanation": "ABS is mandatory on all trucks and buses over 4,560 kg built since April 1, 2000."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Brakes are heat machines: friction converts the energy of motion into heat, which drums and rotors must absorb and dissipate.",
+    "Total stopping distance adds perception, reaction, brake lag and braking time — so heavy vehicles keep at least five seconds back.",
+    "Doubling speed needs four times the stopping power; doubling weight doubles it; both together need eight times.",
+    "Control downgrade speed with a low gear and retarder so service brakes stay cool; overheating causes brake fade and failure.",
+    "With ABS, brake firmly and continuously without pumping; know which units in a combination have ABS before you need it."
+  ]
+}

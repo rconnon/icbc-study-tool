@@ -1,0 +1,280 @@
+{
+  "chapter": 3,
+  "title": "basic driving skills",
+  "objectives": [
+    "Explain safe following-distance rules for different commercial vehicle types and various techniques for driving safely in traffic",
+    "Define the term danger zone and describe how to reduce the size of your danger zone",
+    "Identify the factors that affect your vehicle's turning characteristics, including off track, and techniques to help you turn safely",
+    "Describe how to back up safely, with and without a guide",
+    "State when and how to shift gears, including double-clutching and progressive shifting",
+    "Identify potential vehicle and personal safety issues and describe how to reduce risks for yourself and other road users"
+  ],
+  "sections": [
+    {
+      "title": "Sharing the road",
+      "points": [
+        "Use the two-second rule in a taxi, limousine, ride-hailing vehicle, ambulance or van; leave more space behind motorcycles.",
+        "Buses, trucks and other heavy vehicles need at least five seconds; increase it when conditions are less than ideal.",
+        "Match the traffic flow within the speed limit; faster or slower than the flow raises your crash risk.",
+        "Let tailgaters pass — they may sit in the blind spot directly behind you; keep stops gradual.",
+        "Use the right lane when slower than traffic, and four-way flashers driving slowly up or down hills.",
+        "Your danger zone is the road you travel before you can stop; it grows with speed and poor roads.",
+        "Reduce your danger zone by slowing down and covering the brake pedal when you see a potential hazard."
+      ],
+      "mustKnow": [
+        "Two-second following distance: taxi, limousine, ride-hailing vehicle, ambulance or van.",
+        "At least five-second following distance: bus, truck or other heavy vehicle.",
+        "Leave at least 60 m (200 ft) between large commercial vehicles on a highway.",
+        "Vehicles travelling at less than 40 km/h should display a red triangle slow moving vehicle sign."
+      ],
+      "check": [
+        {
+          "q": "What minimum following distance should you keep when driving a bus, truck or other heavy vehicle in ideal conditions?",
+          "choices": ["Two seconds", "Three seconds", "Five seconds", "Ten seconds"],
+          "answerIndex": 2,
+          "explanation": "Heavy vehicles need more time and distance to stop, so keep at least a five-second following distance."
+        },
+        {
+          "q": "On a highway, how much space should you leave between your large commercial vehicle and other large commercial vehicles?",
+          "choices": ["30 m (100 ft)", "60 m (200 ft)", "100 m (330 ft)", "150 m (500 ft)"],
+          "answerIndex": 1,
+          "explanation": "The manual says to leave at least 60 m (200 ft) between large commercial vehicles on a highway."
+        }
+      ]
+    },
+    {
+      "title": "Manoeuvring: turns, off track and roundabouts",
+      "points": [
+        "Seat position (conventional, cab-over, forward-control) changes your viewpoint, so you start turns at different points.",
+        "Off track: rear wheels follow a different path than front wheels; longer wheelbases and combinations off-track more.",
+        "Inertia pushes you off a curve's path — slow down before the curve and apply gradual power through it.",
+        "Turning right too tightly can scrape curbs, crowd cyclists, or hit poles; keep your rear close to the curb.",
+        "The most dangerous point turning right is when the tractor has turned but the trailer hasn't.",
+        "With two left-turn lanes, turn from the right-hand turn lane to accommodate off tracking.",
+        "In roundabouts, yield to traffic in the circle; a large vehicle may need more than one lane."
+      ],
+      "mustKnow": [
+        "If another vehicle arrives at a traffic circle at the same time as you, yield to the vehicle on your right.",
+        "Go around traffic circles and roundabouts to the right (counter-clockwise).",
+        "Large trucks and buses may encroach on the median or drive over the truck apron to get through."
+      ],
+      "check": [
+        {
+          "q": "What is \"off track\"?",
+          "choices": [
+            "The difference between the path of the front wheels and the path of the rear wheels",
+            "The distance a vehicle skids when braking hard",
+            "The gap between a trailer and the curb during a turn",
+            "The turning radius of the steering tires"
+          ],
+          "answerIndex": 0,
+          "explanation": "Off track is the difference between the paths of the front and rear wheels when moving around a curve."
+        },
+        {
+          "q": "An intersection has two left-turn lanes. Which lane should you turn from in a large commercial vehicle?",
+          "choices": ["Either lane", "The leftmost lane", "The centre of both lanes", "The right-hand turn lane"],
+          "answerIndex": 3,
+          "explanation": "The right-hand turn lane better accommodates your vehicle's off tracking."
+        }
+      ]
+    },
+    {
+      "title": "Backing up",
+      "points": [
+        "With few exceptions, you're responsible for any crash that happens while you're backing up.",
+        "Avoid backing up whenever possible; if you must, plan ahead to minimize the distance.",
+        "Use a guide whenever possible, positioned with a clear, continuous view and visible to you throughout.",
+        "Without a guide, walk completely around the vehicle first and repeat every vehicle length.",
+        "Back out of traffic rather than into traffic, and back to the view side, not the blind side.",
+        "A series of short backing-up manoeuvres is safer than one long one."
+      ],
+      "mustKnow": [
+        "Sound your horn at least once every vehicle length to warn other road users you're about to move.",
+        "Without a guide, get out and walk completely around the vehicle before backing; repeat every vehicle length."
+      ],
+      "check": [
+        {
+          "q": "When backing up, how often should you sound your horn?",
+          "choices": ["Only before you start", "Every 30 seconds", "At least once every vehicle length", "Only when someone is visible behind"],
+          "answerIndex": 2,
+          "explanation": "Sound the horn at least once every vehicle length to warn other road users that you're moving."
+        }
+      ]
+    },
+    {
+      "title": "Seeing and being seen",
+      "points": [
+        "Large vehicles have blind spots in front of the hood, alongside (especially the passenger side) and directly behind.",
+        "Scan ahead, behind and to the sides constantly; check mirrors frequently and never assume other drivers see you.",
+        "A \"stale\" green light has been green a while — expect it to change and be prepared to stop.",
+        "On freeways, use the far right or centre lane; fewer lane changes means less collision risk.",
+        "For emergency vehicles with flashing lights and siren, pull parallel to the nearest edge, stop clear of intersections.",
+        "Your air turbulence can endanger cars and cyclists riding near your vehicle; slow down until they're out.",
+        "Help drivers pass you safely by reducing speed and giving them room, but don't wave them past."
+      ],
+      "mustKnow": [
+        "Passing stopped vehicles with flashing lights: no faster than 70 km/h where the limit is 80 km/h or more.",
+        "No faster than 40 km/h where the limit is less than 80 km/h.",
+        "If you're in the lane nearest the stopped vehicle, also change lanes if it's safe to do so.",
+        "Convex or spot mirrors make things look smaller and farther away than they actually are."
+      ],
+      "check": [
+        {
+          "q": "The speed limit is 100 km/h. How fast may you drive when passing a stopped vehicle displaying flashing lights?",
+          "choices": ["No faster than 40 km/h", "No faster than 70 km/h", "No faster than 80 km/h", "The posted limit, if you change lanes"],
+          "answerIndex": 1,
+          "explanation": "Where the limit is 80 km/h or more, you must drive no faster than 70 km/h when passing stopped vehicles with flashing lights."
+        },
+        {
+          "q": "A small vehicle keeps riding in your area of air turbulence. What should you do?",
+          "choices": ["Slow down until it's out", "Speed up to pull away", "Sound your horn continuously", "Change lanes immediately"],
+          "answerIndex": 0,
+          "explanation": "The manual says to slow down until the smaller vehicle is out of your area of turbulence."
+        }
+      ]
+    },
+    {
+      "title": "Shifting gears and parking",
+      "points": [
+        "Most heavy manual transmissions lack synchromesh gears, so you must become skilled at double-clutching.",
+        "Upshifting goes to a higher gear to go faster; downshifting goes lower as you slow down.",
+        "Operate between peak torque and peak horsepower — the engine's normal operating r.p.m. range; a tachometer helps.",
+        "Shift progressively: use only enough torque to get moving, then shift to the next higher gear.",
+        "Before a curve, slow down and downshift to a gear that lets you use engine power throughout.",
+        "When parking, set parking brakes, put transmissions in gear (low forward uphill, reverse downhill) and block wheels on grades.",
+        "Never use a trailer hand valve to hold an unattended unit — air may drain and release the brakes."
+      ],
+      "mustKnow": [
+        "Double-clutching means depressing the clutch pedal twice in the process of moving from one gear to another.",
+        "Single-unit vehicle uphill with a curb: turn wheels left toward the centre of the road.",
+        "Single-unit vehicle uphill with no curb: turn wheels right toward the edge of the roadway.",
+        "Tractor-trailer uphill, with or without a curb: always turn wheels left; on any downgrade, always turn wheels right.",
+        "A two-speed axle must be left in low range when parked."
+      ],
+      "check": [
+        {
+          "q": "What does double-clutching mean?",
+          "choices": [
+            "Using two clutch pedals at once",
+            "Holding the clutch down through the whole shift",
+            "Skipping a gear when upshifting",
+            "Depressing the clutch pedal twice while moving from one gear to another"
+          ],
+          "answerIndex": 3,
+          "explanation": "Double-clutching is depressing the clutch pedal twice in the process of moving from one gear to another."
+        },
+        {
+          "q": "You park a single-unit vehicle facing uphill where there's a curb. Which way do you turn the wheels?",
+          "choices": ["Straight ahead", "Left, toward the centre of the road", "Right, toward the edge of the roadway", "It doesn't matter if the parking brake is set"],
+          "answerIndex": 1,
+          "explanation": "For a single-unit vehicle on an uphill with a curb, turn the wheels left toward the centre of the road."
+        }
+      ]
+    },
+    {
+      "title": "Crossings: intersections and railways",
+      "points": [
+        "Never assume you have the right-of-way; give the right-of-way, don't try to take it.",
+        "Get in the proper lane well before turning, signal, and slow gradually; watch for stale green lights.",
+        "Don't change lanes, pass or overtake while approaching or going through an intersection.",
+        "From an alley, lane or side road, stop before the sidewalk and yield to pedestrians and highway traffic.",
+        "At controlled railway crossings, stop when signalled; never cross if the gate is down.",
+        "School buses with children, buses with passengers, and vehicles carrying explosive, poisonous or flammable cargo must stop at uncontrolled main crossings.",
+        "Never shift gears while crossing railway tracks, and be sure there's room for your vehicle beyond the tracks."
+      ],
+      "mustKnow": [
+        "Stop five to 15 m from a railway crossing.",
+        "Don't park any vehicle within 15 m of the nearest rail of a railway crossing.",
+        "Check the track is clear far enough to give you at least 10 seconds to cross.",
+        "The maximum speed in a lane or alley is 20 km/h unless otherwise posted."
+      ],
+      "check": [
+        {
+          "q": "How far from a railway crossing should you stop?",
+          "choices": ["1 to 3 m", "3 to 5 m", "5 to 15 m", "15 to 30 m"],
+          "answerIndex": 2,
+          "explanation": "The manual says to stop five to 15 m from the railway crossing."
+        },
+        {
+          "q": "What is the maximum speed in a lane or alley unless otherwise posted?",
+          "choices": ["20 km/h", "30 km/h", "40 km/h", "50 km/h"],
+          "answerIndex": 0,
+          "explanation": "The maximum speed in a lane or alley is 20 km/h unless otherwise posted."
+        }
+      ]
+    },
+    {
+      "title": "Conditions and vehicle safety",
+      "points": [
+        "Watch for animals at dusk and dawn, in spring and fall; if you see one animal, expect more.",
+        "If you can't avoid a large animal, brake firmly, steer to strike at an angle, easing off the brake just before impact.",
+        "On ice, sleet or snow, test steering and brakes at slow speed, reduce speed and use chains if necessary.",
+        "At night, travel at a speed that lets you stop within the distance you can see — high beams light only about 100 m.",
+        "Underinflated tires overheat, wear the tread's outer edges and increase hydroplaning risk; check pressure when tires are cool.",
+        "Don't drive with loose or missing lug nuts, stripped studs or cracked rims; retorque wheel nuts after changing a tire.",
+        "Air- or vacuum-brake vehicles need failure warning devices, and every vehicle needs two braking systems, one mechanical."
+      ],
+      "mustKnow": [
+        "Switch from high beam to low beam at least 150 m from any vehicle you're approaching or following.",
+        "Defective tire tread: less than 3 mm front or 1.6 mm rear (GVW 5,500 kg or more); less than 1.6 mm on a trailer; less than 3.5 mm for a winter tire.",
+        "Tires are defective with tread cuts, cracks or snags longer than 2.5 cm (1 in) deep enough to expose ply cords.",
+        "Disabled vehicle: place warning devices approximately 30 m ahead and 30 m behind.",
+        "Approved warning devices required for vehicles seating more than 10 passengers or with overall/load width over 2.3 m; daylight flags at least 30 cm by 30 cm."
+      ],
+      "check": [
+        {
+          "q": "On a vehicle with a GVW of 5,500 kg or more, a front tire is defective when its tread depth is less than:",
+          "choices": ["1.6 mm", "2.5 mm", "3.5 mm", "3 mm"],
+          "answerIndex": 3,
+          "explanation": "Front tires need at least 3 mm (1/8 in) of tread on vehicles with a GVW of 5,500 kg or more."
+        },
+        {
+          "q": "Where should you place warning devices when your commercial vehicle becomes disabled?",
+          "choices": ["10 m ahead and behind", "About 30 m ahead and 30 m behind", "Only 60 m behind", "At the vehicle's front and rear bumpers"],
+          "answerIndex": 1,
+          "explanation": "Place warning devices approximately 30 m ahead and 30 m behind the disabled vehicle."
+        }
+      ]
+    },
+    {
+      "title": "Personal safety",
+      "points": [
+        "Carbon monoxide is odourless, colourless and tasteless; if you feel dizzy or drowsy, pull over and get fresh air.",
+        "Wear your seatbelt with the lap belt low over the pelvis and the shoulder strap snug across the chest.",
+        "Hand-held electronic devices are prohibited while driving; hands-free single-button devices are permitted for non-GLP drivers.",
+        "Alcohol, marijuana, illicit drugs and even some prescribed or stay-awake drugs can impair your driving.",
+        "Police can prohibit you if impairment is suspected — no need for BAC over .08 or 2 nanograms THC.",
+        "Stay-awake tablets don't reduce mental fatigue; there's no safe substitute for proper rest or sleep.",
+        "Never use water on gasoline or oil fires; don't open the hood to fight an under-hood fire."
+      ],
+      "mustKnow": [
+        "Correct lap and shoulder belt use reduces the likelihood of death in a crash by 50 per cent; some drivers are exempt at 40 km/h or less.",
+        "Allow at least 25 cm (10 in) between your breastbone and the steering-wheel airbag unit.",
+        "Police can impound a vehicle for seven days, escalating to 30 or 60 days for repeat offenders; excessive speeding is 40 km/h or more over the limit.",
+        "A BC-marked extinguisher puts out grease, oil, gasoline and electrical fires; ABC also puts out Class A fires like paper and cloth.",
+        "Vehicles transporting explosives must carry two fire extinguishers; school buses, public passenger vehicles and limited passenger vehicles seating more than 10 must carry one."
+      ],
+      "check": [
+        {
+          "q": "By how much does correct use of a lap and shoulder belt system reduce the likelihood of death in a crash?",
+          "choices": ["50 per cent", "25 per cent", "75 per cent", "90 per cent"],
+          "answerIndex": 0,
+          "explanation": "Correct lap and shoulder belt use is estimated to reduce the likelihood of death in a crash by 50 per cent."
+        },
+        {
+          "q": "How many fire extinguishers must a vehicle transporting explosives carry?",
+          "choices": ["None", "One", "Two", "Four"],
+          "answerIndex": 2,
+          "explanation": "Vehicles transporting explosives must carry two fire extinguishers."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Keep a two-second following distance in taxis, limousines, ambulances or vans, and at least five seconds in buses and trucks.",
+    "Slow down to shrink your danger zone, cover the brake near hazards, and allow for off track in every turn.",
+    "Back up only when necessary: use a guide, sound your horn each vehicle length, and back to the view side.",
+    "Know the exam numbers: 60 m between big rigs, 70/40 km/h past flashing lights, 5-15 m railway stop, 30 m warning devices, 150 m headlight dimming.",
+    "Protect yourself: wear your seatbelt, avoid hand-held devices, never drive impaired or fatigued, and carry the required fire extinguishers."
+  ]
+}

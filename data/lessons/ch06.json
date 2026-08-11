@@ -1,0 +1,171 @@
+{
+  "chapter": 6,
+  "title": "skills for driving buses, taxis, limousines and ride-hailing vehicles",
+  "objectives": [
+    "Define the various types of Class 2 and Class 4 vehicles and describe their uses",
+    "Describe how to safely deal with common driving situations such as leaving the curb and passing parked cars",
+    "Identify and describe key regulations that apply to operating buses, taxis, limousines and ride-hailing vehicles",
+    "List and describe the requirements for operating a school bus",
+    "Describe the special considerations and regulations for driving an emergency vehicle"
+  ],
+  "sections": [
+    {
+      "title": "Passenger safety and manoeuvring",
+      "points": [
+        "Passenger safety is always more important than meeting schedules.",
+        "Most bus passenger injuries come from stopping, starting or turning too quickly, or opening/closing doors too fast.",
+        "Keep a safe following distance and avoid getting blocked in so you always have an escape route.",
+        "Before leaving the curb, check your side mirror and over your shoulder — never rely on mirrors alone.",
+        "Watch that the rear of the bus doesn't swing over the sidewalk and hit pedestrians, cyclists, poles or sign posts.",
+        "When passing parked cars, watch for vehicles pulling out, doors opening and pedestrians stepping out between cars.",
+        "Clues to hazards: front wheels turned out, driver behind the wheel, exhaust, brake or back-up lights, people near the road."
+      ],
+      "mustKnow": [
+        "A bus seats more than 10 persons including the driver; a taxi or limousine carries not more than 10.",
+        "A large capacity limousine carries more than 10 and up to 24 persons, including the driver.",
+        "Public transit buses have right-of-way when signalling to leave a bus stop or curb lane where the speed limit is less than 60 km/h and the bus displays a yield sign.",
+        "The right-of-way rule doesn't remove responsibility — the bus driver must still ensure it's safe before moving into traffic."
+      ],
+      "check": [
+        {
+          "q": "The transit bus right-of-way rule applies in areas where the speed limit is:",
+          "choices": ["Less than 30 km/h", "Less than 50 km/h", "Less than 60 km/h", "Less than 80 km/h"],
+          "answerIndex": 2,
+          "explanation": "The Motor Vehicle Act gives transit buses right-of-way leaving a stop where the speed limit is less than 60 km/h."
+        },
+        {
+          "q": "Before leaving the curb, in addition to your side mirror you should check:",
+          "choices": ["Over your shoulder", "Your fuel gauge", "The interior mirror only", "Your speedometer"],
+          "answerIndex": 0,
+          "explanation": "Don't rely on side mirrors alone — look over your shoulder to confirm traffic is clear before leaving the curb."
+        }
+      ]
+    },
+    {
+      "title": "Operating a bus, taxi, limousine or ride-hailing vehicle",
+      "points": [
+        "You need a passenger transportation licence to be responsible for a vehicle transporting passengers for hire.",
+        "When stopping on a highway, signal, be visible from at least 85 metres front and behind, and leave 3 metres for passing traffic.",
+        "Never collect fares, make change, or take on or let off passengers while the vehicle is moving.",
+        "Passengers may not stand unless the vehicle's passenger transportation licence allows it; the standing capacity must be displayed.",
+        "You may refuse a passenger who smokes, uses profane language or acts in a disorderly or offensive manner, or when full.",
+        "You can't refuse someone because of a disability, and service animals such as guide dogs must be allowed with their owners.",
+        "Some municipalities require taxi and limousine drivers to hold a chauffeur's permit, usually issued by the municipal police."
+      ],
+      "mustKnow": [
+        "Stop where drivers can see your vehicle from at least 85 metres (285 ft) in front and behind, leaving at least three metres (10 ft) on the left.",
+        "Up to two passengers may sit to your right in a sedan-type vehicle, only with designated seating positions and seatbelts.",
+        "It's illegal to smoke in any motor vehicle when there are passengers under 16 years old.",
+        "If you order a person out, ensure they can disembark safely where they can reasonably find alternate transportation.",
+        "Vehicles seating more than 12 occupants including the driver must have aisle lights kept on between sunset and sunrise."
+      ],
+      "check": [
+        {
+          "q": "How many passengers may sit to the driver's right in a sedan-type vehicle?",
+          "choices": ["None", "Up to two", "Up to three", "One only"],
+          "answerIndex": 1,
+          "explanation": "Up to two passengers may sit on your right if there is room to operate safely and designated seatbelt-equipped positions."
+        },
+        {
+          "q": "When taking on passengers on a highway, other drivers must be able to see your vehicle from at least:",
+          "choices": ["60 metres", "100 metres", "50 metres", "85 metres"],
+          "answerIndex": 3,
+          "explanation": "Stop where your vehicle is visible from at least 85 metres (285 ft) in front and behind."
+        }
+      ]
+    },
+    {
+      "title": "Vehicle condition, equipment and baggage",
+      "points": [
+        "A B.C.-licensed vehicle with a passenger transportation plate must display a valid inspection decal and carry the certificate.",
+        "Your bus or taxi must be clean and sanitary at all times.",
+        "End the trip if a problem could endanger passenger safety or comfort; fix it before continuing.",
+        "After a crash or breakdown, arrange onward transport for your passengers with as little delay as possible.",
+        "When fuelling: engine off, no radio transmitting, no open flame, and keep the nozzle in contact with the filler pipe.",
+        "Load baggage so it can't fall on passengers, doesn't block boarding, and never blocks any aisle or exit.",
+        "Don't smoke with passengers in your vehicle, moving or not, and never be under the influence of alcohol on duty."
+      ],
+      "mustKnow": [
+        "Commercial passenger vehicles seating more than 10 occupants including the driver must carry a first-aid kit, a spare tire and at least one fire extinguisher.",
+        "The carrier is responsible for ensuring emergency equipment is available and in working order.",
+        "Vehicles seating more than 12 including the driver need an emergency exit door or emergency windows.",
+        "Vehicles seating more than 10 passengers must carry warning devices such as flags and flares.",
+        "Report any defect or deficiency in writing to your carrier when you find it or by the end of that day."
+      ],
+      "check": [
+        {
+          "q": "A defect that could make your vehicle unsafe must be reported to the carrier:",
+          "choices": ["Within one week", "At the next scheduled inspection", "In writing by the end of that day", "Verbally within 48 hours"],
+          "answerIndex": 2,
+          "explanation": "Defect reports must be made in writing and given to the carrier when found or by the end of that day."
+        },
+        {
+          "q": "Who is responsible for ensuring the emergency equipment is available and in working order?",
+          "choices": ["The carrier", "The passenger", "ICBC", "The municipal police"],
+          "answerIndex": 0,
+          "explanation": "The carrier is responsible for ensuring the required emergency equipment is available and working."
+        }
+      ]
+    },
+    {
+      "title": "Operating a school bus",
+      "points": [
+        "Test school bus brakes every day and never operate the bus unless the brakes are safe.",
+        "Never transport passengers on a defective school bus; an unfit bus can't operate until defects are fixed.",
+        "Ensure all passengers are off and the engine is turned off before refuelling.",
+        "Passengers may not stand — everyone must be seated before you move the bus.",
+        "Before opening doors: full stop, 3 metres of road on the left, visible from 60 metres either direction, right side only.",
+        "Use alternating flashing red lights whenever passengers cross the road; all drivers must stop for them.",
+        "Turn off flashing lights and draw in the stop sign once passengers are safely aboard or across the road."
+      ],
+      "mustKnow": [
+        "School buses must display two 'School Bus' signs, front and rear, with black letters at least 20 cm high on a yellow background.",
+        "The school bus floor must be washed with a disinfectant solution at least once a week.",
+        "Passengers must enter or leave a school bus from the right side only.",
+        "Other drivers must be able to see your stopped school bus from at least 60 metres in either direction.",
+        "A rental replacement bus must comply with school bus regulations, and you must notify Commercial Vehicle Safety and Enforcement as soon as possible."
+      ],
+      "check": [
+        {
+          "q": "How often must you test the brakes on a school bus?",
+          "choices": ["Every day", "Once a week", "Every month", "Before each semester"],
+          "answerIndex": 0,
+          "explanation": "School bus brakes must be tested every day, and the bus must not operate unless the brakes are safe."
+        },
+        {
+          "q": "The letters on a school bus sign must be black on a yellow background and at least:",
+          "choices": ["10 cm high", "15 cm high", "25 cm high", "20 cm high"],
+          "answerIndex": 3,
+          "explanation": "'School Bus' signs at the front and rear must have black letters at least 20 cm high on a yellow background."
+        }
+      ]
+    },
+    {
+      "title": "Operating emergency vehicles",
+      "points": [
+        "Ambulance flashing red lights may be used only when responding to an emergency call or transporting a patient.",
+        "You may exceed speed limits and pass red lights or stop signs only if you give other drivers appropriate warning.",
+        "Use both flashing red lights and the siren to warn other drivers.",
+        "Use caution at all times — other drivers may not see or hear your warning."
+      ],
+      "mustKnow": [
+        "Before exceeding limits or driving through stop signals, consider: the condition and use of the highway, the amount of traffic, and the seriousness of the emergency."
+      ],
+      "check": [
+        {
+          "q": "When may an ambulance driver use flashing red lights?",
+          "choices": ["Whenever traffic is heavy", "Only when responding to an emergency call or transporting a patient", "Any time the ambulance is on duty", "Only at night"],
+          "answerIndex": 1,
+          "explanation": "Flashing red lights are used only when responding to an emergency call or transporting a patient."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Passenger safety always comes before schedules — drive smoothly and check passengers are settled before moving.",
+    "Know the key distances: visible from 85 m when stopping on a highway (60 m for school buses) and leave 3 m on the left.",
+    "Carry the required emergency equipment, report defects in writing by the end of the day, and never continue with an unsafe vehicle.",
+    "School buses need daily brake tests, two 20 cm 'School Bus' signs, seated passengers, and right-side boarding only.",
+    "Emergency vehicles may exceed limits only with lights and siren, weighing highway conditions, traffic and the seriousness of the emergency."
+  ]
+}

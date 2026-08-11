@@ -13,6 +13,11 @@ from the `gh-pages` branch).
 - **Class selection** — each class studies exactly the chapters ICBC's licence
   study chart (guide p. 2) assigns to it. Classes 2 and 4 get only the
   dangerous-goods pages (110–111) of chapter 5; classes 1 and 3 get all of it.
+- **Learn** — guided chapter-by-chapter lessons built on evidence-based training
+  design: chunked micro-sections, stated learning objectives, "must-know" callouts,
+  retrieval-practice quick checks with immediate feedback, a mastery-threshold
+  (80%) reinforcement quiz per chapter, interleaved review questions from earlier
+  modules, and spaced-repetition "review due" nudges.
 - **Cue cards** — 259 flip cards by chapter, with "got it / again" tracking.
 - **Practice quizzes** — drawn at random from a 360-question bank, so every
   attempt is a different set; instant feedback with explanations and page refs.

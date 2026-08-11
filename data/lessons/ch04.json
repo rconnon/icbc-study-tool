@@ -1,0 +1,144 @@
+{
+  "chapter": 4,
+  "title": "fuel-efficient driving",
+  "objectives": [
+    "Explain fuel-efficient driving techniques that let you drive smart and save money",
+    "Identify vehicle maintenance practices that help conserve fuel",
+    "List commercial vehicle components and features that help make a vehicle more fuel efficient",
+    "State how driving habits, idling and trip planning affect fuel consumption"
+  ],
+  "sections": [
+    {
+      "title": "Why fuel efficiency matters and making smart choices",
+      "points": [
+        "Fuel-efficient driving controls fuel costs and reduces greenhouse gas emissions.",
+        "Nearly 30 per cent of all greenhouse gas emissions in Canada are produced by vehicles.",
+        "Fuel-efficient driving techniques can improve fuel economy by up to 30 per cent.",
+        "Fuel-efficient driving is also safe driving: look ahead, keep space margins, anticipate hazards.",
+        "Smart practices include trip planning, maintenance and inspections, proper starting, proper driving, and reducing idle time."
+      ],
+      "mustKnow": [
+        "Nearly 30 per cent of all greenhouse gas emissions in Canada are produced by vehicles.",
+        "Fuel-efficient driving techniques can improve fuel economy by up to 30 per cent."
+      ],
+      "check": [
+        {
+          "q": "Approximately how much can fuel-efficient driving techniques improve fuel economy?",
+          "choices": ["Up to 10 per cent", "Up to 20 per cent", "Up to 30 per cent", "Up to 50 per cent"],
+          "answerIndex": 2,
+          "explanation": "The manual states fuel-efficient driving techniques can improve fuel economy by up to 30 per cent."
+        },
+        {
+          "q": "About what share of greenhouse gas emissions in Canada is produced by vehicles?",
+          "choices": ["Nearly 30 per cent", "Nearly 10 per cent", "Nearly 50 per cent", "Nearly 70 per cent"],
+          "answerIndex": 0,
+          "explanation": "Nearly 30 per cent of all greenhouse gas emissions in Canada come from vehicles."
+        }
+      ]
+    },
+    {
+      "title": "Preparation, planning and starting the engine",
+      "points": [
+        "Use the correct fuel for the season; summer fuel can improve economy but causes cold-weather engine problems.",
+        "Consider biodiesel: similar power, less carbon dioxide and sulfur, low particulate emissions.",
+        "Plan routes to avoid heavy commuter traffic, busy city driving and hills; flat highway routes are most efficient.",
+        "Snow-covered roads can increase fuel consumption by 15 to 20 per cent; adjust speed and following distance.",
+        "Start with zero throttle and never pump the throttle; it wastes fuel.",
+        "Warm up three to five minutes only, or seven to 10 minutes below 0 degrees C.",
+        "Check oil and air pressure rise to normal ranges; use ether sparingly and only if permitted."
+      ],
+      "mustKnow": [
+        "Summer fuel can improve fuel economy by as much as three per cent.",
+        "Driving on snow-covered roads can increase fuel consumption by 15 to 20 per cent.",
+        "Warm up the engine three to five minutes only, or seven to 10 minutes if below 0 degrees C.",
+        "A flat multi-lane highway improves fuel efficiency four to 11 per cent over a flat two-lane, up to 18 per cent over mountainous, and 25 to 35 per cent over suburban roads."
+      ],
+      "check": [
+        {
+          "q": "How long should you let a heavy-duty diesel engine warm up when the temperature is below 0 degrees C?",
+          "choices": ["One to two minutes", "Three to five minutes", "Seven to 10 minutes", "At least 20 minutes"],
+          "answerIndex": 2,
+          "explanation": "Warm up three to five minutes normally, but seven to 10 minutes when the temperature is below 0 degrees C."
+        },
+        {
+          "q": "By how much can driving on snow-covered roads increase fuel consumption?",
+          "choices": ["5 to 10 per cent", "15 to 20 per cent", "25 to 35 per cent", "40 to 50 per cent"],
+          "answerIndex": 1,
+          "explanation": "The manual states snow-covered roads can increase fuel consumption by 15 to 20 per cent."
+        }
+      ]
+    },
+    {
+      "title": "Smart driving techniques and reducing idling",
+      "points": [
+        "Accelerate slowly after warm-up, keeping engine rpm down for several kilometres.",
+        "Practise progressive shifting, run in the highest gear range, and always use the clutch.",
+        "Back off the throttle over hill crests, use cruise control where appropriate, and reduce average speed.",
+        "Use see-think-do to anticipate hazards and keep a constant speed; power not used is fuel not burned.",
+        "Keep at least five seconds behind the vehicle ahead at highway speeds.",
+        "Anticipate stops and traffic lights; easing off the throttle beats braking at the last minute.",
+        "Turn the engine off when stopped for any length of time; idling wastes fuel and money."
+      ],
+      "mustKnow": [
+        "Shifting gears properly can improve operating costs by 30 per cent.",
+        "Driving 105 km/h instead of 90 km/h is 15 per cent faster but consumes about 20 per cent more fuel.",
+        "Large heavy vehicles should never be less than five seconds behind the vehicle ahead at highway speeds.",
+        "Idling can burn up to four litres of fuel per hour; cutting one hour a day saves over 1,000 litres and over $1,500 per year at $1.50 per litre."
+      ],
+      "check": [
+        {
+          "q": "How much fuel can idling burn per hour?",
+          "choices": ["Up to one litre", "Up to two litres", "Up to three litres", "Up to four litres"],
+          "answerIndex": 3,
+          "explanation": "Idling can burn up to four litres of fuel per hour."
+        },
+        {
+          "q": "Driving at 105 km/h instead of 90 km/h consumes about how much more fuel?",
+          "choices": ["5 per cent", "20 per cent", "35 per cent", "50 per cent"],
+          "answerIndex": 1,
+          "explanation": "You travel 15 per cent faster but consume about 20 per cent more fuel."
+        }
+      ]
+    },
+    {
+      "title": "Maintenance and choosing a fuel-efficient vehicle",
+      "points": [
+        "Regular maintenance keeps fuel efficiency up; fix small problems before they become big.",
+        "Inflate tires to manufacturer's recommendations and check fluid levels; do pre-trip, enroute and post-trip inspections.",
+        "Conduct enroute inspections, including tires and cargo, at least every three hours.",
+        "Choose the right truck for the job; a lighter truck carrying the same payload saves fuel.",
+        "Aerodynamic features like sloped hoods, roof fairings, trailer side skirts and gap reducers cut fuel use.",
+        "Rib tread tires beat lug tread on drive and steering axles; super-singles lower rolling resistance and weight.",
+        "Keep flatbed loads low and tarped; accessories like block heaters and on-board computers help efficiency."
+      ],
+      "mustKnow": [
+        "For every 10 p.s.i. (69 kPa) a tire is underinflated, one per cent of fuel is wasted.",
+        "Conduct enroute inspections, including tires and cargo, at least every three hours.",
+        "Low-viscosity lubricants such as synthetic motor oil can improve fuel economy by up to four per cent.",
+        "At 90 to 100 km/h, about 50 per cent of fuel consumed is used to overcome air resistance.",
+        "Aerodynamic features can improve fuel economy by 15 to 20 per cent."
+      ],
+      "check": [
+        {
+          "q": "How much fuel is wasted for every 10 p.s.i. (69 kPa) that a tire is underinflated?",
+          "choices": ["One per cent", "Five per cent", "10 per cent", "15 per cent"],
+          "answerIndex": 0,
+          "explanation": "For every 10 p.s.i. (69 kPa) of underinflation, one per cent of fuel is wasted."
+        },
+        {
+          "q": "At speeds between 90 and 100 km/h, about how much of the fuel consumed is used to overcome air resistance?",
+          "choices": ["10 per cent", "25 per cent", "50 per cent", "75 per cent"],
+          "answerIndex": 2,
+          "explanation": "About 50 per cent of fuel consumed at 90 to 100 km/h goes to overcoming air resistance."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Fuel-efficient driving can improve fuel economy by up to 30 per cent and is also safe driving.",
+    "Plan routes, use seasonal fuel, and warm up three to five minutes (seven to 10 below 0 degrees C).",
+    "Drive smoothly: progressive shifting, steady speeds, five-second following distance, and anticipate stops.",
+    "Turn the engine off when stopped; idling burns up to four litres of fuel per hour.",
+    "Maintain tires, fluids and filters, and choose aerodynamic, properly specified vehicles to save fuel."
+  ]
+}
