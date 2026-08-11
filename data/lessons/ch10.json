@@ -1,0 +1,207 @@
+{
+  "chapter": 10,
+  "title": "vehicle and air brake pre-trip inspections",
+  "objectives": [
+    "Explain the importance of conducting a pre-trip inspection and who is responsible for it",
+    "State which vehicles require daily written inspection reports and what every report must include",
+    "Explain how to perform an air brake system inspection, including all key pressure values",
+    "List the steps of a pre-trip inspection: under hood, in cab, circle checks and brake tests",
+    "Identify the time limits for completing the pre-trip inspection for each licence class",
+    "State when pre-hill, en route and post-trip inspections are required and what to check"
+  ],
+  "sections": [
+    {
+      "title": "Driver responsibility and NSC trip-inspection rules",
+      "points": [
+        "You must determine your vehicle is in safe operating condition before you drive it — every time.",
+        "NSC vehicles must be inspected before use each day (pre-trip) and after the final trip (post-trip).",
+        "The driver or another person specified by the carrier inspects; driver and carrier share responsibility.",
+        "Written daily reports: buses seating more than 10 including driver, heavy two-axle trucks, trucks towing heavy trailers.",
+        "Every report lists plate/unit numbers, all defects (or states none found), date and inspector's signature.",
+        "If you couple to another trailer, obtain and carry that trailer's trip inspection report for the day.",
+        "With co-drivers, one signature is enough if all agree; if they disagree, all must sign and note it."
+      ],
+      "mustKnow": [
+        "Written reports required for a bus, school bus, special activity bus, special vehicle or limousine with a seating capacity of more than 10 including the driver",
+        "Written reports required for a two-axle truck or truck-tractor with a licensed GVW greater than 14,600 kg",
+        "Written reports required for a truck or truck-tractor towing a trailer that has a licensed GVW greater than 8,200 kg",
+        "All trip inspection reports must be given to the carrier within 20 days"
+      ],
+      "check": [
+        {
+          "q": "Within how many days must trip inspection reports be given to the carrier?",
+          "choices": ["7 days", "14 days", "20 days", "30 days"],
+          "answerIndex": 2,
+          "explanation": "The manual states all trip inspection reports must be given to the carrier within 20 days."
+        },
+        {
+          "q": "A two-axle truck needs a daily written inspection report when its licensed GVW is greater than:",
+          "choices": ["8,200 kg", "10,000 kg", "14,600 kg", "4,600 kg"],
+          "answerIndex": 2,
+          "explanation": "Two-axle trucks or truck-tractors with a licensed GVW greater than 14,600 kg require daily written reports."
+        }
+      ]
+    },
+    {
+      "title": "Cargo securement and re-inspection intervals",
+      "points": [
+        "Under the NSC, every vehicle transporting cargo on a highway must be inspected for cargo securement, regardless of weight.",
+        "Before driving, confirm operating equipment (tailgate, doors, tarpaulins, spare tire) is secured.",
+        "Ensure cargo doesn't interfere with safe operation of the vehicle or with exiting it.",
+        "Re-inspect the cargo securement system within 80 km of the loading point.",
+        "Then re-inspect at the earliest of: a change in duty status, three hours, or 240 km of driving.",
+        "Record cargo securement inspections on your daily logs.",
+        "No inspection needed if cargo is sealed and you're ordered not to inspect it, or it's inaccessible."
+      ],
+      "mustKnow": [
+        "Re-inspect the cargo securement system within 80 km from the point where the cargo was loaded",
+        "Re-inspect at the earliest of: a change in duty status of the driver, three hours of driving, or 240 km of driving since the last inspection"
+      ],
+      "check": [
+        {
+          "q": "After loading, you must re-inspect the cargo securement system within:",
+          "choices": ["80 km", "160 km", "240 km", "40 km"],
+          "answerIndex": 0,
+          "explanation": "The first cargo re-check must happen within 80 km from the point where the cargo was loaded."
+        },
+        {
+          "q": "During the trip, cargo must be re-inspected at the earliest of a duty status change, three hours of driving, or:",
+          "choices": ["100 km of driving", "150 km of driving", "200 km of driving", "240 km of driving"],
+          "answerIndex": 3,
+          "explanation": "The interval is the earliest of a duty status change, three hours, or 240 km since the last inspection."
+        }
+      ]
+    },
+    {
+      "title": "Road-test inspection report and time limits",
+      "points": [
+        "On your road test, the examiner gives you a blank trip inspection report to complete and return.",
+        "Part of your grade is based on how completely and accurately you fill out the report.",
+        "Corrected defects must be noted with a signature certifying the correction; minor defects noted as not needing immediate repair.",
+        "Time limits: Class 1 under 45 minutes; Class 3 under 30 minutes; Class 2 under 30 minutes.",
+        "Class 4 unrestricted (bus) under 20 minutes; Class 4 restricted under 15 minutes.",
+        "With manual slack adjusters you must adjust a brake; with automatic ones, explain how manual adjustment is done.",
+        "During the test, point to or touch items you inspect and tell the examiner what you're looking for."
+      ],
+      "mustKnow": [
+        "Class 1 pre-trip inspection: complete in less than 45 minutes",
+        "Class 3 pre-trip inspection: complete in less than 30 minutes",
+        "Class 2 pre-trip inspection: less than 30 minutes; Class 4 (unrestricted) less than 20 minutes",
+        "Class 4 (restricted) pre-trip inspection: complete in less than 15 minutes"
+      ],
+      "check": [
+        {
+          "q": "How long do you have to complete a Class 1 tractor-trailer pre-trip inspection on your road test?",
+          "choices": ["Less than 30 minutes", "Less than 45 minutes", "Less than 60 minutes", "Less than 20 minutes"],
+          "answerIndex": 1,
+          "explanation": "The Class 1 pre-trip inspection should be completed in less than 45 minutes."
+        },
+        {
+          "q": "If your test vehicle has automatic slack adjusters, you will be asked to:",
+          "choices": ["Skip the brake adjustment portion", "Replace a slack adjuster", "Adjust the automatic slack adjusters by hand", "Explain how to adjust manual slack adjuster brakes"],
+          "answerIndex": 3,
+          "explanation": "With automatic slack adjusters, you must explain how to adjust manual slack adjuster brakes for proper pushrod travel."
+        }
+      ]
+    },
+    {
+      "title": "Inspection structure: under hood, in cab, circle checks and brake tests",
+      "points": [
+        "Before starting: park on level ground away from traffic, set parking brakes, shut off the engine, block the wheels.",
+        "Under hood: check fluids, belts, hoses, compressor, steering components, suspension and frame; drain the supply reservoir.",
+        "In cab: check tires/wheels/mud flaps, foundation brakes, gauges, wipers, heater, horns, emergency equipment, seatbelts, mirrors, documents.",
+        "Walk the circle check counter-clockwise so you're facing oncoming traffic.",
+        "Circle check for lights: turn signals, low and high beams, tail, licence plate, clearance and brake lights.",
+        "Finish with tug tests against the parking brakes, then move ahead slowly checking brake response and steering wheel slack.",
+        "Follow the same order every time so you don't miss items."
+      ],
+      "mustKnow": [
+        "A peace officer may place your vehicle out of service if drum brake linings are less than 1/4 inch (6.4 mm) thick or air disc brake pads are less than 1/8 inch (3.2 mm) thick"
+      ],
+      "check": [
+        {
+          "q": "In which direction should you walk during the circle check?",
+          "choices": ["Clockwise, starting at the rear", "Counter-clockwise, so you face oncoming traffic", "Either direction, alternating each day", "Clockwise, so traffic approaches from behind"],
+          "answerIndex": 1,
+          "explanation": "Walk counter-clockwise so you're facing oncoming traffic during the circle check."
+        },
+        {
+          "q": "A vehicle may be placed out of service if drum brake linings are thinner than:",
+          "choices": ["1/8 inch (3.2 mm)", "1/2 inch (12.7 mm)", "1/4 inch (6.4 mm)", "3/8 inch (9.5 mm)"],
+          "answerIndex": 2,
+          "explanation": "Drum linings under 1/4 inch (6.4 mm), or disc pads under 1/8 inch (3.2 mm), can put a vehicle out of service."
+        }
+      ]
+    },
+    {
+      "title": "Air brake system test and its numbers",
+      "points": [
+        "Check the compressor stops pumping (cuts out) between 105 and 135 p.s.i.",
+        "Pump down to about 80 per cent of maximum; the governor must cut the compressor in before pressure falls below 80 p.s.i.",
+        "Pump down farther: low-air warning devices must activate at or above 60 p.s.i.",
+        "Class 1: trailer air supply valve must close between 20 and 45 p.s.i.; check trailer brakes applied.",
+        "Class 1: disconnect glad hands and confirm no air escapes; also check them during a foot brake application.",
+        "Pressure must rebuild from 50 to 90 p.s.i. within three minutes at fast idle.",
+        "Full brake application held one minute: air loss max 4 p.s.i./min (Class 1), 6 with two trailers, 3 for a single-unit truck."
+      ],
+      "mustKnow": [
+        "Compressor stops pumping between 105 and 135 p.s.i. (724 and 931 kPa)",
+        "The governor must cause the compressor to cut in before pressure falls below 80 p.s.i. (552 kPa)",
+        "Low-air warning device(s) activate at or above 60 p.s.i. (414 kPa)",
+        "Trailer air supply valve closes when the highest reservoir pressure gauge reads between 20 to 45 p.s.i. (138 to 310 kPa)",
+        "Air pressure builds from 50 to 90 p.s.i. (345 to 620 kPa) within three minutes at a fast idle (1,000 to 1,200 r.p.m.); full application (90 to 100 p.s.i.) held one minute — air loss not more than 4 p.s.i. (27.6 kPa) per minute, 6 p.s.i. (41.4 kPa) with two trailers, three p.s.i. (20.7 kPa) for a single-unit truck"
+      ],
+      "check": [
+        {
+          "q": "The low-air warning device must activate at or above:",
+          "choices": ["45 p.s.i.", "60 p.s.i.", "80 p.s.i.", "100 p.s.i."],
+          "answerIndex": 1,
+          "explanation": "Low-air warning devices must activate at or above 60 p.s.i. (414 kPa)."
+        },
+        {
+          "q": "During the buildup test, air pressure must rise from 50 to 90 p.s.i. within:",
+          "choices": ["One minute", "Two minutes", "Three minutes", "Five minutes"],
+          "answerIndex": 2,
+          "explanation": "Pressure must build from 50 to 90 p.s.i. within three minutes at a fast idle of 1,000 to 1,200 r.p.m."
+        }
+      ]
+    },
+    {
+      "title": "Class differences and ongoing inspections",
+      "points": [
+        "Class 1 adds trailer items: fifth wheel flush to apron, jaws locked on kingpin, landing gear raised, glad hands, trailer tug test and hand-valve check.",
+        "Class 3 single-unit: pump below 50 p.s.i., rebuild pressure, release spring parking brakes if they applied.",
+        "Class 2/4 bus adds passenger compartment checks: seats, doors, step lights, emergency windows and exits with alarm.",
+        "Class 4 restricted adds trunk, spare tire, jack, brake fluid and propane tank checks; no air brake test.",
+        "Pre-hill: stop in the pullout, check reservoir pressure, air leaks, glad hands, drum/hub heat and pushrod travel — even with automatic slack adjusters.",
+        "En route: walk around counter-clockwise checking tires, wheels, brakes, hubs, coupling, cargo and suspension.",
+        "Post-trip: inspect at the end of the final trip and complete a trip inspection report noting any defects."
+      ],
+      "mustKnow": [
+        "Commercial trailers with an overall width of 2.05 m or more are required to have reflective markings to the rear and sides",
+        "You may be fined for failing to stop to conduct a brake pre-hill inspection"
+      ],
+      "check": [
+        {
+          "q": "At a pre-hill brake check, must you check pushrod travel if your vehicle has automatic slack adjusters?",
+          "choices": ["Yes, you must check pushrod travel even with automatic slack adjusters", "Only if the low-air warning came on", "No, automatic adjusters make it unnecessary", "Only on vehicles towing two trailers"],
+          "answerIndex": 0,
+          "explanation": "The manual states you must check pushrod travel even if equipped with automatic slack adjusters."
+        },
+        {
+          "q": "Commercial trailers must have reflective markings to the rear and sides when their overall width is:",
+          "choices": ["2.05 m or more", "2.6 m or more", "1.85 m or more", "2.3 m or more"],
+          "answerIndex": 0,
+          "explanation": "Trailers with an overall width of 2.05 m or more require reflective markings to the rear and sides."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "You are responsible for confirming your vehicle is safe before every drive; NSC vehicles need daily pre-trip and post-trip inspections.",
+    "Written reports must list defects or state none, be signed and dated, and reach the carrier within 20 days.",
+    "Know the air numbers: cut-out 105-135 p.s.i., cut-in before 80, warning at 60, trailer valve closes 20-45, buildup 50-90 in three minutes.",
+    "Air-loss limits with full application held one minute: 4 p.s.i./min Class 1, 6 with two trailers, 3 for a single-unit truck.",
+    "Keep inspecting after departure: cargo within 80 km then every duty change/3 hours/240 km, pre-hill brake checks, en route walkarounds and a post-trip report."
+  ]
+}

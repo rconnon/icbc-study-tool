@@ -1,0 +1,320 @@
+{
+  "chapter": 8,
+  "title": "air brakes",
+  "objectives": [
+    "Identify the components of an air brake system",
+    "Explain how an s-cam foundation brake works",
+    "Describe what happens when one or more air brake system components fail",
+    "Explain how trailer brakes are applied",
+    "State the key air pressure values for governor operation, low-air warning and spring parking brake automatic application"
+  ],
+  "sections": [
+    {
+      "title": "Why air brakes and compressed air basics",
+      "points": [
+        "Air brakes apply much greater force than hydraulic brakes, needed for the heavy loads of commercial vehicles.",
+        "Air systems tolerate small leaks; the compressor generates more compressed air as needed.",
+        "In a hydraulic system, a small leak could result in brake failure.",
+        "Squeezing air into a smaller space increases resistance, creating pressure that converts into mechanical force to apply brakes.",
+        "Pressure is measured in pounds per square inch (p.s.i.) or kilopascals (kPa)."
+      ],
+      "mustKnow": [],
+      "check": [
+        {
+          "q": "Why are air brakes used instead of hydraulic brakes on heavy commercial vehicles?",
+          "choices": [
+            "They apply much greater force and are more tolerant of small leaks",
+            "They are cheaper to install and maintain",
+            "They are lighter than hydraulic systems",
+            "They never need adjustment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Air brakes use much greater force than hydraulic systems and tolerate small leaks because the compressor replenishes air."
+        }
+      ]
+    },
+    {
+      "title": "Brake chambers, force multiplication and s-cam foundation brakes",
+      "points": [
+        "The brake chamber converts compressed-air force into strong mechanical force through the pushrod and slack adjuster.",
+        "The slack adjuster acts as a lever (force multiplication) and adjusts brakes for lining and drum wear.",
+        "Chamber sizes range from Type 9 to Type 36; Type 30 is most common on drive and trailer axles.",
+        "Long stroke chambers have square-shaped inlet ports and/or a trapezoid-shaped name tag on a clamp bolt.",
+        "In s-cam brakes, the pushrod moves the slack adjuster, rotating the s-cam to press linings against the drum.",
+        "Brake shoe return springs keep linings away from the drum when chamber air pressure is released."
+      ],
+      "mustKnow": [
+        "Through force multiplication, 100 p.s.i. (690 kPa) of air pressure produces a pushrod force of 3,000 pounds.",
+        "Even though truck air brake system pressures are 100 p.s.i. (690 kPa) and above, much lower air application pressure, usually less than 20 p.s.i. (138 kPa), is used to make normal stops."
+      ],
+      "check": [
+        {
+          "q": "A Type 30 brake chamber applied with 100 p.s.i. of air pressure develops what pushrod force?",
+          "choices": [
+            "1,500 pounds",
+            "2,000 pounds",
+            "3,000 pounds",
+            "5,000 pounds"
+          ],
+          "answerIndex": 2,
+          "explanation": "A Type 30 chamber applied at 100 p.s.i. (690 kPa) develops a pushrod force of 3,000 pounds."
+        },
+        {
+          "q": "In an s-cam foundation brake, what rotates the s-cam to press the linings against the drum?",
+          "choices": [
+            "The brake shoe return spring",
+            "The slack adjuster, moved by the chamber pushrod",
+            "The governor",
+            "The relay valve"
+          ],
+          "answerIndex": 1,
+          "explanation": "Air pressure moves the pushrod forward, causing the slack adjuster to rotate the s-cam and apply the linings."
+        }
+      ]
+    },
+    {
+      "title": "Compressor, governor and reservoirs",
+      "points": [
+        "The engine-driven compressor pumps air to the supply reservoir and runs whenever the engine runs.",
+        "The governor unloads the compressor at maximum pressure and restarts it when pressure drops about 20 p.s.i.",
+        "A safety (pop-off) valve on the first reservoir prevents over-pressurization if the governor fails to unload the compressor.",
+        "The supply reservoir (wet tank) collects water, oil and carbon sludge; most manufacturers recommend draining reservoirs daily.",
+        "Stay out of the direct path of compressed air when draining reservoirs."
+      ],
+      "mustKnow": [
+        "Many current air brake systems operate with a maximum pressure of approximately 125 p.s.i. (862 kPa).",
+        "The range between minimum and maximum pressure should be approximately 20 p.s.i. (138 kPa).",
+        "The governor must restart the compressor if the air pressure drops below 80 to 85 p.s.i. (552 to 586 kPa).",
+        "Safety valves are normally set to vent the excess pressure at approximately 150 p.s.i. (1,034 kPa).",
+        "The compressor must be capable of building pressure in the reservoirs from 50 p.s.i. to 90 p.s.i. within three minutes at a fast idle (1,000 – 1,200 r.p.m.)."
+      ],
+      "check": [
+        {
+          "q": "The governor must restart the compressor if air pressure drops below what level?",
+          "choices": [
+            "60 p.s.i.",
+            "100 p.s.i.",
+            "125 p.s.i.",
+            "80 p.s.i. (552 kPa)"
+          ],
+          "answerIndex": 3,
+          "explanation": "Vehicle safety standards require the governor to resume compressing air if pressure drops below 80 p.s.i. (552 kPa)."
+        },
+        {
+          "q": "Safety valves on the first reservoir are normally set to vent excess pressure at approximately what pressure?",
+          "choices": [
+            "125 p.s.i.",
+            "150 p.s.i. (1,034 kPa)",
+            "175 p.s.i.",
+            "135 p.s.i."
+          ],
+          "answerIndex": 1,
+          "explanation": "The safety valve vents excess pressure at approximately 150 p.s.i. (1,034 kPa) if the governor fails to unload the compressor."
+        }
+      ]
+    },
+    {
+      "title": "Foot valve and how a basic system applies and releases",
+      "points": [
+        "The foot valve is a foot-controlled pressure regulator; press it farther, not harder, for more braking force.",
+        "Holding the treadle in one position keeps delivered pressure constant, automatically replenishing small downstream leaks.",
+        "Applying: reservoir air flows through the foot valve to the brake chambers, forcing linings against the drums.",
+        "Releasing: application air exhausts through the foot valve exhaust port; return springs retract pushrods and linings.",
+        "A basic system needs a compressor with governor, air lines, reservoir, foot valve and foundation brakes."
+      ],
+      "mustKnow": [
+        "The maximum brake application will not exceed the pressure in the reservoirs.",
+        "If reservoir pressure is 80 p.s.i. (552 kPa), the maximum brake application you could make wouldn't exceed 80 p.s.i."
+      ],
+      "check": [
+        {
+          "q": "If reservoir pressure is 80 p.s.i., what is the maximum brake application pressure you could make?",
+          "choices": [
+            "100 p.s.i.",
+            "125 p.s.i.",
+            "80 p.s.i.",
+            "60 p.s.i."
+          ],
+          "answerIndex": 2,
+          "explanation": "The maximum brake application will not exceed the pressure in the reservoirs."
+        }
+      ]
+    },
+    {
+      "title": "Dual air systems — gauges, low-air warning, quick release and relay valves",
+      "points": [
+        "The dual foot valve divides braking into independent primary (usually drive axle) and secondary (usually steering axle) sections.",
+        "Most dual systems use a supply reservoir plus primary and secondary service reservoirs filled through one-way check valves.",
+        "Reservoir pressure gauges (often one gauge with two needles) show primary and secondary pressure; check them frequently.",
+        "If one section totally fails, you can still make a controlled stop, though braking power is reduced.",
+        "Quick release valves exhaust chamber air near the chambers so brakes release quickly and fully.",
+        "Relay valves reduce lag time on application and release, delivering reservoir air matching the foot valve control pressure.",
+        "If the low-air warning activates, stop and do not proceed until the cause is found and fixed."
+      ],
+      "mustKnow": [
+        "The low-air warning device must come on when air pressure drops below 60 p.s.i. (414 kPa).",
+        "The air pressure remaining in the system (approximately 60 p.s.i.) will be enough to stop the vehicle if you act promptly."
+      ],
+      "check": [
+        {
+          "q": "The low-air warning device must come on when system air pressure drops below what level?",
+          "choices": [
+            "70 p.s.i.",
+            "60 p.s.i. (414 kPa)",
+            "50 p.s.i.",
+            "40 p.s.i."
+          ],
+          "answerIndex": 1,
+          "explanation": "All air brake vehicles must have a warning device that activates below 60 p.s.i. (414 kPa)."
+        },
+        {
+          "q": "What is the purpose of a relay valve in an air brake system?",
+          "choices": [
+            "To protect reservoirs from over-pressurization",
+            "To keep the spring parking brakes released",
+            "To warn the driver of low air pressure",
+            "To reduce lag time when brakes are applied and released"
+          ],
+          "answerIndex": 3,
+          "explanation": "Relay valves are remote-controlled air valves mounted near the chambers to speed brake application and release."
+        }
+      ]
+    },
+    {
+      "title": "Spring parking brakes — apply, release, compounding and caging",
+      "points": [
+        "Parking force must be maintained by mechanical means and be unaffected by loss of air pressure.",
+        "Spring parking brakes are mounted on rear axles only; air pressure holds the powerful coil spring compressed (released).",
+        "Push the yellow dash button in to release (air flows in); pull it out to apply (air exhausts).",
+        "Compounding adds spring force to a heavy service application and can damage slack adjusters, s-cams, shoes and drums.",
+        "Caging manually releases spring brakes for towing only; block the wheels first — a caged chamber has no parking force.",
+        "In dual systems, a two-way check valve supplies the parking control with blended air from the higher-pressure reservoir.",
+        "Safety actuator parking brakes on some buses use a locking mechanism, not spring force, and can't be compounded."
+      ],
+      "mustKnow": [
+        "If the air pressure in the system falls below approximately 60 p.s.i., the spring brakes may begin to drag, and at 20 to 45 p.s.i. (138 to 310 kPa) may automatically fully apply.",
+        "In some of these systems, they may begin to apply at 90 p.s.i. or higher.",
+        "The coil spring in most spring parking brake chambers can exert a force of between 1,500 and 2,000 pounds.",
+        "This could add a further 3,000 lbs for a total of 5,000 lbs.",
+        "Lighter brake applications of less than 30 to 40 p.s.i. (207 to 276 kPa), to prevent a vehicle from rolling while the spring parking brakes are being released or applied, aren't harmful."
+      ],
+      "check": [
+        {
+          "q": "At what pressure range may spring parking brakes automatically fully apply?",
+          "choices": [
+            "20 to 45 p.s.i. (138 to 310 kPa)",
+            "60 to 75 p.s.i.",
+            "80 to 85 p.s.i.",
+            "100 to 125 p.s.i."
+          ],
+          "answerIndex": 0,
+          "explanation": "Spring brakes may begin to drag below about 60 p.s.i. and may automatically fully apply at 20 to 45 p.s.i."
+        },
+        {
+          "q": "Compounding a heavy service application on top of applied spring brakes can produce a total force of about how much?",
+          "choices": [
+            "2,000 lbs",
+            "3,000 lbs",
+            "5,000 lbs",
+            "6,000 lbs"
+          ],
+          "answerIndex": 2,
+          "explanation": "Up to 2,000 lbs of spring force plus 3,000 lbs of air application force totals 5,000 lbs, which can damage brake components."
+        }
+      ]
+    },
+    {
+      "title": "Tractor-trailer systems — relay emergency valve, tractor protection, hand valve and breakaway",
+      "points": [
+        "Trailers have no compressor; the supply (emergency) line fills trailer reservoirs and the control (service) line signals applications.",
+        "Glad hands couple the lines: blue indicates the control line, red indicates the supply line.",
+        "Trailers without spring brakes use a relay emergency valve that dynamites the brakes with full reservoir pressure on breakaway.",
+        "Trailers with spring parking brakes use spring force to dynamite the brakes if the supply line loses pressure.",
+        "The tractor protection system (dash trailer air supply valve plus tractor protection valve) preserves tractor air after breakaway.",
+        "The hand valve applies only the trailer brakes; never use it for parking or normal service braking.",
+        "Bobtail proportioning reduces drive-axle braking pressure to prevent rear-wheel lockup when driving without a trailer."
+      ],
+      "mustKnow": [
+        "Motor vehicle safety standards require these systems to remain applied for a minimum of 15 minutes.",
+        "Some tractor protection systems will shut off immediately in a breakaway, but some will allow tractor pressure to drop to as low as 20 p.s.i (138 kPa) before shutting off.",
+        "Automatic shutoff of the air supply to the trailer — in the event that the pressure in the tractor air system is lowered to between 20 and 45 p.s.i. (138 and 310 kPa).",
+        "A peace officer may place your vehicle out of service if the tractor protection system allows the tractor pressure to drop below 20 p.s.i. (138 kPa) without the trailer air supply valve automatically closing.",
+        "When bobtailing, the braking pressure to the drive axle brakes is reduced by as much as 75 per cent."
+      ],
+      "check": [
+        {
+          "q": "A relay emergency valve applies full trailer reservoir pressure to the trailer brakes when it senses what?",
+          "choices": [
+            "Loss of pressure in the supply line",
+            "A heavy foot valve application",
+            "Low pressure in the tractor primary reservoir",
+            "The hand valve being applied"
+          ],
+          "answerIndex": 0,
+          "explanation": "When the supply line loses pressure (breakaway or disconnection), the relay emergency valve dynamites the trailer brakes."
+        },
+        {
+          "q": "The hand valve applies which brakes?",
+          "choices": [
+            "Tractor brakes only",
+            "Both tractor and trailer brakes",
+            "Steering axle brakes only",
+            "Trailer brakes only"
+          ],
+          "answerIndex": 3,
+          "explanation": "The hand valve allows independent application of the trailer brakes, such as when coupling; never use it for parking."
+        }
+      ]
+    },
+    {
+      "title": "Other components and ABS — dryers, drain valves, limiting systems and other foundation brakes",
+      "points": [
+        "Air dryers, installed between the compressor and first reservoir, remove water vapour, oil mist and carbon particles.",
+        "Alcohol evaporators and injectors add methyl hydrate vapour as anti-freeze; reservoirs must still be drained regularly.",
+        "Automatic drain (spitter) valves expel contaminants; open manual drains periodically to check for water.",
+        "Front wheel limiting systems reduce steering-axle brake pressure to help prevent lockup on slippery surfaces.",
+        "Wedge, air disc and air-over-hydraulic brakes must be adjusted and repaired only by a qualified mechanic.",
+        "ABS senses wheel lockup and releases and re-applies the brakes; apply firm continuous pedal pressure and keep steering.",
+        "If the ABS lamp stays on, normal braking still operates — only the anti-lock feature is disabled."
+      ],
+      "mustKnow": [
+        "Shutoff pressures vary between 60 and 90 p.s.i. (414 and 620 kPa), depending on the manufacturer's specifications.",
+        "At brake application pressures below 40 p.s.i. (276 kPa), the steering axle brake pressure is approximately 50 per cent of drive axle pressure.",
+        "It reaches an application pressure that may be used during an emergency stop (60 to 70 p.s.i. — 414 to 483 kPa) and steering axle and drive axle brakes receive equal pressure.",
+        "Most systems are capable of cycling the brakes up to five times per second.",
+        "The dash lamp may light, flash briefly, then stay lit until vehicle speed reaches 7–11 km/h, or light briefly then turn off."
+      ],
+      "check": [
+        {
+          "q": "Where is an air dryer installed in an air brake system?",
+          "choices": [
+            "Between the foot valve and the brake chambers",
+            "In the compressor discharge line between the compressor and the first reservoir",
+            "Between the primary and secondary reservoirs",
+            "At the trailer glad hand connections"
+          ],
+          "answerIndex": 1,
+          "explanation": "Air dryers are installed in the compressor discharge line so contaminants are removed before air reaches the first reservoir."
+        },
+        {
+          "q": "If the ABS warning lamp comes on while driving, what happens to the brakes?",
+          "choices": [
+            "Normal braking still works; only the anti-lock feature is disabled",
+            "All braking is lost immediately",
+            "The spring parking brakes automatically apply",
+            "Only the trailer brakes will work"
+          ],
+          "answerIndex": 0,
+          "explanation": "An ABS failure disables only the anti-lock feature; normal braking remains operational and the vehicle may be driven for repairs."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Compressed air converts a light pedal effort into powerful mechanical braking force through chambers, slack adjusters and s-cams.",
+    "The governor keeps system pressure near 125 p.s.i. maximum; the low-air warning below 60 p.s.i. means stop immediately.",
+    "Dual air systems let you make a controlled stop even if one complete circuit fails.",
+    "Spring parking brakes apply mechanically when air is lost; release them before heavy service applications to avoid compounding.",
+    "Tractor protection and trailer dynamiting systems preserve tractor air and automatically stop a broken-away trailer."
+  ]
+}

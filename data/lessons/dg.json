@@ -1,0 +1,93 @@
+{
+  "chapter": "dg",
+  "title": "transporting dangerous goods",
+  "objectives": [
+    "List the nine classes of dangerous goods",
+    "Explain the requirements for placards, shipping documents and route signs",
+    "State the driver's responsibilities for training, certification and incident reporting"
+  ],
+  "sections": [
+    {
+      "title": "what counts as dangerous goods: classes, placards and documents",
+      "points": [
+        "Dangerous goods present a serious potential hazard to handlers, the public and the environment.",
+        "There are nine classes, from Class 1 explosives through Class 9 miscellaneous products, substances or organisms.",
+        "Placards appear on the sides and both ends of transport trucks; a mixed-load placard exists for combined shipments.",
+        "Shipping documents must be complete, correct, readily available in the cab and accompany the shipment.",
+        "Some road signs designate routes where dangerous goods vehicles may travel; others prohibit them."
+      ],
+      "mustKnow": [
+        "The nine classes: explosives, gases, flammable liquids, flammable solids, oxidizing substances and organic peroxides, poisonous and infectious substances, radioactive materials, corrosive substances, and miscellaneous products or substances.",
+        "Shipping documents must be complete, correct and readily available in the cab."
+      ],
+      "check": [
+        {
+          "q": "How many classes of dangerous goods are there?",
+          "choices": [
+            "Six",
+            "Nine",
+            "Eleven",
+            "Four"
+          ],
+          "answerIndex": 1,
+          "explanation": "There are nine classes of dangerous goods, from explosives to miscellaneous products or substances."
+        },
+        {
+          "q": "Where must shipping documents be kept when transporting dangerous goods?",
+          "choices": [
+            "Filed at the carrier's head office",
+            "Attached to the outside of the trailer",
+            "Readily available in the cab",
+            "Mailed ahead to the destination"
+          ],
+          "answerIndex": 2,
+          "explanation": "Shipping documents must be complete, correct and readily available in the cab, accompanying the shipment."
+        }
+      ]
+    },
+    {
+      "title": "driver responsibilities: training, certification and reporting",
+      "points": [
+        "Anyone working with dangerous goods has significant legal responsibilities and must be properly trained and appropriately certified.",
+        "Your current employer must certify that you've had appropriate dangerous goods training.",
+        "Always carry your training certificate with you when transporting dangerous goods.",
+        "Report immediately any incident — spills, leaks, fires, explosions or damaged containers — to the nearest police or the Provincial Emergency Program.",
+        "Rapid action after an incident may help prevent it from becoming serious."
+      ],
+      "mustKnow": [
+        "Report dangerous goods incidents in B.C. immediately by calling local police or the Provincial Emergency Program at 1-800-663-3456.",
+        "Your current employer must certify your training, and you must carry your training certificate when transporting dangerous goods."
+      ],
+      "check": [
+        {
+          "q": "Who must certify that you've had appropriate dangerous goods training?",
+          "choices": [
+            "Your current employer",
+            "ICBC",
+            "The local police",
+            "The shipper of the goods"
+          ],
+          "answerIndex": 0,
+          "explanation": "Your current employer must certify your training, and you must carry the certificate while transporting dangerous goods."
+        },
+        {
+          "q": "What should you do if your dangerous goods cargo leaks or spills?",
+          "choices": [
+            "Finish the trip, then file a report",
+            "Wait 24 hours to see if it worsens",
+            "Notify only your dispatcher",
+            "Report immediately to the nearest police or the Provincial Emergency Program"
+          ],
+          "answerIndex": 3,
+          "explanation": "Report any incident immediately to the nearest police agency or the Provincial Emergency Program at 1-800-663-3456."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "There are nine classes of dangerous goods, shown on placards on the sides and both ends of transport trucks.",
+    "Shipping documents must be complete, correct and readily available in the cab with the shipment.",
+    "You must be trained, certified by your current employer, and carry your training certificate when transporting dangerous goods.",
+    "Report any incident — spill, leak, fire, explosion or damaged container — immediately to police or the Provincial Emergency Program at 1-800-663-3456."
+  ]
+}

@@ -162,6 +162,34 @@ details.tips summary{padding:14px 0;font-weight:700;cursor:pointer;font-size:15.
 details.tips ul{margin:0 0 14px;padding-left:20px;color:var(--ink2);font-size:14.5px}
 details.tips li{margin:6px 0}
 
+/* learn module */
+.objlist{margin:8px 0 0;padding:0;list-style:none}
+.objlist li{display:flex;gap:10px;padding:7px 0;font-size:14.5px;color:var(--ink2);
+  border-bottom:1px solid var(--line-soft);align-items:flex-start}
+.objlist li:last-child{border-bottom:none}
+.objlist .ic{color:var(--accent);font-weight:800;flex:none}
+.lsteps{display:flex;gap:5px;margin:10px 0 16px}
+.lsteps i{flex:1;height:5px;border-radius:3px;background:var(--line-soft)}
+.lsteps i.done{background:var(--accent)}
+.lsteps i.cur{background:var(--accent);opacity:.45}
+.lsec-title{font-size:20px;font-weight:750;letter-spacing:-.01em;margin:2px 0 10px}
+.lpoints{margin:0;padding:0;list-style:none}
+.lpoints li{position:relative;padding:8px 0 8px 22px;font-size:15.5px;line-height:1.5;
+  border-bottom:1px solid var(--line-soft)}
+.lpoints li:last-child{border-bottom:none}
+.lpoints li::before{content:"";position:absolute;left:4px;top:15px;width:7px;height:7px;
+  border-radius:50%;background:var(--accent);opacity:.7}
+.mustknow{margin-top:14px;background:var(--warn-wash);border:1px solid var(--line);
+  border-radius:12px;padding:12px 14px}
+.mustknow h4{margin:0 0 6px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--warn);display:flex;gap:7px;align-items:center}
+.mustknow ul{margin:0;padding-left:18px;font-size:14.5px;color:var(--ink)}
+.mustknow li{margin:4px 0}
+.checkhdr{margin:20px 0 2px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);font-weight:700}
+.modrow-status{font-family:var(--mono);font-size:11px;white-space:nowrap}
+.modrow-status.done{color:var(--good)}
+.modrow-status.due{color:var(--warn)}
 .review-item{border-top:1px solid var(--line-soft);padding:14px 0}
 .review-item .rq{font-weight:650;font-size:15px}
 .review-item .ra{font-size:14px;margin-top:6px}
@@ -198,6 +226,7 @@ const CLASSES = {
       chapters:[1,2,3,4,"dg",6,7,8,9,10,11]},
 };
 const EXAM = {size:35, passPct:80, minutes:45};
+const LEARN = {passPct:80, quizOwn:6, quizReview:2};
 const QUIZ_SIZES=[10,15,20];
 const chTitle = k => k==="dg" ? "Transporting dangerous goods" :
   (DATA.chapters[k] ? DATA.chapters[k].title : "Chapter "+k);
@@ -301,8 +330,15 @@ function classView(cls){
   const pool=classPool(cls,"questions");
   const answered=pool.filter(q=>s.q[q.id]&&s.q[q.id].seen>0);
   const lastExam=s.exams[s.exams.length-1];
+  const mods=learnModules(cls);
+  const modsDone=mods.filter(m=>lstate(cls,m.key).done).length;
   app.innerHTML = header(c.n+" — study hub", {name:"home"}) + `
     <p class="lede" style="margin-top:8px">${esc(c.vehicles)}</p>
+    <button class="rowcard" data-nav='${esc(JSON.stringify({name:"learnHome",cls}))}'>
+      <div class="rc-top"><span class="rc-title">📚 Learn</span>
+      <span class="rc-badge">${modsDone}/${mods.length} modules done</span></div>
+      <div class="rc-sub">Chapter-by-chapter guided lessons: short sections, quick
+      checks, and a reinforcement quiz to lock it in.</div></button>
     <button class="rowcard" data-nav='${esc(JSON.stringify({name:"cardsSetup",cls}))}'>
       <div class="rc-top"><span class="rc-title">🃏 Cue cards</span>
       <span class="rc-badge">${classPool(cls,"cards").length} cards</span></div>
@@ -503,6 +539,192 @@ function quizResultsView(cls){
     </div>`;
 }
 
+/* ----- learn ----- */
+const REVIEW_AFTER_DAYS=3;
+function learnModules(cls){
+  return CLASSES[cls].chapters.map(k=>{
+    const key = k==="dg" ? "dg" : String(k);
+    return {key, lesson:DATA.lessons[key]};
+  }).filter(m=>m.lesson);
+}
+function lstate(cls,key){
+  const s=st(cls); s.learn=s.learn||{};
+  return s.learn[key]||(s.learn[key]={sec:0,done:false,best:0,ts:0});
+}
+function reviewDue(ls){
+  return ls.done && ls.ts && (Date.now()-ls.ts) > REVIEW_AFTER_DAYS*24*3600*1000;
+}
+function learnHomeView(cls){
+  const c=CLASSES[cls];
+  const mods=learnModules(cls);
+  app.innerHTML = header("Learn — "+c.n, {name:"class",cls}) + `
+    <p class="lede" style="margin-top:8px">Work through the chapters in order — each is a
+    short guided lesson with quick checks, ending in a reinforcement quiz. Score
+    ${LEARN.passPct}%+ on the quiz to complete a module; completed modules resurface
+    as review after a few days (spaced repetition).</p>
+    ${mods.map((m,i)=>{
+      const ls=lstate(cls,m.key);
+      const due=reviewDue(ls);
+      const status = due?`review due ↻`:ls.done?`✓ done · best ${ls.best}%`:
+        ls.sec>0?`in progress · ${ls.sec}/${m.lesson.sections.length}`:"not started";
+      const scls = due?"due":ls.done?"done":"";
+      return `<button class="rowcard" data-nav='${esc(JSON.stringify({name:"learnMod",cls,key:m.key}))}'>
+        <div class="rc-top"><span class="rc-title">${m.key==="dg"?"Ch 5 · pp. 110–111":"Ch "+m.key}</span>
+        <span class="rc-badge modrow-status ${scls}">${status}</span></div>
+        <div class="rc-sub">${esc(m.lesson.title)} — ${m.lesson.sections.length} sections + quiz</div>
+      </button>`;
+    }).join("")}`;
+}
+let learn=null;
+function startLearn(cls,key){
+  const lesson=DATA.lessons[key];
+  const ls=lstate(cls,key);
+  learn={key, lesson, step:-1, resume:Math.min(ls.sec,lesson.sections.length-1),
+         answered:{}, quiz:null};
+  go({name:"learnView",cls});
+}
+function learnStepsBar(){
+  // one tick per section plus a final tick for the reinforcement quiz
+  const n=learn.lesson.sections.length+1, cur=learn.step;
+  return `<div class="lsteps">${Array.from({length:n},(_,i)=>
+    `<i class="${cur>i?"done":cur===i?"cur":""}"></i>`).join("")}</div>`;
+}
+function learnView(cls){
+  const L=learn.lesson, n=L.sections.length;
+  if(learn.step===-1){ // overview
+    const ls=lstate(cls,learn.key);
+    app.innerHTML = header(esc(L.title), {name:"learnHome",cls}) + `
+      <div class="eyebrow">${learn.key==="dg"?"Chapter 5 · guide pp. 110–111":"Chapter "+learn.key} · ${n} sections + reinforcement quiz</div>
+      <h2 class="big" style="text-transform:capitalize">${esc(L.title)}</h2>
+      <div class="card"><div class="eyebrow" style="margin-top:0">What you'll be able to do</div>
+        <ul class="objlist">${L.objectives.map(o=>`<li><span class="ic">›</span><span>${esc(o)}</span></li>`).join("")}</ul>
+      </div>
+      <button class="btn block" style="margin-top:14px" id="l-start">
+        ${ls.sec>0&&!ls.done?`Resume at section ${ls.sec+1}`:ls.done?"Review from the start":"Start lesson"}</button>
+      ${ls.sec>0&&!ls.done?`<button class="btn block ghost" id="l-restart">Start over</button>`:""}`;
+    document.getElementById("l-start").onclick=()=>{
+      learn.step=(lstate(cls,learn.key).done)?0:learn.resume; learn.answered={}; learnView(cls); };
+    const r=document.getElementById("l-restart");
+    if(r) r.onclick=()=>{ learn.step=0; lstate(cls,learn.key).sec=0; save(); learn.answered={}; learnView(cls); };
+    return;
+  }
+  if(learn.step>=n){ learnQuizView(cls); return; }
+  const sec=L.sections[learn.step];
+  const checks=sec.check||[];
+  const allAnswered=checks.every((_,ci)=>learn.answered[learn.step+"-"+ci]!==undefined);
+  app.innerHTML = header(esc(L.title), {name:"learnHome",cls}) + learnStepsBar() + `
+    <div class="qmeta">Section ${learn.step+1} of ${n}</div>
+    <div class="lsec-title">${esc(sec.title)}</div>
+    <div class="card"><ul class="lpoints">${sec.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>
+      ${sec.mustKnow&&sec.mustKnow.length?`<div class="mustknow"><h4>⭐ Must-know for the test</h4>
+        <ul>${sec.mustKnow.map(f=>`<li>${esc(f)}</li>`).join("")}</ul></div>`:""}
+    </div>
+    ${checks.length?`<div class="checkhdr">Quick check — answer to continue</div>`:""}
+    ${checks.map((q,ci)=>{
+      const picked=learn.answered[learn.step+"-"+ci];
+      const done=picked!==undefined;
+      return `<div class="card" style="margin-top:10px">
+        <div class="qtext" style="font-size:15.5px">${esc(q.q)}</div>
+        ${q.choices.map((chc,oi)=>{
+          let state="";
+          if(done){ if(oi===q.answerIndex) state="correct"; else if(oi===picked) state="wrong"; }
+          return `<button class="opt" data-ci="${ci}" data-oi="${oi}" data-state="${state}"
+            ${done?"disabled":""} style="font-size:14.5px;padding:10px 12px">
+            <span class="k">${"ABCD"[oi]}</span><span>${esc(chc)}</span></button>`;
+        }).join("")}
+        ${done?`<div class="explain" style="margin-top:10px">${picked===q.answerIndex?"<b>Correct.</b> ":"<b>Not quite.</b> "}${esc(q.explanation||"")}</div>`:""}
+      </div>`;
+    }).join("")}
+    <div style="margin-top:16px;display:flex;gap:10px">
+      <button class="btn ghost" style="flex:1" id="l-prev" ${learn.step===0?"disabled":""}>&larr; Back</button>
+      <button class="btn" style="flex:2" id="l-next" ${allAnswered?"":"disabled"}>
+        ${learn.step===n-1?"Reinforcement quiz →":"Continue →"}</button>
+    </div>`;
+  app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    const ci=+b.dataset.ci, oi=+b.dataset.oi;
+    if(learn.answered[learn.step+"-"+ci]!==undefined) return;
+    learn.answered[learn.step+"-"+ci]=oi;
+    learnView(cls);
+  });
+  document.getElementById("l-prev").onclick=()=>{ learn.step--; learnView(cls); };
+  document.getElementById("l-next").onclick=()=>{
+    learn.step++;
+    const ls=lstate(cls,learn.key);
+    if(learn.step>ls.sec && !ls.done){ ls.sec=learn.step; save(); }
+    learnView(cls);
+  };
+}
+function learnQuizPaper(cls){
+  const key=learn.key;
+  const own=chapterItems("questions", key==="dg"?"dg":+key);
+  const paper=sample(own, Math.min(LEARN.quizOwn, own.length));
+  // interleaving: pull a couple of questions from other completed modules
+  const s=st(cls); s.learn=s.learn||{};
+  const doneKeys=Object.keys(s.learn).filter(k=>k!==key&&s.learn[k].done);
+  if(doneKeys.length){
+    const other=[];
+    doneKeys.forEach(k=>other.push(...chapterItems("questions", k==="dg"?"dg":+k)));
+    paper.push(...sample(other, Math.min(LEARN.quizReview, other.length)).map(q=>({...q,review:true})));
+  }
+  return shuffle(paper);
+}
+function learnQuizView(cls){
+  if(!learn.quiz) learn.quiz={qs:learnQuizPaper(cls), i:0, picked:null, right:0, total:0, log:[]};
+  const Q=learn.quiz;
+  if(Q.i>=Q.qs.length){ learnResultView(cls); return; }
+  const q=Q.qs[Q.i], done=Q.picked!==null;
+  app.innerHTML = header("Reinforcement quiz", {name:"learnHome",cls}) + `
+    <div class="progress"><i style="width:${pct(Q.i+(done?1:0),Q.qs.length)}%"></i></div>
+    <div class="qmeta">${Q.i+1} of ${Q.qs.length}${q.review?" · ↻ review from an earlier module":""} · Guide p. ${q.page||"—"}</div>
+    <div class="qtext">${esc(q.q)}</div>
+    ${q.choices.map((chc,ci)=>{
+      let state="";
+      if(done){ if(ci===q.answerIndex) state="correct"; else if(ci===Q.picked) state="wrong"; }
+      return `<button class="opt" data-ci="${ci}" data-state="${state}" ${done?"disabled":""}>
+        <span class="k">${"ABCD"[ci]}</span><span>${esc(chc)}</span></button>`;
+    }).join("")}
+    ${done?`<div class="explain">${Q.picked===q.answerIndex?"<b>Correct.</b> ":"<b>Not quite.</b> "}
+      ${esc(q.explanation||"")}<span class="src">Driving Commercial Vehicles, p. ${q.page||"—"}</span></div>
+      <div style="margin-top:14px"><button class="btn block" id="lq-next">
+      ${Q.i===Q.qs.length-1?"See result":"Next"}</button></div>`:""}`;
+  if(!done) app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{
+    Q.picked=+b.dataset.ci;
+    const ok=Q.picked===q.answerIndex;
+    Q.total++; if(ok)Q.right++;
+    Q.log.push({q,picked:Q.picked,ok});
+    if(q.id) recordAnswer(cls,q.id,ok);
+    learnQuizView(cls);
+  });
+  else document.getElementById("lq-next").onclick=()=>{ Q.i++; Q.picked=null; learnQuizView(cls); };
+}
+function learnResultView(cls){
+  const Q=learn.quiz, p=pct(Q.right,Q.total), passed=p>=LEARN.passPct;
+  const ls=lstate(cls,learn.key);
+  if(passed){ ls.done=true; ls.ts=Date.now(); ls.sec=0; }
+  ls.best=Math.max(ls.best||0,p); save();
+  const wrong=Q.log.filter(a=>!a.ok);
+  app.innerHTML = header("Module result", {name:"learnHome",cls}) + `
+    <div class="card scorehero"><div class="n">${p}%</div>
+      <div class="d">${Q.right} of ${Q.total} on the reinforcement quiz</div>
+      <div class="verdict ${passed?"pass":"mid"}"><span class="ic">${passed?"✓":"◐"}</span>
+        <span>${passed?"Module complete":"Almost — review and retry"}
+        <span class="sub">— ${passed?"it'll resurface for review in a few days":
+        "you need "+LEARN.passPct+"% to complete the module"}</span></span></div></div>
+    ${wrong.length?`<div class="eyebrow">Worth another look</div><div class="card">
+      ${wrong.map(a=>`<div class="review-item"><div class="rq">${esc(a.q.q)}</div>
+        <div class="ra"><span class="no">✗ You: ${esc(a.q.choices[a.picked])}</span><br>
+        <span class="yes">✓ ${esc(a.q.choices[a.q.answerIndex])}</span><br>
+        <span style="color:var(--ink2)">${esc(a.q.explanation||"")}${a.q.page?" (p. "+a.q.page+")":""}</span></div></div>`).join("")}
+    </div>`:""}
+    <div style="margin-top:16px">
+      ${passed?"":`<button class="btn block" id="lr-retry">Re-read sections & retry quiz</button>`}
+      <button class="btn block ${passed?"":"ghost"}" data-nav='${esc(JSON.stringify({name:"learnHome",cls}))}'>
+        ${passed?"Next module":"Back to modules"}</button>
+    </div>`;
+  const r=document.getElementById("lr-retry");
+  if(r) r.onclick=()=>{ learn.step=0; learn.answered={}; learn.quiz=null; go({name:"learnView",cls}); };
+}
+
 /* ----- readiness ----- */
 function masteryByChapter(cls){
   const s=st(cls);
@@ -651,6 +873,9 @@ function render(){
   switch(view.name){
     case "home": homeView(); break;
     case "class": classView(view.cls); break;
+    case "learnHome": learnHomeView(view.cls); break;
+    case "learnMod": startLearn(view.cls, view.key); break;
+    case "learnView": learnView(view.cls); break;
     case "cardsSetup": cardsSetupView(view.cls); break;
     case "cards": cardsView(view.cls); break;
     case "quizSetup": quizSetupView(view.cls); break;

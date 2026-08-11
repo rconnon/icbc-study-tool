@@ -24,7 +24,12 @@ def load_data():
         }
     with open(os.path.join(ROOT, "data", "extras.json")) as f:
         extras = json.load(f)
-    return {"chapters": chapters, "extras": extras}
+    lessons = {}
+    for path in sorted(glob.glob(os.path.join(ROOT, "data", "lessons", "*.json"))):
+        with open(path) as f:
+            d = json.load(f)
+        lessons[str(d["chapter"])] = d
+    return {"chapters": chapters, "extras": extras, "lessons": lessons}
 
 
 def build():

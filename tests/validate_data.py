@@ -72,6 +72,31 @@ def main():
     check(all(108 <= q["page"] <= 113 for q in dg),
           "dg questions cite pages outside the 110-111 range")
 
+    lessons = data["lessons"]
+    expected_lessons = {str(n) for n in range(1, 12)} | {"dg"}
+    check(set(lessons) == expected_lessons,
+          f"expected lessons for chapters 1-11 + dg, got {sorted(lessons)}")
+    for key, les in sorted(lessons.items()):
+        check(len(les.get("objectives", [])) >= 3, f"lesson {key}: needs >=3 objectives")
+        check(len(les.get("summary", [])) >= 3, f"lesson {key}: needs >=3 summary bullets")
+        secs = les.get("sections", [])
+        check(2 <= len(secs) <= 10, f"lesson {key}: odd section count ({len(secs)})")
+        for si, sec in enumerate(secs):
+            check(sec.get("title", "").strip() != "", f"lesson {key} s{si}: no title")
+            check(3 <= len(sec.get("points", [])) <= 8,
+                  f"lesson {key} s{si}: needs 3-8 points")
+            checks_ = sec.get("check", [])
+            check(1 <= len(checks_) <= 2, f"lesson {key} s{si}: needs 1-2 checks")
+            for qi, q in enumerate(checks_):
+                check(isinstance(q.get("choices"), list) and len(q["choices"]) == 4,
+                      f"lesson {key} s{si} check {qi}: needs 4 choices")
+                check(len(set(q["choices"])) == 4,
+                      f"lesson {key} s{si} check {qi}: duplicate choices")
+                check(isinstance(q.get("answerIndex"), int) and 0 <= q["answerIndex"] <= 3,
+                      f"lesson {key} s{si} check {qi}: bad answerIndex")
+                check(q.get("explanation", "").strip() != "",
+                      f"lesson {key} s{si} check {qi}: missing explanation")
+
     extras = data["extras"]
     check(len(extras["examinersTips"]["general"]) >= 5, "too few examiners' tips")
     check(len(extras["knowledgeTestFacts"]) >= 5, "too few knowledge-test facts")
@@ -103,8 +128,9 @@ def main():
         sys.exit(1)
     n_q = sum(len(c["questions"]) for c in chapters.values())
     n_c = sum(len(c["cards"]) for c in chapters.values())
+    n_sec = sum(len(l["sections"]) for l in data["lessons"].values())
     print(f"OK — {n_c} cards, {n_q} questions, {len(dg)} dangerous-goods items, "
-          f"index.html in sync")
+          f"{len(data['lessons'])} lessons ({n_sec} sections), index.html in sync")
 
 
 if __name__ == "__main__":

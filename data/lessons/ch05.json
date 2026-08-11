@@ -1,0 +1,310 @@
+{
+  "chapter": 5,
+  "title": "skills for driving trucks and trailers",
+  "objectives": [
+    "Describe the safety considerations and basic techniques for driving with a trailer",
+    "List the steps for coupling and uncoupling a tractor and trailer",
+    "Identify the devices for securing loads and explain how to use them to safely secure a load",
+    "Explain how to safely handle special cargo such as livestock and liquid tank loads",
+    "List the nine classes of dangerous goods and state the legal responsibilities when transporting them",
+    "State the allowable vehicle and load dimensions and the requirements for oversize loads, permits and weigh scales"
+  ],
+  "sections": [
+    {
+      "title": "driving with a trailer",
+      "points": [
+        "To back a semi-trailer, first steer opposite to where you want the trailer to go, then follow its path.",
+        "If the tractor doesn't follow a path matching the trailer's, you risk jackknifing; a right-angle back-up follows an S-shaped curve.",
+        "Keep cargo low, centred and spread out — a higher centre of gravity makes rollover more likely.",
+        "With doubles, couple the heavier trailer to the tractor; the last trailer is most likely to roll over.",
+        "Never unlock the pintle hook with the dolly still under the rear trailer — the tow bar may fly up.",
+        "Whipping or swerving can come from speed, sudden steering, bad connections, shifted loads, dragging brakes or a flat tire.",
+        "If the trailer whips or swerves, slow down, stop when safe, and check the vehicle and load."
+      ],
+      "mustKnow": [
+        "The last trailer in a doubles combination is the most likely to roll over.",
+        "Block the wheels of a parked trailer so it can't roll.",
+        "Without spring brakes, trailer brakes release as air pressure drops; with spring brakes, they remain applied."
+      ],
+      "check": [
+        {
+          "q": "When you start backing a tractor with a semi-trailer, which way do you turn the steering wheel?",
+          "choices": [
+            "Opposite to the direction you want the trailer to go",
+            "The same direction you want the trailer to go",
+            "Straight, making no steering input",
+            "Fully to the left in all cases"
+          ],
+          "answerIndex": 0,
+          "explanation": "Turn the wheel opposite to where you want the trailer to go, then reverse the input once the trailer begins to turn."
+        },
+        {
+          "q": "When towing two trailers, which trailer should be coupled to the tractor?",
+          "choices": [
+            "The lighter trailer",
+            "The more heavily loaded trailer",
+            "The longer trailer",
+            "The trailer without spring brakes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Couple the more heavily loaded trailer to the tractor with the lighter trailer behind."
+        }
+      ]
+    },
+    {
+      "title": "coupling and uncoupling with a fifth wheel",
+      "points": [
+        "Inspect the fifth wheel for damage, lubrication and security; it must tilt down toward the rear with jaws open.",
+        "Block trailer wheels, check the kingpin and apron, and make sure trailer brakes are applied before coupling.",
+        "Back up straight and slowly; stop when the fifth wheel just touches the trailer apron, then check height and alignment.",
+        "After connecting, check no space or daylight between fifth wheel and apron and the release handle is locked.",
+        "Go under the trailer with a flashlight to confirm the jaws are closed around the kingpin; remove ignition keys first.",
+        "Do a tug test against the trailer brakes with landing gear slightly raised, then raise the gear fully.",
+        "To uncouple: line up, ease jaw pressure, block wheels, lower landing gear, disconnect lines, pull release handle, pull ahead slowly."
+      ],
+      "mustKnow": [
+        "If a trailer has no spring brakes, connect the air lines, charge the trailer system and apply trailer brakes before coupling.",
+        "Both landing gear supports must touch the ground to support a trailer.",
+        "A trip inspection report is required for every new trailer you pick up each day."
+      ],
+      "check": [
+        {
+          "q": "When backing under a trailer, when should you stop before checking height and alignment?",
+          "choices": [
+            "When the kingpin locks into the jaws",
+            "When the tractor wheels touch the landing gear",
+            "When the fifth wheel just touches the trailer apron",
+            "When the trailer moves backward slightly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Stop when the fifth wheel just touches the trailer apron so you can check height and alignment before connecting."
+        },
+        {
+          "q": "How do you test that the fifth wheel connection is secure after coupling?",
+          "choices": [
+            "Drive at highway speed and brake hard",
+            "Gently tug against the applied trailer brakes",
+            "Rock the trailer sideways with the landing gear up",
+            "Apply full throttle in reverse"
+          ],
+          "answerIndex": 1,
+          "explanation": "With tractor brakes released and trailer brakes applied, gently tug forward to confirm the kingpin is held by the jaws."
+        }
+      ]
+    },
+    {
+      "title": "pintle hitches and other connections",
+      "points": [
+        "A pintle hitch uses a hook on the front vehicle and an eye on the trailer; some have a ram to remove slack.",
+        "Any coupling device other than a fifth wheel must also use safety chains or cables equal in strength to the coupling device.",
+        "Adjust the drawbar so the pintle eye sits just slightly higher than the pintle hook before backing the final distance.",
+        "After lowering the eye onto the hook, close the safety latch and attach safety cables and/or chains.",
+        "A converter dolly — an axle, fifth wheel and hitch — is used when towing more than one trailer.",
+        "If trailer brakes don't release when you charge the trailer system, the air lines may be crossed.",
+        "Fasten disconnected air lines to dead-end (dummy) connectors to keep out dirt and prevent chafing."
+      ],
+      "mustKnow": [
+        "The drawbar or connection between motor vehicle and trailer may not be more than five metres long unless towing a pole trailer.",
+        "Safety chains or cables must be equal to the strength of the coupling device.",
+        "Coupling devices must be fastened to a structurally adequate part of the frame of each vehicle."
+      ],
+      "check": [
+        {
+          "q": "What is the maximum length of a drawbar between a motor vehicle and trailer, unless towing a pole trailer?",
+          "choices": [
+            "Two metres",
+            "Three metres",
+            "Four metres",
+            "Five metres"
+          ],
+          "answerIndex": 3,
+          "explanation": "The drawbar or other connection may not exceed five metres unless you're towing a pole trailer."
+        },
+        {
+          "q": "Which connection type requires safety chains or cables?",
+          "choices": [
+            "A fifth wheel connection",
+            "Any coupling device other than a fifth wheel",
+            "Only converter dolly connections",
+            "No connections require chains"
+          ],
+          "answerIndex": 1,
+          "explanation": "When using any coupling device other than a fifth wheel, chains or cables equal to the coupler's strength are required."
+        }
+      ]
+    },
+    {
+      "title": "loading and weight distribution",
+      "points": [
+        "Poor weight distribution can overload axles or tires, bend the frame and cause steering misalignment.",
+        "Place a concentrated heavy load partially over or just ahead of the rear axles, longest side down, securely blocked.",
+        "Never load one side heavily or load on the tailgate — this strains equipment and can cause collisions.",
+        "Five-ton freight trucks are designed for about 90 per cent of cargo weight on rear axles, 10 per cent on the steering axle.",
+        "Cement mixers and dump trucks are designed for about 70 per cent rear, 30 per cent steering axle.",
+        "The average semi-trailer's central weight distribution point is approximately the middle of the trailer."
+      ],
+      "mustKnow": [
+        "Trailers should carry about 45 per cent of cargo weight on the trailer axle unit, 45 per cent on the drive axle unit and 10 per cent on the steering axle.",
+        "A tridem drive truck must have a loaded steering axle weight of at least 25 per cent of the tridem axle weight — 40 per cent with twin steering axles."
+      ],
+      "check": [
+        {
+          "q": "Where should most of a concentrated heavy load be placed on a single-unit truck?",
+          "choices": [
+            "Directly against the cab",
+            "On the tailgate",
+            "Partially over or just ahead of the rear axles",
+            "Entirely on one side"
+          ],
+          "answerIndex": 2,
+          "explanation": "Most of the load should be partially over or just ahead of the rear axles to get proper tire loading."
+        },
+        {
+          "q": "How should cargo weight be distributed on a trailer?",
+          "choices": [
+            "45% trailer axles, 45% drive axles, 10% steering axle",
+            "90% trailer axles, 10% steering axle",
+            "70% trailer axles, 30% steering axle",
+            "Equal weight on all axles including steering"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trailers should have about 45 per cent on the trailer axle unit, 45 per cent on the drive axle unit and 10 per cent on the steering axle."
+        }
+      ]
+    },
+    {
+      "title": "securing cargo: tiedowns, working load limits and structures",
+      "points": [
+        "B.C. has adopted the North American Standard on cargo securement; it and Division 35 of the MVAR apply regardless of GVW.",
+        "Tiedowns must be taut, tightenable by the driver (except steel strapping), and protected by edge protectors where they contact cargo.",
+        "Never use tiedowns with cracked welds, bent or worn links, knots, cut webbing, missing wire strands or weakened anchor points.",
+        "Rub rails must not be used as anchor points; keep tiedowns inboard of rub rails if possible.",
+        "Lock every load binder handle in place with rope, wire, chain or a locking mechanism.",
+        "Aggregate loads like sand or gravel that could bounce, blow or drop must be covered with a tarp.",
+        "Loads projecting more than 1.2 m beyond the rear need a red flag by day or a red light at night."
+      ],
+      "mustKnow": [
+        "The securement system must withstand 0.8g forward, 0.5g rearward, 0.5g sideways, and a downward force of at least 20 per cent of cargo weight.",
+        "Use two tiedowns for the first 3.04 m of load and one for every 3.04 m after that; the aggregate working load limit must be at least 50 per cent of cargo weight.",
+        "Unmarked tiedowns are prohibited as of January 1, 2010; an unmarked friction mat is assumed to resist 50 per cent of the cargo weight on it.",
+        "Front-end structures under 1.83 m must withstand 50 per cent of cargo weight (40 per cent if 1.83 m or taller), be at least 122 cm above the deck and resist penetration at 6.1 m/s² deceleration.",
+        "Front load projections: max one metre beyond front wheels or bumper; trailer fronts 2 m radius (TAC) or 2.25 m (non-TAC); rear projections max 4 m beyond the turn centre."
+      ],
+      "check": [
+        {
+          "q": "What forward deceleration force must a cargo securement system withstand?",
+          "choices": [
+            "0.5g",
+            "0.8g",
+            "1.0g",
+            "0.2g"
+          ],
+          "answerIndex": 1,
+          "explanation": "The system must withstand 0.8g deceleration forward, 0.5g rearward and 0.5g sideways."
+        },
+        {
+          "q": "A 600 kg article 3.65 m long is not prevented from moving forward. Using tiedowns rated at 100 kg, how many are needed?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Six"
+          ],
+          "answerIndex": 2,
+          "explanation": "Three tiedowns meet both the length rule (2 + 1 per extra 3.04 m) and the 50 per cent aggregate working load limit (300 kg)."
+        }
+      ]
+    },
+    {
+      "title": "specific cargo types and dangerous goods overview",
+      "points": [
+        "Log stakes must angle 90 degrees or less with the bunk; inspect log loads before entering a highway from a private road.",
+        "Metal coil and paper roll rules apply to shipments weighing 2,268 kg or more.",
+        "Vehicles under 4,500 kg GVW need at least two tiedowns; heavier vehicles need at least four tiedowns of 2,268 kg working load limit each.",
+        "Boulders over 5,000 kg or two cubic metres need hardwood blocking or a crib and at least two chains.",
+        "Use false bulkheads to bunch livestock with partial loads; leaning animals can shift the centre of gravity and cause rollover.",
+        "Hanging meat and unbaffled liquid tank loads have high centres of gravity and surge — slow down for curves, stops and starts.",
+        "Dangerous goods fall into nine classes; drivers must be trained, certified and carry complete shipping documents in the cab."
+      ],
+      "mustKnow": [
+        "The nine dangerous goods classes: explosives, gases, flammable liquids, flammable solids, oxidizing substances and organic peroxides, poisonous and infectious substances, radioactive materials, corrosives, and miscellaneous products.",
+        "Report any dangerous goods incident immediately to local police or the Provincial Emergency Program at 1-800-663-3456.",
+        "Stacked or crushed vehicle tiedowns must have a working load limit of at least 2,268 kg and must not be synthetic webbing."
+      ],
+      "check": [
+        {
+          "q": "How many classes of dangerous goods are there?",
+          "choices": [
+            "Five",
+            "Seven",
+            "Nine",
+            "Twelve"
+          ],
+          "answerIndex": 2,
+          "explanation": "There are nine classes, from explosives through miscellaneous products or substances."
+        },
+        {
+          "q": "A heavy vehicle over 4,500 kg carried as cargo must be restrained by at least how many tiedowns?",
+          "choices": [
+            "Four, each with a working load limit of at least 2,268 kg",
+            "Two, one front and one rear",
+            "Three, equally spaced",
+            "One winch at the front only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Vehicles over 4,500 kg need a minimum of four tiedowns, each with a working load limit of at least 2,268 kg."
+        }
+      ]
+    },
+    {
+      "title": "dimensions, permits, pilot cars and weigh scales",
+      "points": [
+        "Know your height, width, length and weight at all times and obey all posted dimension and weight signs.",
+        "Items like mud flaps, load securement devices, ladders and placards may extend up to 10 cm beyond the sides without counting as width.",
+        "GVW is vehicle plus load; GVWR is the manufacturer's rating; licensed GVW is at least 1.5 times the vehicle's net weight.",
+        "Oversize permits are required before operating overwidth, overlength or overheight vehicles, loaded or not.",
+        "Mark oversize extremities with red flags at least 30 cm by 30 cm; at night use amber lights front and red lights rear.",
+        "A pilot car warns other drivers and must carry a D (over dimension) sign when required.",
+        "Fixed and portable weigh scales operate throughout B.C.; follow light board directions and bring papers in if asked."
+      ],
+      "mustKnow": [
+        "Maximum legal width of a vehicle and load is 2.6 m; loose hay or straw vehicles may be up to 3.1 m wide.",
+        "Maximum allowable height is 4.15 m without an oversize load permit.",
+        "Permits are not normally given for loads or vehicles wider than 4.4 m.",
+        "A pilot car must travel between 100 and 500 m behind or in front of the oversize vehicle.",
+        "Vehicles with a licensed GVW over 5,500 kg must report to a weigh scale when directed by a sign, police officer or authorized person."
+      ],
+      "check": [
+        {
+          "q": "What is the maximum legal width of a vehicle and its load without an oversize permit?",
+          "choices": [
+            "2.3 m",
+            "2.6 m",
+            "3.1 m",
+            "4.4 m"
+          ],
+          "answerIndex": 1,
+          "explanation": "The maximum legal width is 2.6 m unless the driver has an oversize load permit."
+        },
+        {
+          "q": "Which commercial vehicles must report to a weigh scale when directed?",
+          "choices": [
+            "Only tractor-trailer combinations",
+            "Vehicles with a licensed GVW over 5,500 kg",
+            "All vehicles over 4.15 m tall",
+            "Only vehicles carrying dangerous goods"
+          ],
+          "answerIndex": 1,
+          "explanation": "If your licensed GVW is more than 5,500 kg, you must report whenever a sign, police officer or authorized person directs you."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Steer opposite first when backing a semi-trailer, load cargo low and centred, and stop to check if a trailer whips or swerves.",
+    "Follow the full coupling sequence — inspect, align, connect, check the jaws with a flashlight, and tug test before pulling away.",
+    "Secure cargo to withstand 0.8g forward and 0.5g rearward/sideways; tiedown working load limits must total at least 50 per cent of cargo weight.",
+    "Know the key limits: 2.6 m width, 4.15 m height, 1 m front and 4 m rear projections, and two tiedowns per first 3.04 m of load.",
+    "Carry dangerous goods documents and your training certificate, get permits before moving oversize loads, and report to weigh scales when licensed GVW exceeds 5,500 kg."
+  ]
+}
